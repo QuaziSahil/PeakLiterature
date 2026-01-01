@@ -86,6 +86,82 @@
             text-decoration: underline;
         }
 
+        /* Player Controls */
+        .player-controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .control-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--bg-secondary);
+            padding: 10px 16px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+        }
+
+        .control-group label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            white-space: nowrap;
+        }
+
+        .control-group select,
+        .control-group button {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 8px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all var(--transition-fast);
+        }
+
+        .control-group select:hover,
+        .control-group button:hover {
+            border-color: var(--accent-primary);
+        }
+
+        .sleep-timer-display {
+            color: var(--accent-primary);
+            font-weight: 600;
+            font-size: 1rem;
+            min-width: 50px;
+        }
+
+        .sleep-timer-display.active {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.6;
+            }
+        }
+
+        .timer-btn {
+            min-width: 45px;
+            text-align: center;
+        }
+
+        .timer-btn.active {
+            background: var(--accent-primary) !important;
+            border-color: var(--accent-primary) !important;
+            color: white !important;
+        }
+
         @media (max-width: 768px) {
             .player-container {
                 grid-template-columns: 1fr;
@@ -98,6 +174,10 @@
             }
 
             .player-actions {
+                justify-content: center;
+            }
+
+            .player-controls {
                 justify-content: center;
             }
         }
@@ -185,8 +265,21 @@
                     
                     <p class="player-description">${book.description}</p>
                     
+                    <!-- Player Controls -->
+                    <div class="player-controls">
+                        <div class="control-group">
+                            <label>⏱️ Sleep Timer:</label>
+                            <button class="timer-btn" onclick="setSleepTimer(15)">15m</button>
+                            <button class="timer-btn" onclick="setSleepTimer(30)">30m</button>
+                            <button class="timer-btn" onclick="setSleepTimer(60)">60m</button>
+                            <button class="timer-btn" onclick="setSleepTimer(0)">Off</button>
+                            <span id="sleepTimerDisplay" class="sleep-timer-display"></span>
+                        </div>
+                    </div>
+                    
                     <div class="player-embed">
                         <iframe 
+                            id="audioPlayer"
                             src="https://archive.org/embed/${book.audiobook.archiveId}&playlist=1&list_height=400" 
                             width="100%" 
                             height="500" 
@@ -209,6 +302,79 @@
                 </div>
             `;
         });
+
+        // Sleep Timer Logic
+        let sleepTimerInterval = null;
+        let sleepTimerEndTime = null;
+
+        function setSleepTimer(minutes) {
+            // Clear existing timer
+            if (sleepTimerInterval) {
+                clearInterval(sleepTimerInterval);
+                sleepTimerInterval = null;
+            }
+
+            // Reset all buttons
+            document.querySelectorAll('.timer-btn').forEach(btn => btn.classList.remove('active'));
+            const display = document.getElementById('sleepTimerDisplay');
+
+            if (minutes === 0) {
+                // Turn off timer
+                sleepTimerEndTime = null;
+                display.textContent = '';
+                display.classList.remove('active');
+                return;
+            }
+
+            // Activate clicked button
+            event.target.classList.add('active');
+
+            // Set end time
+            sleepTimerEndTime = Date.now() + (minutes * 60 * 1000);
+            display.classList.add('active');
+
+            // Update display every second
+            updateTimerDisplay();
+            sleepTimerInterval = setInterval(updateTimerDisplay, 1000);
+        }
+
+        function updateTimerDisplay() {
+            const display = document.getElementById('sleepTimerDisplay');
+            if (!sleepTimerEndTime || !display) return;
+
+            const remaining = sleepTimerEndTime - Date.now();
+
+            if (remaining <= 0) {
+                // Timer expired - mute the page
+                clearInterval(sleepTimerInterval);
+                sleepTimerInterval = null;
+                sleepTimerEndTime = null;
+                display.textContent = 'Done!';
+                display.classList.remove('active');
+
+                // Reset buttons
+                document.querySelectorAll('.timer-btn').forEach(btn => btn.classList.remove('active'));
+
+                // Mute the iframe (removes src to stop audio)
+                const iframe = document.getElementById('audioPlayer');
+                if (iframe) {
+                    const src = iframe.src;
+                    iframe.src = '';
+                    // Show notification
+                    alert('⏱️ Sleep timer ended! Audio has been paused.');
+                    // Optionally restore: iframe.src = src;
+                }
+                return;
+            }
+
+            // Format remaining time
+            const mins = Math.floor(remaining / 60000);
+            const secs = Math.floor((remaining % 60000) / 1000);
+            display.textContent = `${mins}:${secs.toString().padStart(2, '0')}`;
+        }
+
+        // Make function global
+        window.setSleepTimer = setSleepTimer;
     </script>
 </body>
 
