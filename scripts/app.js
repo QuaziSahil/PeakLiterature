@@ -107,12 +107,22 @@ function toggleFavorite(bookId) {
 
     localStorage.setItem('peakliterature_favorites', JSON.stringify(favorites));
 
+    // Sync to cloud if signed in
+    if (window.PeakAuth && window.PeakAuth.isSignedIn()) {
+        window.PeakAuth.saveFavorites();
+    }
+
     // Update UI
     const btn = document.querySelector(`.book-card[data-id="${bookId}"] .favorite-btn`);
     if (btn) {
         btn.classList.toggle('active');
         btn.innerHTML = favorites.includes(bookId) ? '❤️' : '🤍';
     }
+}
+
+function setFavorites(newFavorites) {
+    favorites = newFavorites;
+    localStorage.setItem('peakliterature_favorites', JSON.stringify(favorites));
 }
 
 function getFavoriteBooks() {
@@ -181,6 +191,7 @@ function getUrlParam(param) {
 window.PeakLit = {
     allBooks: () => allBooks,
     favorites: () => favorites,
+    setFavorites,
     getFavoriteBooks,
     filterBooks,
     renderBooks,
