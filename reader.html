@@ -12,10 +12,6 @@
         rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
 
-    <!-- epub.js library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/epubjs/dist/epub.min.js"></script>
-
     <style>
         .reader-section {
             padding: 80px 0 0;
@@ -51,6 +47,7 @@
             color: var(--text-secondary);
             cursor: pointer;
             transition: all var(--transition-fast);
+            text-decoration: none;
         }
 
         .reader-btn:hover {
@@ -63,56 +60,56 @@
             flex: 1;
             display: flex;
             flex-direction: column;
-            background: #1a1a24;
+            background: #f5f5f5;
         }
 
-        #reader-view {
+        #reader-frame {
             flex: 1;
-            min-height: 70vh;
+            width: 100%;
+            min-height: calc(100vh - 180px);
+            border: none;
         }
 
-        .reader-nav {
+        .loading-message {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-muted);
+        }
+
+        .loading-message .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--bg-secondary);
+            border-top-color: var(--accent-primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .reader-info-bar {
             display: flex;
             justify-content: center;
             gap: 20px;
-            padding: 20px;
-            background: var(--bg-secondary);
-        }
-
-        .nav-arrow {
-            padding: 15px 30px;
+            padding: 12px 20px;
             background: var(--bg-card);
-            border: 1px solid var(--border-color);
-            border-radius: 50px;
-            color: var(--text-primary);
-            cursor: pointer;
-            font-size: 1rem;
-            transition: all var(--transition-fast);
-        }
-
-        .nav-arrow:hover {
-            background: var(--accent-primary);
-            border-color: var(--accent-primary);
-        }
-
-        .reader-fallback {
-            text-align: center;
-            padding: 60px 20px;
-        }
-
-        .reader-fallback h2 {
-            font-family: var(--font-display);
-            margin-bottom: 20px;
-        }
-
-        .reader-fallback p {
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9rem;
             color: var(--text-muted);
-            margin-bottom: 30px;
         }
 
-        /* epub.js styling */
-        .epub-container {
-            background: #1a1a24 !important;
+        .reader-info-bar a {
+            color: var(--accent-primary);
+            text-decoration: none;
+        }
+
+        .reader-info-bar a:hover {
+            text-decoration: underline;
         }
 
         @media (max-width: 768px) {
@@ -120,6 +117,12 @@
                 flex-direction: column;
                 gap: 10px;
                 text-align: center;
+            }
+
+            .reader-info-bar {
+                flex-direction: column;
+                text-align: center;
+                gap: 10px;
             }
         }
     </style>
@@ -148,38 +151,30 @@
         <div class="reader-header">
             <h1 class="reader-title" id="bookTitle">Loading...</h1>
             <div class="reader-controls">
-                <button class="reader-btn" onclick="decreaseFontSize()">A-</button>
-                <button class="reader-btn" onclick="increaseFontSize()">A+</button>
                 <button class="reader-btn" id="favoriteBtn" onclick="toggleFav()">🤍</button>
-                <a class="reader-btn" id="downloadBtn" href="#" target="_blank">📥 Download</a>
+                <a class="reader-btn" id="downloadBtn" href="#" target="_blank">📥 Download EPUB</a>
+                <a class="reader-btn" id="newTabBtn" href="#" target="_blank">🔗 Open in New Tab</a>
             </div>
         </div>
 
         <div class="reader-container">
-            <div id="reader-view"></div>
+            <div class="loading-message" id="loadingMessage">
+                <div class="spinner"></div>
+                <p>Loading ebook reader...</p>
+            </div>
+            <iframe id="reader-frame" style="display: none;"></iframe>
         </div>
 
-        <div class="reader-nav">
-            <button class="nav-arrow" id="prevBtn" onclick="prevPage()">← Previous</button>
-            <button class="nav-arrow" id="nextBtn" onclick="nextPage()">Next →</button>
-        </div>
-
-        <!-- Fallback for CORS issues -->
-        <div class="reader-fallback" id="readerFallback" style="display: none;">
-            <h2>📖 Read on Project Gutenberg</h2>
-            <p>Due to browser security restrictions, this book opens best on Project Gutenberg directly.</p>
-            <a id="gutenbergLink" href="#" target="_blank" class="btn btn-primary">Read on Gutenberg</a>
-            <a id="downloadLink" href="#" target="_blank" class="btn btn-secondary" style="margin-left: 10px;">Download
-                EPUB</a>
+        <div class="reader-info-bar">
+            <span>📖 Source: <a href="https://www.gutenberg.org" target="_blank">Project Gutenberg</a></span>
+            <span>•</span>
+            <span id="bookInfo">Loading book info...</span>
         </div>
     </section>
 
     <script src="scripts/app.js"></script>
     <script>
-        let book = null;
-        let rendition = null;
         let currentBook = null;
-        let fontSize = 100;
 
         document.addEventListener('DOMContentLoaded', async () => {
             await new Promise(resolve => setTimeout(resolve, 500));
@@ -190,61 +185,61 @@
 
             if (!currentBook || !currentBook.ebook?.available) {
                 document.getElementById('bookTitle').textContent = 'Book not found';
+                document.getElementById('loadingMessage').innerHTML = `
+                    <p>❌ The ebook you're looking for doesn't exist.</p>
+                    <a href="ebooks.html" class="btn btn-primary" style="margin-top: 20px;">Browse Ebooks</a>
+                `;
                 return;
             }
 
+            const gutenbergId = currentBook.ebook.gutenbergId;
+
             document.title = `${currentBook.title} - PeakLiterature`;
             document.getElementById('bookTitle').textContent = currentBook.title;
+            document.getElementById('bookInfo').textContent = `${currentBook.title} by ${currentBook.author}`;
+
+            // Set download link
             document.getElementById('downloadBtn').href = currentBook.ebook.epubUrl;
+
+            // Set Gutenberg link 
+            const gutenbergReadUrl = `https://www.gutenberg.org/ebooks/${gutenbergId}.html.images`;
+            document.getElementById('newTabBtn').href = gutenbergReadUrl;
 
             // Update favorite button
             updateFavoriteBtn();
 
-            // Try loading with epub.js
-            try {
-                const epubUrl = currentBook.ebook.epubUrl;
+            // Load Gutenberg reader in iframe
+            const frame = document.getElementById('reader-frame');
 
-                // Due to CORS, we'll show the fallback with Gutenberg link
-                showFallback();
+            // Use Gutenberg's HTML version which is more embeddable
+            // Format: https://www.gutenberg.org/files/{id}/{id}-h/{id}-h.htm
+            const readerUrl = `https://www.gutenberg.org/files/${gutenbergId}/${gutenbergId}-h/${gutenbergId}-h.htm`;
 
-            } catch (error) {
-                console.error('Failed to load ebook:', error);
-                showFallback();
-            }
+            frame.onload = function () {
+                document.getElementById('loadingMessage').style.display = 'none';
+                frame.style.display = 'block';
+            };
+
+            frame.onerror = function () {
+                // Try alternate URL format
+                frame.src = gutenbergReadUrl;
+            };
+
+            frame.src = readerUrl;
+
+            // Fallback timeout - if iframe doesn't load in 5 seconds, show alternate option
+            setTimeout(() => {
+                if (frame.style.display === 'none') {
+                    document.getElementById('loadingMessage').innerHTML = `
+                        <p>📖 The ebook is loading. If it doesn't appear, you can read it directly on Project Gutenberg:</p>
+                        <div style="margin-top: 20px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                            <a href="${gutenbergReadUrl}" target="_blank" class="btn btn-primary">Read on Gutenberg</a>
+                            <a href="${currentBook.ebook.epubUrl}" target="_blank" class="btn btn-secondary">Download EPUB</a>
+                        </div>
+                    `;
+                }
+            }, 5000);
         });
-
-        function showFallback() {
-            document.getElementById('reader-view').style.display = 'none';
-            document.querySelector('.reader-nav').style.display = 'none';
-            document.getElementById('readerFallback').style.display = 'block';
-
-            if (currentBook) {
-                document.getElementById('gutenbergLink').href = `https://www.gutenberg.org/ebooks/${currentBook.ebook.gutenbergId}`;
-                document.getElementById('downloadLink').href = currentBook.ebook.epubUrl;
-            }
-        }
-
-        function prevPage() {
-            if (rendition) rendition.prev();
-        }
-
-        function nextPage() {
-            if (rendition) rendition.next();
-        }
-
-        function increaseFontSize() {
-            fontSize = Math.min(fontSize + 10, 150);
-            if (rendition) {
-                rendition.themes.fontSize(`${fontSize}%`);
-            }
-        }
-
-        function decreaseFontSize() {
-            fontSize = Math.max(fontSize - 10, 70);
-            if (rendition) {
-                rendition.themes.fontSize(`${fontSize}%`);
-            }
-        }
 
         function toggleFav() {
             if (currentBook) {
