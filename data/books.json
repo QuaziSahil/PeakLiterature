@@ -319,6 +319,386 @@
                 "epubUrl": "https://www.gutenberg.org/ebooks/1727.epub.noimages",
                 "source": "Project Gutenberg"
             }
+        },
+        {
+            "id": "tale-two-cities",
+            "title": "A Tale of Two Cities",
+            "author": "Charles Dickens",
+            "year": 1859,
+            "genre": "fiction",
+            "description": "A story of love and sacrifice during the French Revolution.",
+            "cover": "https://www.gutenberg.org/cache/epub/98/pg98.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "tale_two_cities_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "98",
+                "epubUrl": "https://www.gutenberg.org/ebooks/98.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "great-expectations",
+            "title": "Great Expectations",
+            "author": "Charles Dickens",
+            "year": 1861,
+            "genre": "fiction",
+            "description": "The tale of orphan Pip's journey to become a gentleman.",
+            "cover": "https://www.gutenberg.org/cache/epub/1400/pg1400.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "great_expectations_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1400",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1400.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "oliver-twist",
+            "title": "Oliver Twist",
+            "author": "Charles Dickens",
+            "year": 1838,
+            "genre": "fiction",
+            "description": "An orphan boy navigates the criminal underworld of London.",
+            "cover": "https://www.gutenberg.org/cache/epub/730/pg730.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "oliver_twist_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "730",
+                "epubUrl": "https://www.gutenberg.org/ebooks/730.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "crime-punishment",
+            "title": "Crime and Punishment",
+            "author": "Fyodor Dostoevsky",
+            "year": 1866,
+            "genre": "fiction",
+            "description": "A psychological study of guilt and redemption.",
+            "cover": "https://www.gutenberg.org/cache/epub/2554/pg2554.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "crime_and_punishment_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2554",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2554.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "brothers-karamazov",
+            "title": "The Brothers Karamazov",
+            "author": "Fyodor Dostoevsky",
+            "year": 1880,
+            "genre": "fiction",
+            "description": "A philosophical novel about faith, doubt, and morality.",
+            "cover": "https://www.gutenberg.org/cache/epub/28054/pg28054.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "brothers_karamazov_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "28054",
+                "epubUrl": "https://www.gutenberg.org/ebooks/28054.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "anna-karenina",
+            "title": "Anna Karenina",
+            "author": "Leo Tolstoy",
+            "year": 1877,
+            "genre": "romance",
+            "description": "A tragic love story set in Russian high society.",
+            "cover": "https://www.gutenberg.org/cache/epub/1399/pg1399.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "anna_karenina_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1399",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1399.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "war-and-peace",
+            "title": "War and Peace",
+            "author": "Leo Tolstoy",
+            "year": 1869,
+            "genre": "fiction",
+            "description": "An epic tale of Russian society during the Napoleonic Wars.",
+            "cover": "https://www.gutenberg.org/cache/epub/2600/pg2600.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "war_and_peace_vol1_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2600",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2600.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "treasure-island",
+            "title": "Treasure Island",
+            "author": "Robert Louis Stevenson",
+            "year": 1883,
+            "genre": "fiction",
+            "description": "A classic adventure tale of pirates and buried treasure.",
+            "cover": "https://www.gutenberg.org/cache/epub/120/pg120.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "treasure_island_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "120",
+                "epubUrl": "https://www.gutenberg.org/ebooks/120.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "dr-jekyll-hyde",
+            "title": "Strange Case of Dr Jekyll and Mr Hyde",
+            "author": "Robert Louis Stevenson",
+            "year": 1886,
+            "genre": "horror",
+            "description": "A man struggles with his dual nature in this gothic thriller.",
+            "cover": "https://www.gutenberg.org/cache/epub/43/pg43.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "jekyll_and_hyde_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "43",
+                "epubUrl": "https://www.gutenberg.org/ebooks/43.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "jungle-book",
+            "title": "The Jungle Book",
+            "author": "Rudyard Kipling",
+            "year": 1894,
+            "genre": "fiction",
+            "description": "Stories of Mowgli, a boy raised by wolves in the jungle.",
+            "cover": "https://www.gutenberg.org/cache/epub/236/pg236.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "jungle_book_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "236",
+                "epubUrl": "https://www.gutenberg.org/ebooks/236.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "huckleberry-finn",
+            "title": "Adventures of Huckleberry Finn",
+            "author": "Mark Twain",
+            "year": 1884,
+            "genre": "fiction",
+            "description": "Huck's journey down the Mississippi with escaped slave Jim.",
+            "cover": "https://www.gutenberg.org/cache/epub/76/pg76.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "huckleberry_finn_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "76",
+                "epubUrl": "https://www.gutenberg.org/ebooks/76.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "tom-sawyer",
+            "title": "The Adventures of Tom Sawyer",
+            "author": "Mark Twain",
+            "year": 1876,
+            "genre": "fiction",
+            "description": "The mischievous adventures of a boy growing up along the Mississippi.",
+            "cover": "https://www.gutenberg.org/cache/epub/74/pg74.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "tom_sawyer_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "74",
+                "epubUrl": "https://www.gutenberg.org/ebooks/74.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "don-quixote",
+            "title": "Don Quixote",
+            "author": "Miguel de Cervantes",
+            "year": 1605,
+            "genre": "fiction",
+            "description": "A delusional knight and his faithful squire embark on absurd adventures.",
+            "cover": "https://www.gutenberg.org/cache/epub/996/pg996.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "don_quixote_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "996",
+                "epubUrl": "https://www.gutenberg.org/ebooks/996.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "les-miserables",
+            "title": "Les Misérables",
+            "author": "Victor Hugo",
+            "year": 1862,
+            "genre": "fiction",
+            "description": "An epic tale of justice, love, and redemption in 19th-century France.",
+            "cover": "https://www.gutenberg.org/cache/epub/135/pg135.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "les_miserables_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "135",
+                "epubUrl": "https://www.gutenberg.org/ebooks/135.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "emma",
+            "title": "Emma",
+            "author": "Jane Austen",
+            "year": 1815,
+            "genre": "romance",
+            "description": "A comedy of manners about a young matchmaker who meddles in others' lives.",
+            "cover": "https://www.gutenberg.org/cache/epub/158/pg158.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "emma_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "158",
+                "epubUrl": "https://www.gutenberg.org/ebooks/158.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "sense-sensibility",
+            "title": "Sense and Sensibility",
+            "author": "Jane Austen",
+            "year": 1811,
+            "genre": "romance",
+            "description": "Two sisters navigate love and heartbreak in Regency England.",
+            "cover": "https://www.gutenberg.org/cache/epub/161/pg161.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "sense_and_sensibility_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "161",
+                "epubUrl": "https://www.gutenberg.org/ebooks/161.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "invisible-man",
+            "title": "The Invisible Man",
+            "author": "H.G. Wells",
+            "year": 1897,
+            "genre": "scifi",
+            "description": "A scientist discovers the secret to invisibility with dire consequences.",
+            "cover": "https://www.gutenberg.org/cache/epub/5230/pg5230.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "invisible_man_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "5230",
+                "epubUrl": "https://www.gutenberg.org/ebooks/5230.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "scarlet-letter",
+            "title": "The Scarlet Letter",
+            "author": "Nathaniel Hawthorne",
+            "year": 1850,
+            "genre": "fiction",
+            "description": "A woman is shamed for adultery in Puritan Massachusetts.",
+            "cover": "https://www.gutenberg.org/cache/epub/25344/pg25344.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "scarlet_letter_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "25344",
+                "epubUrl": "https://www.gutenberg.org/ebooks/25344.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "call-wild",
+            "title": "The Call of the Wild",
+            "author": "Jack London",
+            "year": 1903,
+            "genre": "fiction",
+            "description": "A dog's transformation from pet to wild animal in the Yukon.",
+            "cover": "https://www.gutenberg.org/cache/epub/215/pg215.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "call_of_the_wild_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "215",
+                "epubUrl": "https://www.gutenberg.org/ebooks/215.epub.noimages",
+                "source": "Project Gutenberg"
+            }
         }
     ]
 }
