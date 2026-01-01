@@ -10,7 +10,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/1342/pg1342.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "pride_and_prejudice_librivox",
+                "archiveId": "prideandprejudice_1005_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -50,7 +50,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/1661/pg1661.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "adventures_of_sherlock_holmes_librivox",
+                "archiveId": "adventures_holmes",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -70,7 +70,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/84/pg84.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "frankenstein_librivox",
+                "archiveId": "frankenstein_shelley",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -90,7 +90,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/64317/pg64317.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "great_gatsby_librivox",
+                "archiveId": "greatgatsby_2101_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -130,7 +130,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/35/pg35.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "time_machine_librivox",
+                "archiveId": "time_machine_0805_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -190,7 +190,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/768/pg768.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "wuthering_heights_librivox",
+                "archiveId": "wuthering_heights_rg_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -210,7 +210,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/1184/pg1184.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "count_of_monte_cristo_librivox",
+                "archiveId": "count_monte_cristo_0711_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -230,7 +230,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/174/pg174.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "picture_of_dorian_gray_librivox",
+                "archiveId": "picture_dorian_gray_1204_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -249,9 +249,9 @@
             "description": "A dystopian novel about totalitarianism and surveillance.",
             "cover": "https://www.gutenberg.org/cache/epub/67233/pg67233.cover.medium.jpg",
             "audiobook": {
-                "available": true,
-                "archiveId": "1984_george_orwell",
-                "source": "LibriVox"
+                "available": false,
+                "archiveId": "",
+                "source": "Not in public domain"
             },
             "ebook": {
                 "available": true,
@@ -270,7 +270,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/11/pg11.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "alices_adventures_in_wonderland_librivox",
+                "archiveId": "alice_in_wonderland_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -290,7 +290,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/1497/pg1497.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "republic_plato_librivox",
+                "archiveId": "platos_republic_0902_librivox1",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -310,7 +310,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/1727/pg1727.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "odyssey_homer_librivox",
+                "archiveId": "odyssey_butler_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
