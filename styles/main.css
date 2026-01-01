@@ -780,13 +780,21 @@ h4 {
 
 /* Auth container mobile adjustments */
 @media (max-width: 768px) {
+    .navbar {
+        padding: 15px 20px;
+    }
+
     .auth-container {
-        margin-right: 10px;
+        margin-right: 5px;
+        position: absolute;
+        right: 60px;
+        top: 50%;
+        transform: translateY(-50%);
     }
 
     .btn-signin {
-        padding: 8px 14px;
-        font-size: 0.85rem;
+        padding: 8px 12px;
+        font-size: 0.8rem;
     }
 
     .btn-signin span {
@@ -794,12 +802,33 @@ h4 {
     }
 
     .user-avatar {
-        width: 36px;
-        height: 36px;
+        width: 32px;
+        height: 32px;
     }
 
     .user-dropdown {
-        right: -20px;
+        right: -10px;
+        min-width: 180px;
+    }
+
+    .user-profile {
+        position: static;
+    }
+
+    /* Player controls mobile */
+    .player-controls {
+        flex-direction: column;
+    }
+
+    .control-group {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .timer-btn {
+        min-width: 50px;
+        padding: 10px 14px;
     }
 }
 
