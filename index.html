@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeakLiterature - Free Public Domain Audiobooks & Ebooks</title>
+    <meta name="description"
+        content="Discover thousands of free public domain audiobooks and ebooks. Listen and read classic literature online.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">📚</span>
+            <span class="logo-text">Peak<span class="accent">Literature</span></span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-item active">Home</a></li>
+            <li><a href="audiobooks.html" class="nav-item">Audiobooks</a></li>
+            <li><a href="ebooks.html" class="nav-item">Ebooks</a></li>
+            <li><a href="favorites.html" class="nav-item">Favorites</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <h1 class="hero-title animate-fade-up">
+                Free Classic <span class="gradient-text">Literature</span>
+            </h1>
+            <p class="hero-subtitle animate-fade-up delay-1">
+                Listen to audiobooks and read ebooks from the public domain.<br>
+                Thousands of timeless classics, completely free.
+            </p>
+            <div class="hero-cta animate-fade-up delay-2">
+                <a href="audiobooks.html" class="btn btn-primary">
+                    <span>🎧</span> Browse Audiobooks
+                </a>
+                <a href="ebooks.html" class="btn btn-secondary">
+                    <span>📖</span> Browse Ebooks
+                </a>
+            </div>
+
+            <!-- Search Box -->
+            <div class="search-box animate-fade-up delay-3">
+                <input type="text" id="searchInput" placeholder="Search books, authors..." autocomplete="off">
+                <button class="search-btn" onclick="searchBooks()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section class="featured">
+        <div class="container">
+            <h2 class="section-title">Featured <span class="gradient-text">Classics</span></h2>
+            <div class="book-grid" id="featuredGrid">
+                <!-- Books will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Browse by <span class="gradient-text">Genre</span></h2>
+            <div class="category-grid">
+                <a href="audiobooks.html?genre=fiction" class="category-card">
+                    <span class="category-icon">📕</span>
+                    <span class="category-name">Fiction</span>
+                </a>
+                <a href="audiobooks.html?genre=mystery" class="category-card">
+                    <span class="category-icon">🔍</span>
+                    <span class="category-name">Mystery</span>
+                </a>
+                <a href="audiobooks.html?genre=romance" class="category-card">
+                    <span class="category-icon">💕</span>
+                    <span class="category-name">Romance</span>
+                </a>
+                <a href="audiobooks.html?genre=scifi" class="category-card">
+                    <span class="category-icon">🚀</span>
+                    <span class="category-name">Sci-Fi</span>
+                </a>
+                <a href="audiobooks.html?genre=horror" class="category-card">
+                    <span class="category-icon">👻</span>
+                    <span class="category-name">Horror</span>
+                </a>
+                <a href="audiobooks.html?genre=philosophy" class="category-card">
+                    <span class="category-icon">🧠</span>
+                    <span class="category-name">Philosophy</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">500+</span>
+                    <span class="stat-label">Audiobooks</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">1000+</span>
+                    <span class="stat-label">Ebooks</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Free Forever</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">📚</span>
+                    <span class="logo-text">Peak<span class="accent">Literature</span></span>
+                </div>
+                <p class="footer-text">
+                    All content is sourced from public domain collections including
+                    <a href="https://librivox.org" target="_blank">LibriVox</a>,
+                    <a href="https://gutenberg.org" target="_blank">Project Gutenberg</a>, and
+                    <a href="https://archive.org" target="_blank">Internet Archive</a>.
+                </p>
+                <p class="footer-copyright">© 2026 PeakLiterature. Made with ❤️ for book lovers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>

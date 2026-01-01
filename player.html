@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Now Playing - PeakLiterature</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        .player-section {
+            padding: 120px 0 60px;
+            min-height: 100vh;
+        }
+
+        .player-container {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 50px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .player-cover {
+            width: 100%;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+
+        .player-info h1 {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .player-author {
+            color: var(--text-muted);
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .player-description {
+            color: var(--text-secondary);
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+
+        .player-embed {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .player-embed iframe {
+            width: 100%;
+            border: none;
+            border-radius: 8px;
+        }
+
+        .player-actions {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .source-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: var(--bg-secondary);
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+
+        .source-badge a {
+            color: var(--accent-primary);
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .player-container {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .player-cover {
+                max-width: 250px;
+                margin: 0 auto;
+            }
+
+            .player-actions {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">📚</span>
+            <span class="logo-text">Peak<span class="accent">Literature</span></span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-item">Home</a></li>
+            <li><a href="audiobooks.html" class="nav-item active">Audiobooks</a></li>
+            <li><a href="ebooks.html" class="nav-item">Ebooks</a></li>
+            <li><a href="favorites.html" class="nav-item">Favorites</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Player Section -->
+    <section class="player-section">
+        <div class="container">
+            <div class="player-container" id="playerContainer">
+                <!-- Content loaded by JavaScript -->
+                <p>Loading audiobook...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-copyright">© 2026 PeakLiterature</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            // Wait for books to load
+            await new Promise(resolve => setTimeout(resolve, 500));
+
+            const bookId = window.PeakLit.getUrlParam('id');
+            const books = window.PeakLit.allBooks();
+            const book = books.find(b => b.id === bookId);
+
+            if (!book) {
+                document.getElementById('playerContainer').innerHTML = `
+                    <div style="grid-column: 1 / -1; text-align: center;">
+                        <h2>Book not found</h2>
+                        <p>The audiobook you're looking for doesn't exist.</p>
+                        <a href="audiobooks.html" class="btn btn-primary" style="margin-top: 20px;">Browse Audiobooks</a>
+                    </div>
+                `;
+                return;
+            }
+
+            // Update page title
+            document.title = `${book.title} - PeakLiterature`;
+
+            // Check if favorite
+            const isFavorite = window.PeakLit.favorites().includes(book.id);
+
+            // Render player
+            document.getElementById('playerContainer').innerHTML = `
+                <div class="player-left">
+                    <img src="${book.cover}" alt="${book.title}" class="player-cover"
+                         onerror="this.src='https://via.placeholder.com/300x450/1a1a24/ffffff?text=No+Cover'">
+                </div>
+                <div class="player-info">
+                    <h1>${book.title}</h1>
+                    <p class="player-author">by ${book.author} (${Math.abs(book.year)}${book.year < 0 ? ' BC' : ''})</p>
+                    
+                    <div class="source-badge">
+                        🎧 Audio from <a href="https://librivox.org" target="_blank">${book.audiobook.source}</a>
+                    </div>
+                    
+                    <p class="player-description">${book.description}</p>
+                    
+                    <div class="player-embed">
+                        <iframe 
+                            src="https://archive.org/embed/${book.audiobook.archiveId}" 
+                            width="100%" 
+                            height="300" 
+                            frameborder="0" 
+                            webkitallowfullscreen="true" 
+                            mozallowfullscreen="true" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    
+                    <div class="player-actions">
+                        <a href="https://archive.org/details/${book.audiobook.archiveId}" target="_blank" class="btn btn-secondary">
+                            📥 Download from Archive.org
+                        </a>
+                        <button class="btn btn-secondary" onclick="window.PeakLit.toggleFavorite('${book.id}'); this.innerHTML = window.PeakLit.favorites().includes('${book.id}') ? '❤️ Favorited' : '🤍 Add to Favorites'">
+                            ${isFavorite ? '❤️ Favorited' : '🤍 Add to Favorites'}
+                        </button>
+                        ${book.ebook?.available ? `<a href="reader.html?id=${book.id}" class="btn btn-primary">📖 Read Ebook</a>` : ''}
+                    </div>
+                </div>
+            `;
+        });
+    </script>
+</body>
+
+</html>

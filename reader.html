@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading - PeakLiterature</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- epub.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/epubjs/dist/epub.min.js"></script>
+
+    <style>
+        .reader-section {
+            padding: 80px 0 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .reader-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .reader-title {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+        }
+
+        .reader-controls {
+            display: flex;
+            gap: 10px;
+        }
+
+        .reader-btn {
+            padding: 10px 15px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+
+        .reader-btn:hover {
+            background: var(--accent-primary);
+            color: white;
+            border-color: var(--accent-primary);
+        }
+
+        .reader-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background: #1a1a24;
+        }
+
+        #reader-view {
+            flex: 1;
+            min-height: 70vh;
+        }
+
+        .reader-nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            background: var(--bg-secondary);
+        }
+
+        .nav-arrow {
+            padding: 15px 30px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 50px;
+            color: var(--text-primary);
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all var(--transition-fast);
+        }
+
+        .nav-arrow:hover {
+            background: var(--accent-primary);
+            border-color: var(--accent-primary);
+        }
+
+        .reader-fallback {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .reader-fallback h2 {
+            font-family: var(--font-display);
+            margin-bottom: 20px;
+        }
+
+        .reader-fallback p {
+            color: var(--text-muted);
+            margin-bottom: 30px;
+        }
+
+        /* epub.js styling */
+        .epub-container {
+            background: #1a1a24 !important;
+        }
+
+        @media (max-width: 768px) {
+            .reader-header {
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">📚</span>
+            <span class="logo-text">Peak<span class="accent">Literature</span></span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-item">Home</a></li>
+            <li><a href="audiobooks.html" class="nav-item">Audiobooks</a></li>
+            <li><a href="ebooks.html" class="nav-item active">Ebooks</a></li>
+            <li><a href="favorites.html" class="nav-item">Favorites</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Reader Section -->
+    <section class="reader-section">
+        <div class="reader-header">
+            <h1 class="reader-title" id="bookTitle">Loading...</h1>
+            <div class="reader-controls">
+                <button class="reader-btn" onclick="decreaseFontSize()">A-</button>
+                <button class="reader-btn" onclick="increaseFontSize()">A+</button>
+                <button class="reader-btn" id="favoriteBtn" onclick="toggleFav()">🤍</button>
+                <a class="reader-btn" id="downloadBtn" href="#" target="_blank">📥 Download</a>
+            </div>
+        </div>
+
+        <div class="reader-container">
+            <div id="reader-view"></div>
+        </div>
+
+        <div class="reader-nav">
+            <button class="nav-arrow" id="prevBtn" onclick="prevPage()">← Previous</button>
+            <button class="nav-arrow" id="nextBtn" onclick="nextPage()">Next →</button>
+        </div>
+
+        <!-- Fallback for CORS issues -->
+        <div class="reader-fallback" id="readerFallback" style="display: none;">
+            <h2>📖 Read on Project Gutenberg</h2>
+            <p>Due to browser security restrictions, this book opens best on Project Gutenberg directly.</p>
+            <a id="gutenbergLink" href="#" target="_blank" class="btn btn-primary">Read on Gutenberg</a>
+            <a id="downloadLink" href="#" target="_blank" class="btn btn-secondary" style="margin-left: 10px;">Download
+                EPUB</a>
+        </div>
+    </section>
+
+    <script src="scripts/app.js"></script>
+    <script>
+        let book = null;
+        let rendition = null;
+        let currentBook = null;
+        let fontSize = 100;
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            await new Promise(resolve => setTimeout(resolve, 500));
+
+            const bookId = window.PeakLit.getUrlParam('id');
+            const books = window.PeakLit.allBooks();
+            currentBook = books.find(b => b.id === bookId);
+
+            if (!currentBook || !currentBook.ebook?.available) {
+                document.getElementById('bookTitle').textContent = 'Book not found';
+                return;
+            }
+
+            document.title = `${currentBook.title} - PeakLiterature`;
+            document.getElementById('bookTitle').textContent = currentBook.title;
+            document.getElementById('downloadBtn').href = currentBook.ebook.epubUrl;
+
+            // Update favorite button
+            updateFavoriteBtn();
+
+            // Try loading with epub.js
+            try {
+                const epubUrl = currentBook.ebook.epubUrl;
+
+                // Due to CORS, we'll show the fallback with Gutenberg link
+                showFallback();
+
+            } catch (error) {
+                console.error('Failed to load ebook:', error);
+                showFallback();
+            }
+        });
+
+        function showFallback() {
+            document.getElementById('reader-view').style.display = 'none';
+            document.querySelector('.reader-nav').style.display = 'none';
+            document.getElementById('readerFallback').style.display = 'block';
+
+            if (currentBook) {
+                document.getElementById('gutenbergLink').href = `https://www.gutenberg.org/ebooks/${currentBook.ebook.gutenbergId}`;
+                document.getElementById('downloadLink').href = currentBook.ebook.epubUrl;
+            }
+        }
+
+        function prevPage() {
+            if (rendition) rendition.prev();
+        }
+
+        function nextPage() {
+            if (rendition) rendition.next();
+        }
+
+        function increaseFontSize() {
+            fontSize = Math.min(fontSize + 10, 150);
+            if (rendition) {
+                rendition.themes.fontSize(`${fontSize}%`);
+            }
+        }
+
+        function decreaseFontSize() {
+            fontSize = Math.max(fontSize - 10, 70);
+            if (rendition) {
+                rendition.themes.fontSize(`${fontSize}%`);
+            }
+        }
+
+        function toggleFav() {
+            if (currentBook) {
+                window.PeakLit.toggleFavorite(currentBook.id);
+                updateFavoriteBtn();
+            }
+        }
+
+        function updateFavoriteBtn() {
+            const isFav = currentBook && window.PeakLit.favorites().includes(currentBook.id);
+            document.getElementById('favoriteBtn').textContent = isFav ? '❤️' : '🤍';
+        }
+    </script>
+</body>
+
+</html>

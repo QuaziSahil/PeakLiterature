@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorites - PeakLiterature</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">📚</span>
+            <span class="logo-text">Peak<span class="accent">Literature</span></span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-item">Home</a></li>
+            <li><a href="audiobooks.html" class="nav-item">Audiobooks</a></li>
+            <li><a href="ebooks.html" class="nav-item">Ebooks</a></li>
+            <li><a href="favorites.html" class="nav-item active">Favorites</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">❤️ <span class="gradient-text">Your Favorites</span></h1>
+            <p class="page-subtitle">Books you've saved for later</p>
+        </div>
+    </section>
+
+    <!-- Favorites Grid -->
+    <section class="catalog">
+        <div class="container">
+            <div class="book-grid" id="favoritesGrid">
+                <!-- Books loaded by JavaScript -->
+            </div>
+
+            <div class="empty-state" id="emptyState" style="display: none;">
+                <div class="empty-icon">💔</div>
+                <h2>No favorites yet</h2>
+                <p>Start exploring and save books you love!</p>
+                <div style="display: flex; gap: 15px; justify-content: center; margin-top: 30px;">
+                    <a href="audiobooks.html" class="btn btn-primary">Browse Audiobooks</a>
+                    <a href="ebooks.html" class="btn btn-secondary">Browse Ebooks</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">Your favorites are saved locally in your browser.</p>
+                <p class="footer-copyright">© 2026 PeakLiterature</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            await new Promise(resolve => setTimeout(resolve, 500));
+            loadFavorites();
+        });
+
+        function loadFavorites() {
+            const favoriteBooks = window.PeakLit.getFavoriteBooks();
+            const grid = document.getElementById('favoritesGrid');
+            const emptyState = document.getElementById('emptyState');
+
+            if (favoriteBooks.length === 0) {
+                grid.style.display = 'none';
+                emptyState.style.display = 'block';
+            } else {
+                grid.style.display = 'grid';
+                emptyState.style.display = 'none';
+                window.PeakLit.renderBooks(favoriteBooks, grid);
+            }
+        }
+    </script>
+
+    <style>
+        .empty-state {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .empty-icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+
+        .empty-state h2 {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .empty-state p {
+            color: var(--text-muted);
+        }
+    </style>
+</body>
+
+</html>

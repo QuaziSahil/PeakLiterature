@@ -1,0 +1,324 @@
+{
+    "books": [
+        {
+            "id": "pride-prejudice",
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "year": 1813,
+            "genre": "romance",
+            "description": "A classic tale of love and social standing in Regency-era England.",
+            "cover": "https://www.gutenberg.org/cache/epub/1342/pg1342.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "pride_and_prejudice_0711_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1342",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1342.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "dracula",
+            "title": "Dracula",
+            "author": "Bram Stoker",
+            "year": 1897,
+            "genre": "horror",
+            "description": "The classic vampire tale that started it all.",
+            "cover": "https://www.gutenberg.org/cache/epub/345/pg345.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "dracula_0711_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "345",
+                "epubUrl": "https://www.gutenberg.org/ebooks/345.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "sherlock-adventures",
+            "title": "The Adventures of Sherlock Holmes",
+            "author": "Arthur Conan Doyle",
+            "year": 1892,
+            "genre": "mystery",
+            "description": "The first collection of Sherlock Holmes short stories.",
+            "cover": "https://www.gutenberg.org/cache/epub/1661/pg1661.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "adventures_sherlock_holmes_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1661",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1661.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "frankenstein",
+            "title": "Frankenstein",
+            "author": "Mary Shelley",
+            "year": 1818,
+            "genre": "horror",
+            "description": "The story of a scientist who creates a monster.",
+            "cover": "https://www.gutenberg.org/cache/epub/84/pg84.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "frankenstein_1818_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "84",
+                "epubUrl": "https://www.gutenberg.org/ebooks/84.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "great-gatsby",
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "year": 1925,
+            "genre": "fiction",
+            "description": "A critique of the American Dream in the Jazz Age.",
+            "cover": "https://www.gutenberg.org/cache/epub/64317/pg64317.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "great_gatsby_fitzgerald_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "64317",
+                "epubUrl": "https://www.gutenberg.org/ebooks/64317.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "moby-dick",
+            "title": "Moby Dick",
+            "author": "Herman Melville",
+            "year": 1851,
+            "genre": "fiction",
+            "description": "Captain Ahab's obsessive quest for the white whale.",
+            "cover": "https://www.gutenberg.org/cache/epub/2701/pg2701.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "moby_dick_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2701",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2701.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "time-machine",
+            "title": "The Time Machine",
+            "author": "H.G. Wells",
+            "year": 1895,
+            "genre": "scifi",
+            "description": "A scientist travels to the distant future.",
+            "cover": "https://www.gutenberg.org/cache/epub/35/pg35.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "time_machine_wells",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "35",
+                "epubUrl": "https://www.gutenberg.org/ebooks/35.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "war-worlds",
+            "title": "The War of the Worlds",
+            "author": "H.G. Wells",
+            "year": 1898,
+            "genre": "scifi",
+            "description": "Martians invade Earth in this classic sci-fi novel.",
+            "cover": "https://www.gutenberg.org/cache/epub/36/pg36.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "war_of_the_worlds_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "36",
+                "epubUrl": "https://www.gutenberg.org/ebooks/36.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "jane-eyre",
+            "title": "Jane Eyre",
+            "author": "Charlotte Brontë",
+            "year": 1847,
+            "genre": "romance",
+            "description": "The story of an independent governess and her mysterious employer.",
+            "cover": "https://www.gutenberg.org/cache/epub/1260/pg1260.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "jane_eyre_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1260",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1260.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "wuthering-heights",
+            "title": "Wuthering Heights",
+            "author": "Emily Brontë",
+            "year": 1847,
+            "genre": "romance",
+            "description": "A dark tale of love and revenge on the Yorkshire moors.",
+            "cover": "https://www.gutenberg.org/cache/epub/768/pg768.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "wuthering_heights_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "768",
+                "epubUrl": "https://www.gutenberg.org/ebooks/768.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "count-monte-cristo",
+            "title": "The Count of Monte Cristo",
+            "author": "Alexandre Dumas",
+            "year": 1844,
+            "genre": "fiction",
+            "description": "An epic tale of betrayal, imprisonment, and revenge.",
+            "cover": "https://www.gutenberg.org/cache/epub/1184/pg1184.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "count_of_monte_cristo_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1184",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1184.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "picture-dorian-gray",
+            "title": "The Picture of Dorian Gray",
+            "author": "Oscar Wilde",
+            "year": 1890,
+            "genre": "fiction",
+            "description": "A man stays young while his portrait ages.",
+            "cover": "https://www.gutenberg.org/cache/epub/174/pg174.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "picture_of_dorian_gray_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "174",
+                "epubUrl": "https://www.gutenberg.org/ebooks/174.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "1984",
+            "title": "1984",
+            "author": "George Orwell",
+            "year": 1949,
+            "genre": "scifi",
+            "description": "A dystopian novel about totalitarianism and surveillance.",
+            "cover": "https://www.gutenberg.org/cache/epub/67233/pg67233.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "1984_orwell",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "67233",
+                "epubUrl": "https://www.gutenberg.org/ebooks/67233.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "alice-wonderland",
+            "title": "Alice's Adventures in Wonderland",
+            "author": "Lewis Carroll",
+            "year": 1865,
+            "genre": "fiction",
+            "description": "Alice falls down a rabbit hole into a fantastical world.",
+            "cover": "https://www.gutenberg.org/cache/epub/11/pg11.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "alices_adventures_in_wonderland_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "11",
+                "epubUrl": "https://www.gutenberg.org/ebooks/11.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "republic",
+            "title": "The Republic",
+            "author": "Plato",
+            "year": -380,
+            "genre": "philosophy",
+            "description": "Plato's famous dialogue on justice and the ideal state.",
+            "cover": "https://www.gutenberg.org/cache/epub/1497/pg1497.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "republic_plato_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1497",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1497.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "odyssey",
+            "title": "The Odyssey",
+            "author": "Homer",
+            "year": -700,
+            "genre": "fiction",
+            "description": "The epic journey of Odysseus returning home from the Trojan War.",
+            "cover": "https://www.gutenberg.org/cache/epub/1727/pg1727.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "odyssey_homer_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1727",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1727.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        }
+    ]
+}

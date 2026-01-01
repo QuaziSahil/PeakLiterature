@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebooks - PeakLiterature</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">📚</span>
+            <span class="logo-text">Peak<span class="accent">Literature</span></span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-item">Home</a></li>
+            <li><a href="audiobooks.html" class="nav-item">Audiobooks</a></li>
+            <li><a href="ebooks.html" class="nav-item active">Ebooks</a></li>
+            <li><a href="favorites.html" class="nav-item">Favorites</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">📖 <span class="gradient-text">Ebooks</span></h1>
+            <p class="page-subtitle">Read classic literature online or download for offline reading</p>
+
+            <!-- Filters -->
+            <div class="filters">
+                <div class="search-box" style="max-width: 400px;">
+                    <input type="text" id="searchInput" placeholder="Search ebooks..." autocomplete="off">
+                    <button class="search-btn" onclick="applyFilters()">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="filter-row">
+                    <select id="genreFilter" class="filter-select" onchange="applyFilters()">
+                        <option value="">All Genres</option>
+                        <option value="fiction">Fiction</option>
+                        <option value="mystery">Mystery</option>
+                        <option value="romance">Romance</option>
+                        <option value="scifi">Sci-Fi</option>
+                        <option value="horror">Horror</option>
+                        <option value="philosophy">Philosophy</option>
+                    </select>
+
+                    <select id="sortFilter" class="filter-select" onchange="applyFilters()">
+                        <option value="title">Sort: A-Z</option>
+                        <option value="author">Sort: Author</option>
+                        <option value="year">Sort: Year</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Grid -->
+    <section class="catalog">
+        <div class="container">
+            <div class="book-grid" id="ebookGrid">
+                <!-- Books loaded by JavaScript -->
+            </div>
+            <p class="no-results" id="noResults" style="display: none;">No ebooks found matching your search.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">
+                    Ebooks sourced from <a href="https://gutenberg.org" target="_blank">Project Gutenberg</a> and
+                    <a href="https://archive.org" target="_blank">Internet Archive</a>.
+                </p>
+                <p class="footer-copyright">© 2026 PeakLiterature</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            await new Promise(resolve => setTimeout(resolve, 500));
+
+            const urlParams = new URLSearchParams(window.location.search);
+            const searchQuery = urlParams.get('search');
+            const genre = urlParams.get('genre');
+
+            if (searchQuery) {
+                document.getElementById('searchInput').value = searchQuery;
+            }
+            if (genre) {
+                document.getElementById('genreFilter').value = genre;
+            }
+
+            applyFilters();
+        });
+
+        function applyFilters() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            const genre = document.getElementById('genreFilter').value;
+            const sort = document.getElementById('sortFilter').value;
+
+            let books = window.PeakLit.filterBooks(query, genre);
+
+            // Only show books with ebooks
+            books = books.filter(b => b.ebook?.available);
+
+            // Sort
+            books.sort((a, b) => {
+                if (sort === 'title') return a.title.localeCompare(b.title);
+                if (sort === 'author') return a.author.localeCompare(b.author);
+                if (sort === 'year') return b.year - a.year;
+                return 0;
+            });
+
+            const grid = document.getElementById('ebookGrid');
+            const noResults = document.getElementById('noResults');
+
+            if (books.length === 0) {
+                grid.innerHTML = '';
+                noResults.style.display = 'block';
+            } else {
+                noResults.style.display = 'none';
+                window.PeakLit.renderBooks(books, grid);
+            }
+        }
+    </script>
+</body>
+
+</html>
