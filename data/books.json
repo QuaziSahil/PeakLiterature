@@ -10,7 +10,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/1342/pg1342.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "pride_and_prejudice_0711_librivox",
+                "archiveId": "pride_and_prejudice_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -30,7 +30,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/345/pg345.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "dracula_0711_librivox",
+                "archiveId": "dracula_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -50,7 +50,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/1661/pg1661.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "adventures_sherlock_holmes_librivox",
+                "archiveId": "adventures_of_sherlock_holmes_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -70,7 +70,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/84/pg84.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "frankenstein_1818_librivox",
+                "archiveId": "frankenstein_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -90,7 +90,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/64317/pg64317.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "great_gatsby_fitzgerald_librivox",
+                "archiveId": "great_gatsby_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -130,7 +130,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/35/pg35.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "time_machine_wells",
+                "archiveId": "time_machine_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -250,7 +250,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/67233/pg67233.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "1984_orwell",
+                "archiveId": "1984_george_orwell",
                 "source": "LibriVox"
             },
             "ebook": {
