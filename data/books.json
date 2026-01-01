@@ -330,7 +330,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/98/pg98.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "a_tale_of_two_cities_librivox",
+                "archiveId": "tale_two_cities_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -350,7 +350,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/1400/pg1400.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "great_expectations_0711_librivox",
+                "archiveId": "great_expectations_mfs_0812_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -370,7 +370,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/730/pg730.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "oliver_twist_0806_librivox",
+                "archiveId": "oliver_twist_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -410,7 +410,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/28054/pg28054.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "brothers_karamazov_0812_librivox",
+                "archiveId": "brothers_karamazov_1002_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -430,7 +430,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/1399/pg1399.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "annakarenina_1007_librivox",
+                "archiveId": "annakarenina_mas_1202_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -450,7 +450,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/2600/pg2600.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "warandpeace_01_tolstoy",
+                "archiveId": "war_and_peace_vol1_dole_mas_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -470,7 +470,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/120/pg120.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "treasure_island_0707_librivox",
+                "archiveId": "treasure_island_ap_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -490,7 +490,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/43/pg43.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "jekyll_hyde_0709_librivox",
+                "archiveId": "jekyll_and_hyde_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -510,7 +510,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/236/pg236.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "jungle_book_0709_librivox",
+                "archiveId": "jungle_book_mh_0808_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -530,7 +530,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/76/pg76.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "huckleberry_finn_librivox1",
+                "archiveId": "huck_finn_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -550,7 +550,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/74/pg74.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "tom_sawyer_0709_librivox",
+                "archiveId": "tom_sawyer_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -570,7 +570,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/996/pg996.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "don_quixote_vol1_0901_librivox",
+                "archiveId": "donquixote_2508_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -590,7 +590,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/135/pg135.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "les_miserables_tome1_fantine_0711",
+                "archiveId": "les_mis_vol01_0810_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -610,7 +610,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/158/pg158.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "emma_0711_librivox",
+                "archiveId": "emma_solo_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -630,7 +630,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/161/pg161.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "sense_and_sensibility_0707_librivox",
+                "archiveId": "senseandsensibility_0703_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -650,7 +650,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/5230/pg5230.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "invisible_man_0707_librivox",
+                "archiveId": "invisible_man_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -670,7 +670,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/25344/pg25344.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "scarlet_letter_0707_librivox",
+                "archiveId": "scarlet_letter_0710",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -690,7 +690,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/215/pg215.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "call_of_the_wild_0708_librivox",
+                "archiveId": "callofthewild_1509_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
