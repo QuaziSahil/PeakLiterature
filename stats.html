@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Stats - PeakLiterature</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        .stats-section {
+            padding: 120px 0 60px;
+            min-height: 100vh;
+        }
+
+        .stats-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .stats-header h1 {
+            font-family: var(--font-display);
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .stats-header p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        .section-divider {
+            margin: 60px 0 40px;
+            text-align: center;
+        }
+
+        .section-divider h2 {
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+        }
+
+        .no-data {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="assets/logo.png" alt="PeakLiterature" class="logo-img">
+            <span class="logo-text">Peak<span class="accent">Literature</span></span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-item">Home</a></li>
+            <li><a href="audiobooks.html" class="nav-item">Audiobooks</a></li>
+            <li><a href="ebooks.html" class="nav-item">Ebooks</a></li>
+            <li><a href="favorites.html" class="nav-item">Favorites</a></li>
+            <li><a href="stats.html" class="nav-item active">My Stats</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-header">
+                <h1>My <span class="gradient-text">Reading Stats</span></h1>
+                <p>Track your progress and earn achievements</p>
+            </div>
+
+            <!-- Stats Dashboard -->
+            <div class="stats-dashboard" id="statsDashboard">
+                <!-- Populated by JavaScript -->
+            </div>
+
+            <!-- Badges Section -->
+            <div class="section-divider">
+                <h2>🏆 <span class="gradient-text">Badges</span></h2>
+            </div>
+            <div class="badge-grid" id="badgeGrid">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="assets/logo.png" alt="PeakLiterature" class="logo-img">
+                    <span class="logo-text">Peak<span class="accent">Literature</span></span>
+                </div>
+                <p class="footer-text">
+                    All content is sourced from public domain collections including
+                    <a href="https://librivox.org" target="_blank">LibriVox</a>,
+                    <a href="https://gutenberg.org" target="_blank">Project Gutenberg</a>, and
+                    <a href="https://archive.org" target="_blank">Internet Archive</a>.
+                </p>
+                <p class="footer-copyright">© 2026 PeakLiterature. Made with ❤️ for book lovers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+    <script src="scripts/user-stats.js"></script>
+    <script type="module" src="scripts/firebase-auth.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            renderStats();
+            renderBadges();
+        });
+
+        function renderStats() {
+            const stats = window.PeakStats?.getStats() || {};
+            const dashboard = document.getElementById('statsDashboard');
+
+            dashboard.innerHTML = `
+                <div class="stat-card">
+                    <div class="stat-card-icon">🔥</div>
+                    <div class="stat-card-value">${stats.currentStreak || 0}</div>
+                    <div class="stat-card-label">Day Streak</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-card-icon">📚</div>
+                    <div class="stat-card-value">${stats.booksStarted || 0}</div>
+                    <div class="stat-card-label">Books Started</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-card-icon">🎧</div>
+                    <div class="stat-card-value">${stats.audiobooksPlayed || 0}</div>
+                    <div class="stat-card-label">Audiobooks Played</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-card-icon">📖</div>
+                    <div class="stat-card-value">${stats.ebooksRead || 0}</div>
+                    <div class="stat-card-label">Ebooks Read</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-card-icon">⭐</div>
+                    <div class="stat-card-value">${stats.maxStreak || 0}</div>
+                    <div class="stat-card-label">Best Streak</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-card-icon">🧭</div>
+                    <div class="stat-card-value">${stats.genresExplored || 0}</div>
+                    <div class="stat-card-label">Genres Explored</div>
+                </div>
+            `;
+        }
+
+        function renderBadges() {
+            const allBadges = window.PeakStats?.getAllBadges() || [];
+            const grid = document.getElementById('badgeGrid');
+
+            if (allBadges.length === 0) {
+                grid.innerHTML = '<div class="no-data">Start reading to earn badges!</div>';
+                return;
+            }
+
+            grid.innerHTML = allBadges.map(badge => `
+                <div class="badge-card ${badge.earned ? 'earned' : ''}">
+                    <div class="badge-card-icon">${badge.icon}</div>
+                    <div class="badge-card-name">${badge.name}</div>
+                    <div class="badge-card-desc">${badge.description}</div>
+                </div>
+            `).join('');
+        }
+    </script>
+</body>
+
+</html>

@@ -222,6 +222,7 @@
     </footer>
 
     <script src="scripts/app.js"></script>
+    <script src="scripts/user-stats.js"></script>
     <script type="module" src="scripts/firebase-auth.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', async () => {
@@ -245,6 +246,11 @@
 
             // Update page title
             document.title = `${book.title} - PeakLiterature`;
+
+            // Track activity for badges and streaks
+            if (window.PeakStats) {
+                window.PeakStats.trackBookOpen(book.id, 'audio', book.genre);
+            }
 
             // Check if favorite
             const isFavorite = window.PeakLit.favorites().includes(book.id);

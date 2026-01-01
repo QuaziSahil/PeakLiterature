@@ -73,6 +73,17 @@
         </div>
     </section>
 
+    <!-- Continue Reading Section (shown dynamically) -->
+    <section class="continue-section" id="continueSection" style="display: none;">
+        <div class="container">
+            <h2 class="section-title" style="margin-bottom: 25px;">Continue <span class="gradient-text">Reading</span>
+            </h2>
+            <div class="continue-card" id="continueCard">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
     <!-- Featured Section -->
     <section class="featured">
         <div class="container">
@@ -156,7 +167,40 @@
     </footer>
 
     <script src="scripts/app.js"></script>
+    <script src="scripts/user-stats.js"></script>
     <script type="module" src="scripts/firebase-auth.js"></script>
+    <script>
+        // Initialize Continue Reading section
+        document.addEventListener('DOMContentLoaded', async () => {
+            // Wait for books to load
+            await new Promise(resolve => setTimeout(resolve, 600));
+
+            const lastBook = window.PeakStats?.getLastBook();
+            if (lastBook && window.PeakLit) {
+                const books = window.PeakLit.allBooks();
+                const book = books.find(b => b.id === lastBook.bookId);
+
+                if (book) {
+                    const section = document.getElementById('continueSection');
+                    const card = document.getElementById('continueCard');
+                    const isAudio = lastBook.type === 'audio';
+
+                    card.innerHTML = `
+                        <img src="${book.cover}" alt="${book.title}" 
+                             onerror="this.src='https://via.placeholder.com/80x120/1a1a24/ffffff?text=No+Cover'">
+                        <div class="continue-info">
+                            <h3>${book.title}</h3>
+                            <p>${isAudio ? '🎧 Listening' : '📖 Reading'} • ${book.author}</p>
+                            <a href="${isAudio ? 'player' : 'reader'}.html?id=${book.id}" class="btn btn-primary">
+                                ${isAudio ? '▶️ Resume Listening' : '📖 Resume Reading'}
+                            </a>
+                        </div>
+                    `;
+                    section.style.display = 'block';
+                }
+            }
+        });
+    </script>
 </body>
 
 </html>
