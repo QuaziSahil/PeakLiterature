@@ -10,8 +10,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-    <link rel="icon" type="image/png" href="assets/logo.png">
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" type="image/png" href="../assets/logo.png">
+    <link rel="stylesheet" href="../styles/main.css">
     <style>
         .stats-section {
             padding: 120px 0 60px;
@@ -55,16 +55,16 @@
 <body>
     <!-- Navigation -->
     <nav class="navbar">
-        <a href="index.html" class="logo">
-            <img src="assets/logo.png" alt="PeakLiterature" class="logo-img">
+        <a href="../" class="logo">
+            <img src="../assets/logo.png" alt="PeakLiterature" class="logo-img">
             <span class="logo-text">Peak<span class="accent">Literature</span></span>
         </a>
         <ul class="nav-links">
-            <li><a href="index.html" class="nav-item">Home</a></li>
-            <li><a href="audiobooks.html" class="nav-item">Audiobooks</a></li>
-            <li><a href="ebooks.html" class="nav-item">Ebooks</a></li>
-            <li><a href="favorites.html" class="nav-item">Favorites</a></li>
-            <li><a href="stats.html" class="nav-item active">My Stats</a></li>
+            <li><a href="../" class="nav-item">Home</a></li>
+            <li><a href="../audiobooks" class="nav-item">Audiobooks</a></li>
+            <li><a href="../ebooks" class="nav-item">Ebooks</a></li>
+            <li><a href="../favorites" class="nav-item">Favorites</a></li>
+            <li><a href="../stats" class="nav-item active">My Stats</a></li>
         </ul>
         <button class="nav-toggle" aria-label="Toggle menu">
             <span></span><span></span><span></span>
@@ -99,7 +99,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <img src="assets/logo.png" alt="PeakLiterature" class="logo-img">
+                    <img src="../assets/logo.png" alt="PeakLiterature" class="logo-img">
                     <span class="logo-text">Peak<span class="accent">Literature</span></span>
                 </div>
                 <p class="footer-text">
@@ -113,9 +113,9 @@
         </div>
     </footer>
 
-    <script src="scripts/app.js"></script>
-    <script src="scripts/user-stats.js"></script>
-    <script type="module" src="scripts/firebase-auth.js"></script>
+    <script src="../scripts/app.js"></script>
+    <script src="../scripts/user-stats.js"></script>
+    <script type="module" src="../scripts/firebase-auth.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             renderStats();

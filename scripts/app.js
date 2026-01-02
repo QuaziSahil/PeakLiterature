@@ -29,7 +29,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 // ========================================
 async function loadBooks() {
     try {
-        const response = await fetch('data/books.json');
+        // Handle both root and subfolder contexts
+        const basePath = window.location.pathname.includes('/') && !window.location.pathname.endsWith('/')
+            ? '../data/books.json'
+            : 'data/books.json';
+        const response = await fetch(basePath);
         const data = await response.json();
         allBooks = data.books;
         console.log(`Loaded ${allBooks.length} books`);
@@ -78,8 +82,11 @@ function playAudiobook(bookId) {
     const book = allBooks.find(b => b.id === bookId);
     if (!book || !book.audiobook?.available) return;
 
-    // Navigate to player page with book ID
-    window.location.href = `player.html?id=${bookId}`;
+    // Navigate to player page with book ID - use relative path based on context
+    const basePath = window.location.pathname.includes('/audiobooks') || window.location.pathname.includes('/ebooks') || window.location.pathname.includes('/favorites')
+        ? '../player'
+        : 'player';
+    window.location.href = `${basePath}?id=${bookId}`;
 }
 
 // ========================================
@@ -89,8 +96,11 @@ function readEbook(bookId) {
     const book = allBooks.find(b => b.id === bookId);
     if (!book || !book.ebook?.available) return;
 
-    // Navigate to reader page with book ID
-    window.location.href = `reader.html?id=${bookId}`;
+    // Navigate to reader page with book ID - use relative path based on context
+    const basePath = window.location.pathname.includes('/audiobooks') || window.location.pathname.includes('/ebooks') || window.location.pathname.includes('/favorites')
+        ? '../reader'
+        : 'reader';
+    window.location.href = `${basePath}?id=${bookId}`;
 }
 
 // ========================================
@@ -149,7 +159,7 @@ function searchBooks() {
     if (!query) return;
 
     // Navigate to audiobooks page with search query
-    window.location.href = `audiobooks.html?search=${encodeURIComponent(query)}`;
+    window.location.href = `audiobooks?search=${encodeURIComponent(query)}`;
 }
 
 function filterBooks(query, genre = null) {

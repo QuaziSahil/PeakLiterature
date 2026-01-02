@@ -4,28 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ebooks - PeakLiterature</title>
+    <title>Audiobooks - PeakLiterature</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-    <link rel="icon" type="image/png" href="assets/logo.png">
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" type="image/png" href="../assets/logo.png">
+    <link rel="stylesheet" href="../styles/main.css">
 </head>
 
 <body>
     <!-- Navigation -->
     <nav class="navbar">
-        <a href="index.html" class="logo">
-            <img src="assets/logo.png" alt="PeakLiterature" class="logo-img">
+        <a href="../" class="logo">
+            <img src="../assets/logo.png" alt="PeakLiterature" class="logo-img">
             <span class="logo-text">Peak<span class="accent">Literature</span></span>
         </a>
         <ul class="nav-links">
-            <li><a href="index.html" class="nav-item">Home</a></li>
-            <li><a href="audiobooks.html" class="nav-item">Audiobooks</a></li>
-            <li><a href="ebooks.html" class="nav-item active">Ebooks</a></li>
-            <li><a href="favorites.html" class="nav-item">Favorites</a></li>
+            <li><a href="../" class="nav-item">Home</a></li>
+            <li><a href="../audiobooks" class="nav-item active">Audiobooks</a></li>
+            <li><a href="../ebooks" class="nav-item">Ebooks</a></li>
+            <li><a href="../favorites" class="nav-item">Favorites</a></li>
         </ul>
         <button class="nav-toggle" aria-label="Toggle menu">
             <span></span><span></span><span></span>
@@ -35,13 +35,13 @@
     <!-- Page Header -->
     <section class="page-header">
         <div class="container">
-            <h1 class="page-title">📖 <span class="gradient-text">Ebooks</span></h1>
-            <p class="page-subtitle">Read classic literature online or download for offline reading</p>
+            <h1 class="page-title">🎧 <span class="gradient-text">Audiobooks</span></h1>
+            <p class="page-subtitle">Listen to classic literature read aloud, completely free</p>
 
             <!-- Filters -->
             <div class="filters">
                 <div class="search-box" style="max-width: 400px;">
-                    <input type="text" id="searchInput" placeholder="Search ebooks..." autocomplete="off">
+                    <input type="text" id="searchInput" placeholder="Search audiobooks..." autocomplete="off">
                     <button class="search-btn" onclick="applyFilters()">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             stroke-width="2">
@@ -75,10 +75,10 @@
     <!-- Book Grid -->
     <section class="catalog">
         <div class="container">
-            <div class="book-grid" id="ebookGrid">
+            <div class="book-grid" id="audiobookGrid">
                 <!-- Books loaded by JavaScript -->
             </div>
-            <p class="no-results" id="noResults" style="display: none;">No ebooks found matching your search.</p>
+            <p class="no-results" id="noResults" style="display: none;">No audiobooks found matching your search.</p>
         </div>
     </section>
 
@@ -87,7 +87,7 @@
         <div class="container">
             <div class="footer-content">
                 <p class="footer-text">
-                    Ebooks sourced from <a href="https://gutenberg.org" target="_blank">Project Gutenberg</a> and
+                    Audiobooks sourced from <a href="https://librivox.org" target="_blank">LibriVox</a> and
                     <a href="https://archive.org" target="_blank">Internet Archive</a>.
                 </p>
                 <p class="footer-copyright">© 2026 PeakLiterature</p>
@@ -95,12 +95,15 @@
         </div>
     </footer>
 
-    <script src="scripts/app.js"></script>
-    <script type="module" src="scripts/firebase-auth.js"></script>
+    <script src="../scripts/app.js"></script>
+    <script type="module" src="../scripts/firebase-auth.js"></script>
     <script>
+        // Wait for books to load then render
         document.addEventListener('DOMContentLoaded', async () => {
+            // Wait for main app to load books
             await new Promise(resolve => setTimeout(resolve, 500));
 
+            // Check for URL params
             const urlParams = new URLSearchParams(window.location.search);
             const searchQuery = urlParams.get('search');
             const genre = urlParams.get('genre');
@@ -122,8 +125,8 @@
 
             let books = window.PeakLit.filterBooks(query, genre);
 
-            // Only show books with ebooks
-            books = books.filter(b => b.ebook?.available);
+            // Only show books with audiobooks
+            books = books.filter(b => b.audiobook?.available);
 
             // Sort
             books.sort((a, b) => {
@@ -133,7 +136,7 @@
                 return 0;
             });
 
-            const grid = document.getElementById('ebookGrid');
+            const grid = document.getElementById('audiobookGrid');
             const noResults = document.getElementById('noResults');
 
             if (books.length === 0) {

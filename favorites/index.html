@@ -10,22 +10,22 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-    <link rel="icon" type="image/png" href="assets/logo.png">
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" type="image/png" href="../assets/logo.png">
+    <link rel="stylesheet" href="../styles/main.css">
 </head>
 
 <body>
     <!-- Navigation -->
     <nav class="navbar">
-        <a href="index.html" class="logo">
-            <img src="assets/logo.png" alt="PeakLiterature" class="logo-img">
+        <a href="../" class="logo">
+            <img src="../assets/logo.png" alt="PeakLiterature" class="logo-img">
             <span class="logo-text">Peak<span class="accent">Literature</span></span>
         </a>
         <ul class="nav-links">
-            <li><a href="index.html" class="nav-item">Home</a></li>
-            <li><a href="audiobooks.html" class="nav-item">Audiobooks</a></li>
-            <li><a href="ebooks.html" class="nav-item">Ebooks</a></li>
-            <li><a href="favorites.html" class="nav-item active">Favorites</a></li>
+            <li><a href="../" class="nav-item">Home</a></li>
+            <li><a href="../audiobooks" class="nav-item">Audiobooks</a></li>
+            <li><a href="../ebooks" class="nav-item">Ebooks</a></li>
+            <li><a href="../favorites" class="nav-item active">Favorites</a></li>
         </ul>
         <button class="nav-toggle" aria-label="Toggle menu">
             <span></span><span></span><span></span>
@@ -52,8 +52,8 @@
                 <h2>No favorites yet</h2>
                 <p>Start exploring and save books you love!</p>
                 <div style="display: flex; gap: 15px; justify-content: center; margin-top: 30px;">
-                    <a href="audiobooks.html" class="btn btn-primary">Browse Audiobooks</a>
-                    <a href="ebooks.html" class="btn btn-secondary">Browse Ebooks</a>
+                    <a href="../audiobooks" class="btn btn-primary">Browse Audiobooks</a>
+                    <a href="../ebooks" class="btn btn-secondary">Browse Ebooks</a>
                 </div>
             </div>
         </div>
@@ -69,8 +69,8 @@
         </div>
     </footer>
 
-    <script src="scripts/app.js"></script>
-    <script type="module" src="scripts/firebase-auth.js"></script>
+    <script src="../scripts/app.js"></script>
+    <script type="module" src="../scripts/firebase-auth.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', async () => {
             await new Promise(resolve => setTimeout(resolve, 500));
