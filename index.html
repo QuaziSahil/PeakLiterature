@@ -99,27 +99,27 @@
         <div class="container">
             <h2 class="section-title">Browse by <span class="gradient-text">Genre</span></h2>
             <div class="category-grid">
-                <a href="audiobooks.html?genre=fiction" class="category-card">
+                <a href="audiobooks?genre=fiction" class="category-card">
                     <span class="category-icon">📕</span>
                     <span class="category-name">Fiction</span>
                 </a>
-                <a href="audiobooks.html?genre=mystery" class="category-card">
+                <a href="audiobooks?genre=mystery" class="category-card">
                     <span class="category-icon">🔍</span>
                     <span class="category-name">Mystery</span>
                 </a>
-                <a href="audiobooks.html?genre=romance" class="category-card">
+                <a href="audiobooks?genre=romance" class="category-card">
                     <span class="category-icon">💕</span>
                     <span class="category-name">Romance</span>
                 </a>
-                <a href="audiobooks.html?genre=scifi" class="category-card">
+                <a href="audiobooks?genre=scifi" class="category-card">
                     <span class="category-icon">🚀</span>
                     <span class="category-name">Sci-Fi</span>
                 </a>
-                <a href="audiobooks.html?genre=horror" class="category-card">
+                <a href="audiobooks?genre=horror" class="category-card">
                     <span class="category-icon">👻</span>
                     <span class="category-name">Horror</span>
                 </a>
-                <a href="audiobooks.html?genre=philosophy" class="category-card">
+                <a href="audiobooks?genre=philosophy" class="category-card">
                     <span class="category-icon">🧠</span>
                     <span class="category-name">Philosophy</span>
                 </a>
@@ -191,7 +191,7 @@
                         <div class="continue-info">
                             <h3>${book.title}</h3>
                             <p>${isAudio ? '🎧 Listening' : '📖 Reading'} • ${book.author}</p>
-                            <a href="${isAudio ? 'player' : 'reader'}.html?id=${book.id}" class="btn btn-primary">
+                            <a href="${isAudio ? 'player' : 'reader'}?id=${book.id}" class="btn btn-primary">
                                 ${isAudio ? '▶️ Resume Listening' : '📖 Resume Reading'}
                             </a>
                         </div>
