@@ -2059,6 +2059,3026 @@
                 "epubUrl": "",
                 "source": ""
             }
+        },
+        {
+            "id": "the-memoirs-of-sherlock-holmes",
+            "title": "The Memoirs of Sherlock Holmes",
+            "author": "Sir Arthur Conan Doyle",
+            "year": 1894,
+            "genre": "fiction",
+            "description": "More adventures of the great detective.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Memoirs%20of%20Sherlock%20Holmes-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "memoirs_holmes_0709_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "aesops-fables",
+            "title": "Aesop's Fables",
+            "author": "Aesop",
+            "year": -600,
+            "genre": "fiction",
+            "description": "Ancient fables with moral lessons.",
+            "cover": "https://covers.openlibrary.org/b/title/Aesop's%20Fables-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "aesop_fables_volume_one_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-return-of-sherlock-holmes",
+            "title": "The Return of Sherlock Holmes",
+            "author": "Sir Arthur Conan Doyle",
+            "year": 1905,
+            "genre": "fiction",
+            "description": "Holmes returns from the dead for more cases.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Return%20of%20Sherlock%20Holmes-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "return_holmes_0708_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "ghost-story-collection",
+            "title": "Ghost Story Collection",
+            "author": "Various",
+            "year": 1900,
+            "genre": "horror",
+            "description": "A classic work by Various.",
+            "cover": "https://covers.openlibrary.org/b/title/Ghost%20Story%20Collection-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "ghost_stories_001_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-story-of-my-life",
+            "title": "The Story of My Life",
+            "author": "Helen Keller",
+            "year": 1903,
+            "genre": "fiction",
+            "description": "Helen Keller's autobiography of triumph over adversity.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Story%20of%20My%20Life-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "story_keller_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-autobiography-of-benjamin-frank",
+            "title": "The Autobiography of Benjamin Franklin",
+            "author": "Benjamin Franklin",
+            "year": 1791,
+            "genre": "fiction",
+            "description": "The life of a Founding Father.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Autobiography%20of%20Benjamin%20Franklin-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "franklin_autobio_gg_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "les-miserables-vol-1",
+            "title": "Les Misérables, Vol. 1",
+            "author": "Victor Hugo",
+            "year": 1862,
+            "genre": "fiction",
+            "description": "An ex-convict seeks redemption in post-revolutionary France.",
+            "cover": "https://covers.openlibrary.org/b/title/Les%20Mis%C3%A9rables%2C%20Vol.%201-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "les_mis_vol01_0810_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-scarlet-pimpernel",
+            "title": "The Scarlet Pimpernel",
+            "author": "Baroness Orczy",
+            "year": 1905,
+            "genre": "fiction",
+            "description": "A hero rescues aristocrats from the guillotine.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Scarlet%20Pimpernel-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "scarlet_pimpernel_ks_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-way-of-peace",
+            "title": "The Way of Peace",
+            "author": "James Allen",
+            "year": 1907,
+            "genre": "philosophy",
+            "description": "A classic work by James Allen.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Way%20of%20Peace-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "way_of_peace_0901_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "poems-every-child-should-know",
+            "title": "Poems Every Child Should Know",
+            "author": "Mary E. Burt",
+            "year": 1904,
+            "genre": "poetry",
+            "description": "A classic work by Mary E. Burt.",
+            "cover": "https://covers.openlibrary.org/b/title/Poems%20Every%20Child%20Should%20Know-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "poems_every_child_should_know_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "tales-of-terror-and-mystery",
+            "title": "Tales of Terror and Mystery",
+            "author": "Sir Arthur Conan Doyle",
+            "year": 1923,
+            "genre": "horror",
+            "description": "A classic work by Sir Arthur Conan Doyle.",
+            "cover": "https://covers.openlibrary.org/b/title/Tales%20of%20Terror%20and%20Mystery-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "terror_mystery_0707_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "12-creepy-tales-by-edgar-allan-poe",
+            "title": "12 Creepy Tales by Edgar Allan Poe",
+            "author": "Edgar Allan Poe",
+            "year": 1845,
+            "genre": "horror",
+            "description": "A classic work by Edgar Allan Poe.",
+            "cover": "https://covers.openlibrary.org/b/title/12%20Creepy%20Tales%20by%20Edgar%20Allan%20Poe-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "12_creepytales_1206_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "love-and-freindship",
+            "title": "Love and Freindship",
+            "author": "Jane Austen",
+            "year": 1790,
+            "genre": "romance",
+            "description": "A classic work by Jane Austen.",
+            "cover": "https://covers.openlibrary.org/b/title/Love%20and%20Freindship-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "love_freindship_cs_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-30000-bequest-and-other-stories",
+            "title": "The $30,000 Bequest and Other Stories",
+            "author": "Mark Twain",
+            "year": 1906,
+            "genre": "fiction",
+            "description": "A classic work by Mark Twain.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20%2430%2C000%20Bequest%20and%20Other%20Stories-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "bequest_jg_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-bishops-secret",
+            "title": "The Bishop's Secret",
+            "author": "Fergus Hume",
+            "year": 1900,
+            "genre": "fiction",
+            "description": "A classic work by Fergus Hume.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Bishop's%20Secret-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "bishops_secret_1309_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "five-scifi-short-stories",
+            "title": "Five Sci-Fi Short Stories",
+            "author": "H. Beam Piper",
+            "year": 1950,
+            "genre": "scifi",
+            "description": "A classic work by H. Beam Piper.",
+            "cover": "https://covers.openlibrary.org/b/title/Five%20Sci-Fi%20Short%20Stories-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "five_sci-fi_piper_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "antiimperialist-writings",
+            "title": "Anti-Imperialist Writings",
+            "author": "Mark Twain",
+            "year": 1900,
+            "genre": "fiction",
+            "description": "A classic work by Mark Twain.",
+            "cover": "https://covers.openlibrary.org/b/title/Anti-Imperialist%20Writings-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "anti-imperialist_twain_1210_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-valley-of-fear",
+            "title": "The Valley of Fear",
+            "author": "Sir Arthur Conan Doyle",
+            "year": 1915,
+            "genre": "fiction",
+            "description": "Holmes battles Professor Moriarty's organization.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Valley%20of%20Fear-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "valleyoffear_1511_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "a-study-in-scarlet",
+            "title": "A Study in Scarlet",
+            "author": "Sir Arthur Conan Doyle",
+            "year": 1887,
+            "genre": "fiction",
+            "description": "The first Sherlock Holmes story.",
+            "cover": "https://covers.openlibrary.org/b/title/A%20Study%20in%20Scarlet-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "study_scarlet_0911_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-hound-of-the-baskervilles",
+            "title": "The Hound of the Baskervilles",
+            "author": "Sir Arthur Conan Doyle",
+            "year": 1902,
+            "genre": "fiction",
+            "description": "Holmes investigates a supernatural hound.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Hound%20of%20the%20Baskervilles-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "hound_baskervilles_1008_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-sign-of-the-four",
+            "title": "The Sign of the Four",
+            "author": "Sir Arthur Conan Doyle",
+            "year": 1890,
+            "genre": "fiction",
+            "description": "Holmes's second novel-length adventure.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Sign%20of%20the%20Four-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "sign_four_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-last-of-the-mohicans",
+            "title": "The Last of the Mohicans",
+            "author": "James Fenimore Cooper",
+            "year": 1826,
+            "genre": "fiction",
+            "description": "A classic work by James Fenimore Cooper.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Last%20of%20the%20Mohicans-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "last_mohicans_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "around-the-world-in-eighty-days",
+            "title": "Around the World in Eighty Days",
+            "author": "Jules Verne",
+            "year": 1873,
+            "genre": "fiction",
+            "description": "Phileas Fogg's race against time.",
+            "cover": "https://covers.openlibrary.org/b/title/Around%20the%20World%20in%20Eighty%20Days-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "around_world_80_days_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "journey-to-the-center-of-the-earth",
+            "title": "Journey to the Center of the Earth",
+            "author": "Jules Verne",
+            "year": 1864,
+            "genre": "scifi",
+            "description": "An expedition into a volcano.",
+            "cover": "https://covers.openlibrary.org/b/title/Journey%20to%20the%20Center%20of%20the%20Earth-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "journey_center_earth_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-arabian-nights",
+            "title": "The Arabian Nights",
+            "author": "Anonymous",
+            "year": 1700,
+            "genre": "fiction",
+            "description": "A classic work by Anonymous.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Arabian%20Nights-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "arabian_nights_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "a-christmas-carol",
+            "title": "A Christmas Carol",
+            "author": "Charles Dickens",
+            "year": 1843,
+            "genre": "fiction",
+            "description": "Scrooge learns the true meaning of Christmas.",
+            "cover": "https://covers.openlibrary.org/b/title/A%20Christmas%20Carol-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "christmas_carol_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "david-copperfield",
+            "title": "David Copperfield",
+            "author": "Charles Dickens",
+            "year": 1850,
+            "genre": "fiction",
+            "description": "Dickens's semi-autobiographical novel.",
+            "cover": "https://covers.openlibrary.org/b/title/David%20Copperfield-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "david_copperfield_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-iliad",
+            "title": "The Iliad",
+            "author": "Homer",
+            "year": -750,
+            "genre": "fiction",
+            "description": "Homer's epic of the Trojan War.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Iliad-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "iliad_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "paradise-lost",
+            "title": "Paradise Lost",
+            "author": "John Milton",
+            "year": 1667,
+            "genre": "poetry",
+            "description": "Milton's epic poem of the Fall of Man.",
+            "cover": "https://covers.openlibrary.org/b/title/Paradise%20Lost-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "paradise_lost_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "hamlet",
+            "title": "Hamlet",
+            "author": "William Shakespeare",
+            "year": 1600,
+            "genre": "fiction",
+            "description": "Shakespeare's tragedy of a prince's revenge.",
+            "cover": "https://covers.openlibrary.org/b/title/Hamlet-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "hamlet_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "macbeth",
+            "title": "Macbeth",
+            "author": "William Shakespeare",
+            "year": 1606,
+            "genre": "fiction",
+            "description": "Shakespeare's tragedy of ambition and murder.",
+            "cover": "https://covers.openlibrary.org/b/title/Macbeth-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "macbeth_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "othello",
+            "title": "Othello",
+            "author": "William Shakespeare",
+            "year": 1603,
+            "genre": "fiction",
+            "description": "Shakespeare's tragedy of jealousy and manipulation.",
+            "cover": "https://covers.openlibrary.org/b/title/Othello-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "othello_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "king-lear",
+            "title": "King Lear",
+            "author": "William Shakespeare",
+            "year": 1606,
+            "genre": "fiction",
+            "description": "Shakespeare's tragedy of a king who divides his kingdom.",
+            "cover": "https://covers.openlibrary.org/b/title/King%20Lear-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "king_lear_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "a-midsummer-nights-dream",
+            "title": "A Midsummer Night's Dream",
+            "author": "William Shakespeare",
+            "year": 1596,
+            "genre": "fiction",
+            "description": "Shakespeare's magical comedy.",
+            "cover": "https://covers.openlibrary.org/b/title/A%20Midsummer%20Night's%20Dream-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "midsummer_nights_dream_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-merchant-of-venice",
+            "title": "The Merchant of Venice",
+            "author": "William Shakespeare",
+            "year": 1596,
+            "genre": "fiction",
+            "description": "Shakespeare's complex drama of justice and mercy.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Merchant%20of%20Venice-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "merchant_venice_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-tempest",
+            "title": "The Tempest",
+            "author": "William Shakespeare",
+            "year": 1611,
+            "genre": "fiction",
+            "description": "Shakespeare's magical final play.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Tempest-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "tempest_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "much-ado-about-nothing",
+            "title": "Much Ado About Nothing",
+            "author": "William Shakespeare",
+            "year": 1598,
+            "genre": "fiction",
+            "description": "A classic work by William Shakespeare.",
+            "cover": "https://covers.openlibrary.org/b/title/Much%20Ado%20About%20Nothing-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "much_ado_nothing_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-taming-of-the-shrew",
+            "title": "The Taming of the Shrew",
+            "author": "William Shakespeare",
+            "year": 1590,
+            "genre": "fiction",
+            "description": "A classic work by William Shakespeare.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Taming%20of%20the%20Shrew-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "taming_shrew_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "twelfth-night",
+            "title": "Twelfth Night",
+            "author": "William Shakespeare",
+            "year": 1601,
+            "genre": "fiction",
+            "description": "A classic work by William Shakespeare.",
+            "cover": "https://covers.openlibrary.org/b/title/Twelfth%20Night-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "twelfth_night_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "julius-caesar",
+            "title": "Julius Caesar",
+            "author": "William Shakespeare",
+            "year": 1599,
+            "genre": "fiction",
+            "description": "A classic work by William Shakespeare.",
+            "cover": "https://covers.openlibrary.org/b/title/Julius%20Caesar-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "julius_caesar_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "shakespeares-sonnets",
+            "title": "Shakespeare's Sonnets",
+            "author": "William Shakespeare",
+            "year": 1609,
+            "genre": "poetry",
+            "description": "A classic work by William Shakespeare.",
+            "cover": "https://covers.openlibrary.org/b/title/Shakespeare's%20Sonnets-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "sonnets_shakespeare_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-wealth-of-nations",
+            "title": "The Wealth of Nations",
+            "author": "Adam Smith",
+            "year": 1776,
+            "genre": "philosophy",
+            "description": "A classic work by Adam Smith.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Wealth%20of%20Nations-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "wealth_nations_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-communist-manifesto",
+            "title": "The Communist Manifesto",
+            "author": "Karl Marx",
+            "year": 1848,
+            "genre": "philosophy",
+            "description": "A classic work by Karl Marx.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Communist%20Manifesto-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "communist_manifesto_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "on-the-origin-of-species",
+            "title": "On the Origin of Species",
+            "author": "Charles Darwin",
+            "year": 1859,
+            "genre": "philosophy",
+            "description": "A classic work by Charles Darwin.",
+            "cover": "https://covers.openlibrary.org/b/title/On%20the%20Origin%20of%20Species-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "origin_species_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "thus-spoke-zarathustra",
+            "title": "Thus Spoke Zarathustra",
+            "author": "Friedrich Nietzsche",
+            "year": 1885,
+            "genre": "philosophy",
+            "description": "A classic work by Friedrich Nietzsche.",
+            "cover": "https://covers.openlibrary.org/b/title/Thus%20Spoke%20Zarathustra-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "thus_spoke_zarathustra_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "leviathan",
+            "title": "Leviathan",
+            "author": "Thomas Hobbes",
+            "year": 1651,
+            "genre": "philosophy",
+            "description": "A classic work by Thomas Hobbes.",
+            "cover": "https://covers.openlibrary.org/b/title/Leviathan-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "leviathan_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "utopia",
+            "title": "Utopia",
+            "author": "Thomas More",
+            "year": 1516,
+            "genre": "philosophy",
+            "description": "A classic work by Thomas More.",
+            "cover": "https://covers.openlibrary.org/b/title/Utopia-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "utopia_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-house-of-the-seven-gables",
+            "title": "The House of the Seven Gables",
+            "author": "Nathaniel Hawthorne",
+            "year": 1851,
+            "genre": "fiction",
+            "description": "A classic work by Nathaniel Hawthorne.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20House%20of%20the%20Seven%20Gables-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "house_seven_gables_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "billy-budd",
+            "title": "Billy Budd",
+            "author": "Herman Melville",
+            "year": 1891,
+            "genre": "fiction",
+            "description": "A classic work by Herman Melville.",
+            "cover": "https://covers.openlibrary.org/b/title/Billy%20Budd-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "billy_budd_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "bartleby-the-scrivener",
+            "title": "Bartleby, the Scrivener",
+            "author": "Herman Melville",
+            "year": 1853,
+            "genre": "fiction",
+            "description": "A classic work by Herman Melville.",
+            "cover": "https://covers.openlibrary.org/b/title/Bartleby%2C%20the%20Scrivener-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "bartleby_scrivener_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "leaves-of-grass",
+            "title": "Leaves of Grass",
+            "author": "Walt Whitman",
+            "year": 1855,
+            "genre": "poetry",
+            "description": "Whitman's revolutionary poetry collection.",
+            "cover": "https://covers.openlibrary.org/b/title/Leaves%20of%20Grass-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "leaves_grass_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-raven-and-other-poems",
+            "title": "The Raven and Other Poems",
+            "author": "Edgar Allan Poe",
+            "year": 1845,
+            "genre": "poetry",
+            "description": "Poe's most famous poem and others.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Raven%20and%20Other%20Poems-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "raven_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-fall-of-the-house-of-usher",
+            "title": "The Fall of the House of Usher",
+            "author": "Edgar Allan Poe",
+            "year": 1839,
+            "genre": "horror",
+            "description": "Poe's Gothic tale of decay and doom.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Fall%20of%20the%20House%20of%20Usher-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "fall_house_usher_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-telltale-heart",
+            "title": "The Tell-Tale Heart",
+            "author": "Edgar Allan Poe",
+            "year": 1843,
+            "genre": "horror",
+            "description": "Poe's story of guilt and madness.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Tell-Tale%20Heart-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "tell_tale_heart_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-cask-of-amontillado",
+            "title": "The Cask of Amontillado",
+            "author": "Edgar Allan Poe",
+            "year": 1846,
+            "genre": "horror",
+            "description": "A classic work by Edgar Allan Poe.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Cask%20of%20Amontillado-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "cask_amontillado_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-pit-and-the-pendulum",
+            "title": "The Pit and the Pendulum",
+            "author": "Edgar Allan Poe",
+            "year": 1842,
+            "genre": "horror",
+            "description": "A classic work by Edgar Allan Poe.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Pit%20and%20the%20Pendulum-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "pit_pendulum_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-masque-of-the-red-death",
+            "title": "The Masque of the Red Death",
+            "author": "Edgar Allan Poe",
+            "year": 1842,
+            "genre": "horror",
+            "description": "A classic work by Edgar Allan Poe.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Masque%20of%20the%20Red%20Death-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "masque_red_death_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "ethan-frome",
+            "title": "Ethan Frome",
+            "author": "Edith Wharton",
+            "year": 1911,
+            "genre": "fiction",
+            "description": "A classic work by Edith Wharton.",
+            "cover": "https://covers.openlibrary.org/b/title/Ethan%20Frome-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "ethan_frome_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-age-of-innocence",
+            "title": "The Age of Innocence",
+            "author": "Edith Wharton",
+            "year": 1920,
+            "genre": "romance",
+            "description": "A love triangle in 1870s New York society.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Age%20of%20Innocence-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "age_innocence_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-house-of-mirth",
+            "title": "The House of Mirth",
+            "author": "Edith Wharton",
+            "year": 1905,
+            "genre": "fiction",
+            "description": "A classic work by Edith Wharton.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20House%20of%20Mirth-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "house_mirth_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "daisy-miller",
+            "title": "Daisy Miller",
+            "author": "Henry James",
+            "year": 1878,
+            "genre": "fiction",
+            "description": "A classic work by Henry James.",
+            "cover": "https://covers.openlibrary.org/b/title/Daisy%20Miller-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "daisy_miller_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-turn-of-the-screw",
+            "title": "The Turn of the Screw",
+            "author": "Henry James",
+            "year": 1898,
+            "genre": "horror",
+            "description": "A governess sees ghosts - or does she?",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Turn%20of%20the%20Screw-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "turn_screw_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "washington-square",
+            "title": "Washington Square",
+            "author": "Henry James",
+            "year": 1880,
+            "genre": "fiction",
+            "description": "A classic work by Henry James.",
+            "cover": "https://covers.openlibrary.org/b/title/Washington%20Square-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "washington_square_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-red-badge-of-courage",
+            "title": "The Red Badge of Courage",
+            "author": "Stephen Crane",
+            "year": 1895,
+            "genre": "fiction",
+            "description": "A young soldier faces the reality of war.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Red%20Badge%20of%20Courage-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "red_badge_courage_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "sister-carrie",
+            "title": "Sister Carrie",
+            "author": "Theodore Dreiser",
+            "year": 1900,
+            "genre": "fiction",
+            "description": "A classic work by Theodore Dreiser.",
+            "cover": "https://covers.openlibrary.org/b/title/Sister%20Carrie-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "sister_carrie_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-jungle",
+            "title": "The Jungle",
+            "author": "Upton Sinclair",
+            "year": 1906,
+            "genre": "fiction",
+            "description": "An exposé of the meatpacking industry.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Jungle-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "jungle_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "main-street",
+            "title": "Main Street",
+            "author": "Sinclair Lewis",
+            "year": 1920,
+            "genre": "fiction",
+            "description": "A classic work by Sinclair Lewis.",
+            "cover": "https://covers.openlibrary.org/b/title/Main%20Street-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "main_street_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "babbitt",
+            "title": "Babbitt",
+            "author": "Sinclair Lewis",
+            "year": 1922,
+            "genre": "fiction",
+            "description": "A classic work by Sinclair Lewis.",
+            "cover": "https://covers.openlibrary.org/b/title/Babbitt-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "babbitt_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "winesburg-ohio",
+            "title": "Winesburg, Ohio",
+            "author": "Sherwood Anderson",
+            "year": 1919,
+            "genre": "fiction",
+            "description": "A classic work by Sherwood Anderson.",
+            "cover": "https://covers.openlibrary.org/b/title/Winesburg%2C%20Ohio-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "winesburg_ohio_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "dubliners",
+            "title": "Dubliners",
+            "author": "James Joyce",
+            "year": 1914,
+            "genre": "fiction",
+            "description": "Stories of life in early 20th century Dublin.",
+            "cover": "https://covers.openlibrary.org/b/title/Dubliners-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "dubliners_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "a-portrait-of-the-artist-as-a-young",
+            "title": "A Portrait of the Artist as a Young Man",
+            "author": "James Joyce",
+            "year": 1916,
+            "genre": "fiction",
+            "description": "A classic work by James Joyce.",
+            "cover": "https://covers.openlibrary.org/b/title/A%20Portrait%20of%20the%20Artist%20as%20a%20Young%20Man-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "portrait_artist_young_man_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "sons-and-lovers",
+            "title": "Sons and Lovers",
+            "author": "D.H. Lawrence",
+            "year": 1913,
+            "genre": "fiction",
+            "description": "A classic work by D.H. Lawrence.",
+            "cover": "https://covers.openlibrary.org/b/title/Sons%20and%20Lovers-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "sons_lovers_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-rainbow",
+            "title": "The Rainbow",
+            "author": "D.H. Lawrence",
+            "year": 1915,
+            "genre": "fiction",
+            "description": "A classic work by D.H. Lawrence.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Rainbow-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "rainbow_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "tess-of-the-durbervilles",
+            "title": "Tess of the d'Urbervilles",
+            "author": "Thomas Hardy",
+            "year": 1891,
+            "genre": "fiction",
+            "description": "A young woman's tragic fate.",
+            "cover": "https://covers.openlibrary.org/b/title/Tess%20of%20the%20d'Urbervilles-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "tess_durbervilles_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "jude-the-obscure",
+            "title": "Jude the Obscure",
+            "author": "Thomas Hardy",
+            "year": 1895,
+            "genre": "fiction",
+            "description": "A classic work by Thomas Hardy.",
+            "cover": "https://covers.openlibrary.org/b/title/Jude%20the%20Obscure-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "jude_obscure_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "far-from-the-madding-crowd",
+            "title": "Far from the Madding Crowd",
+            "author": "Thomas Hardy",
+            "year": 1874,
+            "genre": "romance",
+            "description": "A woman chooses between three suitors.",
+            "cover": "https://covers.openlibrary.org/b/title/Far%20from%20the%20Madding%20Crowd-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "far_madding_crowd_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-mayor-of-casterbridge",
+            "title": "The Mayor of Casterbridge",
+            "author": "Thomas Hardy",
+            "year": 1886,
+            "genre": "fiction",
+            "description": "A classic work by Thomas Hardy.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Mayor%20of%20Casterbridge-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "mayor_casterbridge_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-return-of-the-native",
+            "title": "The Return of the Native",
+            "author": "Thomas Hardy",
+            "year": 1878,
+            "genre": "fiction",
+            "description": "A classic work by Thomas Hardy.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Return%20of%20the%20Native-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "return_native_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "middlemarch",
+            "title": "Middlemarch",
+            "author": "George Eliot",
+            "year": 1871,
+            "genre": "fiction",
+            "description": "A panoramic view of English provincial life.",
+            "cover": "https://covers.openlibrary.org/b/title/Middlemarch-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "middlemarch_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "silas-marner",
+            "title": "Silas Marner",
+            "author": "George Eliot",
+            "year": 1861,
+            "genre": "fiction",
+            "description": "A weaver finds redemption through a child.",
+            "cover": "https://covers.openlibrary.org/b/title/Silas%20Marner-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "silas_marner_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-mill-on-the-floss",
+            "title": "The Mill on the Floss",
+            "author": "George Eliot",
+            "year": 1860,
+            "genre": "fiction",
+            "description": "A classic work by George Eliot.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Mill%20on%20the%20Floss-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "mill_floss_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "adam-bede",
+            "title": "Adam Bede",
+            "author": "George Eliot",
+            "year": 1859,
+            "genre": "fiction",
+            "description": "A classic work by George Eliot.",
+            "cover": "https://covers.openlibrary.org/b/title/Adam%20Bede-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "adam_bede_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "vanity-fair",
+            "title": "Vanity Fair",
+            "author": "William Makepeace Thackeray",
+            "year": 1848,
+            "genre": "fiction",
+            "description": "A satirical portrait of English society.",
+            "cover": "https://covers.openlibrary.org/b/title/Vanity%20Fair-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "vanity_fair_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "villette",
+            "title": "Villette",
+            "author": "Charlotte Brontë",
+            "year": 1853,
+            "genre": "romance",
+            "description": "A classic work by Charlotte Brontë.",
+            "cover": "https://covers.openlibrary.org/b/title/Villette-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "villette_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "shirley",
+            "title": "Shirley",
+            "author": "Charlotte Brontë",
+            "year": 1849,
+            "genre": "fiction",
+            "description": "A classic work by Charlotte Brontë.",
+            "cover": "https://covers.openlibrary.org/b/title/Shirley-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "shirley_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "agnes-grey",
+            "title": "Agnes Grey",
+            "author": "Anne Brontë",
+            "year": 1847,
+            "genre": "fiction",
+            "description": "A classic work by Anne Brontë.",
+            "cover": "https://covers.openlibrary.org/b/title/Agnes%20Grey-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "agnes_grey_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-tenant-of-wildfell-hall",
+            "title": "The Tenant of Wildfell Hall",
+            "author": "Anne Brontë",
+            "year": 1848,
+            "genre": "fiction",
+            "description": "A classic work by Anne Brontë.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Tenant%20of%20Wildfell%20Hall-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "tenant_wildfell_hall_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-moonstone",
+            "title": "The Moonstone",
+            "author": "Wilkie Collins",
+            "year": 1868,
+            "genre": "fiction",
+            "description": "An early detective novel about a stolen diamond.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Moonstone-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "moonstone_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-woman-in-white",
+            "title": "The Woman in White",
+            "author": "Wilkie Collins",
+            "year": 1859,
+            "genre": "fiction",
+            "description": "A mystery involving identity and inheritance.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Woman%20in%20White-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "woman_white_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-way-we-live-now",
+            "title": "The Way We Live Now",
+            "author": "Anthony Trollope",
+            "year": 1875,
+            "genre": "fiction",
+            "description": "A classic work by Anthony Trollope.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Way%20We%20Live%20Now-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "way_we_live_now_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "barchester-towers",
+            "title": "Barchester Towers",
+            "author": "Anthony Trollope",
+            "year": 1857,
+            "genre": "fiction",
+            "description": "A classic work by Anthony Trollope.",
+            "cover": "https://covers.openlibrary.org/b/title/Barchester%20Towers-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "barchester_towers_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "cranford",
+            "title": "Cranford",
+            "author": "Elizabeth Gaskell",
+            "year": 1853,
+            "genre": "fiction",
+            "description": "A classic work by Elizabeth Gaskell.",
+            "cover": "https://covers.openlibrary.org/b/title/Cranford-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "cranford_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "wives-and-daughters",
+            "title": "Wives and Daughters",
+            "author": "Elizabeth Gaskell",
+            "year": 1866,
+            "genre": "fiction",
+            "description": "A classic work by Elizabeth Gaskell.",
+            "cover": "https://covers.openlibrary.org/b/title/Wives%20and%20Daughters-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "wives_daughters_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "evelina",
+            "title": "Evelina",
+            "author": "Fanny Burney",
+            "year": 1778,
+            "genre": "romance",
+            "description": "A classic work by Fanny Burney.",
+            "cover": "https://covers.openlibrary.org/b/title/Evelina-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "evelina_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "pamela",
+            "title": "Pamela",
+            "author": "Samuel Richardson",
+            "year": 1740,
+            "genre": "romance",
+            "description": "A classic work by Samuel Richardson.",
+            "cover": "https://covers.openlibrary.org/b/title/Pamela-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "pamela_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "clarissa",
+            "title": "Clarissa",
+            "author": "Samuel Richardson",
+            "year": 1748,
+            "genre": "romance",
+            "description": "A classic work by Samuel Richardson.",
+            "cover": "https://covers.openlibrary.org/b/title/Clarissa-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "clarissa_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "tom-jones",
+            "title": "Tom Jones",
+            "author": "Henry Fielding",
+            "year": 1749,
+            "genre": "fiction",
+            "description": "A classic work by Henry Fielding.",
+            "cover": "https://covers.openlibrary.org/b/title/Tom%20Jones-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "tom_jones_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "joseph-andrews",
+            "title": "Joseph Andrews",
+            "author": "Henry Fielding",
+            "year": 1742,
+            "genre": "fiction",
+            "description": "A classic work by Henry Fielding.",
+            "cover": "https://covers.openlibrary.org/b/title/Joseph%20Andrews-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "joseph_andrews_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "tristram-shandy",
+            "title": "Tristram Shandy",
+            "author": "Laurence Sterne",
+            "year": 1759,
+            "genre": "fiction",
+            "description": "A classic work by Laurence Sterne.",
+            "cover": "https://covers.openlibrary.org/b/title/Tristram%20Shandy-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "tristram_shandy_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "a-sentimental-journey",
+            "title": "A Sentimental Journey",
+            "author": "Laurence Sterne",
+            "year": 1768,
+            "genre": "fiction",
+            "description": "A classic work by Laurence Sterne.",
+            "cover": "https://covers.openlibrary.org/b/title/A%20Sentimental%20Journey-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "sentimental_journey_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "moll-flanders",
+            "title": "Moll Flanders",
+            "author": "Daniel Defoe",
+            "year": 1722,
+            "genre": "fiction",
+            "description": "A classic work by Daniel Defoe.",
+            "cover": "https://covers.openlibrary.org/b/title/Moll%20Flanders-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "moll_flanders_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "a-journal-of-the-plague-year",
+            "title": "A Journal of the Plague Year",
+            "author": "Daniel Defoe",
+            "year": 1722,
+            "genre": "fiction",
+            "description": "A classic work by Daniel Defoe.",
+            "cover": "https://covers.openlibrary.org/b/title/A%20Journal%20of%20the%20Plague%20Year-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "journal_plague_year_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-pilgrims-progress",
+            "title": "The Pilgrim's Progress",
+            "author": "John Bunyan",
+            "year": 1678,
+            "genre": "fiction",
+            "description": "A classic work by John Bunyan.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Pilgrim's%20Progress-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "pilgrims_progress_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "candide",
+            "title": "Candide",
+            "author": "Voltaire",
+            "year": 1759,
+            "genre": "philosophy",
+            "description": "Voltaire's satirical tale of philosophy and adventure.",
+            "cover": "https://covers.openlibrary.org/b/title/Candide-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "candide_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "confessions",
+            "title": "Confessions",
+            "author": "Jean-Jacques Rousseau",
+            "year": 1782,
+            "genre": "fiction",
+            "description": "A classic work by Jean-Jacques Rousseau.",
+            "cover": "https://covers.openlibrary.org/b/title/Confessions-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "confessions_rousseau_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "sentimental-education",
+            "title": "Sentimental Education",
+            "author": "Gustave Flaubert",
+            "year": 1869,
+            "genre": "fiction",
+            "description": "A classic work by Gustave Flaubert.",
+            "cover": "https://covers.openlibrary.org/b/title/Sentimental%20Education-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "sentimental_education_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "pere-goriot",
+            "title": "Père Goriot",
+            "author": "Honoré de Balzac",
+            "year": 1835,
+            "genre": "fiction",
+            "description": "A classic work by Honoré de Balzac.",
+            "cover": "https://covers.openlibrary.org/b/title/P%C3%A8re%20Goriot-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "pere_goriot_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "eugenie-grandet",
+            "title": "Eugénie Grandet",
+            "author": "Honoré de Balzac",
+            "year": 1833,
+            "genre": "fiction",
+            "description": "A classic work by Honoré de Balzac.",
+            "cover": "https://covers.openlibrary.org/b/title/Eug%C3%A9nie%20Grandet-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "eugenie_grandet_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "germinal",
+            "title": "Germinal",
+            "author": "Émile Zola",
+            "year": 1885,
+            "genre": "fiction",
+            "description": "A classic work by Émile Zola.",
+            "cover": "https://covers.openlibrary.org/b/title/Germinal-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "germinal_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "nana",
+            "title": "Nana",
+            "author": "Émile Zola",
+            "year": 1880,
+            "genre": "fiction",
+            "description": "A classic work by Émile Zola.",
+            "cover": "https://covers.openlibrary.org/b/title/Nana-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "nana_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "therese-raquin",
+            "title": "Thérèse Raquin",
+            "author": "Émile Zola",
+            "year": 1867,
+            "genre": "fiction",
+            "description": "A classic work by Émile Zola.",
+            "cover": "https://covers.openlibrary.org/b/title/Th%C3%A9r%C3%A8se%20Raquin-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "therese_raquin_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-hunchback-of-notredame",
+            "title": "The Hunchback of Notre-Dame",
+            "author": "Victor Hugo",
+            "year": 1831,
+            "genre": "fiction",
+            "description": "Quasimodo's tragic love story.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Hunchback%20of%20Notre-Dame-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "hunchback_notre_dame_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-red-and-the-black",
+            "title": "The Red and the Black",
+            "author": "Stendhal",
+            "year": 1830,
+            "genre": "fiction",
+            "description": "A classic work by Stendhal.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Red%20and%20the%20Black-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "red_black_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-charterhouse-of-parma",
+            "title": "The Charterhouse of Parma",
+            "author": "Stendhal",
+            "year": 1839,
+            "genre": "fiction",
+            "description": "A classic work by Stendhal.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Charterhouse%20of%20Parma-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "chartreuse_parma_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "dangerous-liaisons",
+            "title": "Dangerous Liaisons",
+            "author": "Pierre Choderlos de Laclos",
+            "year": 1782,
+            "genre": "fiction",
+            "description": "A classic work by Pierre Choderlos de Laclos.",
+            "cover": "https://covers.openlibrary.org/b/title/Dangerous%20Liaisons-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "dangerous_liaisons_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "manon-lescaut",
+            "title": "Manon Lescaut",
+            "author": "Abbé Prévost",
+            "year": 1731,
+            "genre": "romance",
+            "description": "A classic work by Abbé Prévost.",
+            "cover": "https://covers.openlibrary.org/b/title/Manon%20Lescaut-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "manon_lescaut_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "carmen",
+            "title": "Carmen",
+            "author": "Prosper Mérimée",
+            "year": 1845,
+            "genre": "fiction",
+            "description": "A classic work by Prosper Mérimée.",
+            "cover": "https://covers.openlibrary.org/b/title/Carmen-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "carmen_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "cyrano-de-bergerac",
+            "title": "Cyrano de Bergerac",
+            "author": "Edmond Rostand",
+            "year": 1897,
+            "genre": "fiction",
+            "description": "A classic work by Edmond Rostand.",
+            "cover": "https://covers.openlibrary.org/b/title/Cyrano%20de%20Bergerac-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "cyrano_bergerac_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-phantom-of-the-opera",
+            "title": "The Phantom of the Opera",
+            "author": "Gaston Leroux",
+            "year": 1910,
+            "genre": "horror",
+            "description": "A masked genius haunts the Paris Opera.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Phantom%20of%20the%20Opera-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "phantom_opera_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "in-search-of-lost-time",
+            "title": "In Search of Lost Time",
+            "author": "Marcel Proust",
+            "year": 1913,
+            "genre": "fiction",
+            "description": "A classic work by Marcel Proust.",
+            "cover": "https://covers.openlibrary.org/b/title/In%20Search%20of%20Lost%20Time-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "in_search_lost_time_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "dead-souls",
+            "title": "Dead Souls",
+            "author": "Nikolai Gogol",
+            "year": 1842,
+            "genre": "fiction",
+            "description": "A satirical novel about Russian serfdom.",
+            "cover": "https://covers.openlibrary.org/b/title/Dead%20Souls-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "dead_souls_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-overcoat",
+            "title": "The Overcoat",
+            "author": "Nikolai Gogol",
+            "year": 1842,
+            "genre": "fiction",
+            "description": "A classic work by Nikolai Gogol.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Overcoat-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "overcoat_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "notes-from-underground",
+            "title": "Notes from Underground",
+            "author": "Fyodor Dostoevsky",
+            "year": 1864,
+            "genre": "fiction",
+            "description": "A bitter man's philosophical confessions.",
+            "cover": "https://covers.openlibrary.org/b/title/Notes%20from%20Underground-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "notes_underground_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-idiot",
+            "title": "The Idiot",
+            "author": "Fyodor Dostoevsky",
+            "year": 1869,
+            "genre": "fiction",
+            "description": "A classic work by Fyodor Dostoevsky.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Idiot-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "idiot_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "demons",
+            "title": "Demons",
+            "author": "Fyodor Dostoevsky",
+            "year": 1872,
+            "genre": "fiction",
+            "description": "A classic work by Fyodor Dostoevsky.",
+            "cover": "https://covers.openlibrary.org/b/title/Demons-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "demons_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-gambler",
+            "title": "The Gambler",
+            "author": "Fyodor Dostoevsky",
+            "year": 1867,
+            "genre": "fiction",
+            "description": "A classic work by Fyodor Dostoevsky.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Gambler-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "gambler_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "resurrection",
+            "title": "Resurrection",
+            "author": "Leo Tolstoy",
+            "year": 1899,
+            "genre": "fiction",
+            "description": "A classic work by Leo Tolstoy.",
+            "cover": "https://covers.openlibrary.org/b/title/Resurrection-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "resurrection_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-death-of-ivan-ilyich",
+            "title": "The Death of Ivan Ilyich",
+            "author": "Leo Tolstoy",
+            "year": 1886,
+            "genre": "fiction",
+            "description": "A man confronts his mortality.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Death%20of%20Ivan%20Ilyich-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "death_ivan_ilyich_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "hadji-murad",
+            "title": "Hadji Murad",
+            "author": "Leo Tolstoy",
+            "year": 1912,
+            "genre": "fiction",
+            "description": "A classic work by Leo Tolstoy.",
+            "cover": "https://covers.openlibrary.org/b/title/Hadji%20Murad-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "hadji_murad_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-kreutzer-sonata",
+            "title": "The Kreutzer Sonata",
+            "author": "Leo Tolstoy",
+            "year": 1889,
+            "genre": "fiction",
+            "description": "A classic work by Leo Tolstoy.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Kreutzer%20Sonata-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "kreutzer_sonata_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "fathers-and-sons",
+            "title": "Fathers and Sons",
+            "author": "Ivan Turgenev",
+            "year": 1862,
+            "genre": "fiction",
+            "description": "Generational conflict in 19th century Russia.",
+            "cover": "https://covers.openlibrary.org/b/title/Fathers%20and%20Sons-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "fathers_sons_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-cherry-orchard",
+            "title": "The Cherry Orchard",
+            "author": "Anton Chekhov",
+            "year": 1904,
+            "genre": "fiction",
+            "description": "A family faces the loss of their estate.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Cherry%20Orchard-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "cherry_orchard_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-seagull",
+            "title": "The Seagull",
+            "author": "Anton Chekhov",
+            "year": 1896,
+            "genre": "fiction",
+            "description": "A classic work by Anton Chekhov.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Seagull-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "seagull_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "three-sisters",
+            "title": "Three Sisters",
+            "author": "Anton Chekhov",
+            "year": 1901,
+            "genre": "fiction",
+            "description": "A classic work by Anton Chekhov.",
+            "cover": "https://covers.openlibrary.org/b/title/Three%20Sisters-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "three_sisters_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "uncle-vanya",
+            "title": "Uncle Vanya",
+            "author": "Anton Chekhov",
+            "year": 1898,
+            "genre": "fiction",
+            "description": "A classic work by Anton Chekhov.",
+            "cover": "https://covers.openlibrary.org/b/title/Uncle%20Vanya-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "uncle_vanya_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-lady-with-the-dog",
+            "title": "The Lady with the Dog",
+            "author": "Anton Chekhov",
+            "year": 1899,
+            "genre": "romance",
+            "description": "A classic work by Anton Chekhov.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Lady%20with%20the%20Dog-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "lady_dog_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "ward-no-6",
+            "title": "Ward No. 6",
+            "author": "Anton Chekhov",
+            "year": 1892,
+            "genre": "fiction",
+            "description": "A classic work by Anton Chekhov.",
+            "cover": "https://covers.openlibrary.org/b/title/Ward%20No.%206-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "ward_no_6_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "we",
+            "title": "We",
+            "author": "Yevgeny Zamyatin",
+            "year": 1924,
+            "genre": "scifi",
+            "description": "A classic work by Yevgeny Zamyatin.",
+            "cover": "https://covers.openlibrary.org/b/title/We-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "we_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-master-and-margarita",
+            "title": "The Master and Margarita",
+            "author": "Mikhail Bulgakov",
+            "year": 1967,
+            "genre": "fiction",
+            "description": "A classic work by Mikhail Bulgakov.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Master%20and%20Margarita-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "master_margarita_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "doctor-zhivago",
+            "title": "Doctor Zhivago",
+            "author": "Boris Pasternak",
+            "year": 1957,
+            "genre": "fiction",
+            "description": "A classic work by Boris Pasternak.",
+            "cover": "https://covers.openlibrary.org/b/title/Doctor%20Zhivago-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "doctor_zhivago_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-trial",
+            "title": "The Trial",
+            "author": "Franz Kafka",
+            "year": 1925,
+            "genre": "fiction",
+            "description": "A man is arrested for an unspecified crime.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Trial-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "trial_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-castle",
+            "title": "The Castle",
+            "author": "Franz Kafka",
+            "year": 1926,
+            "genre": "fiction",
+            "description": "A surveyor cannot reach the castle he's assigned to.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Castle-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "castle_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "siddhartha",
+            "title": "Siddhartha",
+            "author": "Hermann Hesse",
+            "year": 1922,
+            "genre": "philosophy",
+            "description": "A spiritual journey in ancient India.",
+            "cover": "https://covers.openlibrary.org/b/title/Siddhartha-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "siddhartha_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "steppenwolf",
+            "title": "Steppenwolf",
+            "author": "Hermann Hesse",
+            "year": 1927,
+            "genre": "fiction",
+            "description": "A classic work by Hermann Hesse.",
+            "cover": "https://covers.openlibrary.org/b/title/Steppenwolf-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "steppenwolf_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "all-quiet-on-the-western-front",
+            "title": "All Quiet on the Western Front",
+            "author": "Erich Maria Remarque",
+            "year": 1929,
+            "genre": "fiction",
+            "description": "The horror of WWI from a soldier's perspective.",
+            "cover": "https://covers.openlibrary.org/b/title/All%20Quiet%20on%20the%20Western%20Front-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "all_quiet_western_front_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "death-in-venice",
+            "title": "Death in Venice",
+            "author": "Thomas Mann",
+            "year": 1912,
+            "genre": "fiction",
+            "description": "A writer becomes obsessed with a young boy.",
+            "cover": "https://covers.openlibrary.org/b/title/Death%20in%20Venice-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "death_venice_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-magic-mountain",
+            "title": "The Magic Mountain",
+            "author": "Thomas Mann",
+            "year": 1924,
+            "genre": "fiction",
+            "description": "A classic work by Thomas Mann.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Magic%20Mountain-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "magic_mountain_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "the-sorrows-of-young-werther",
+            "title": "The Sorrows of Young Werther",
+            "author": "Johann Wolfgang von Goethe",
+            "year": 1774,
+            "genre": "romance",
+            "description": "A young artist's doomed love.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Sorrows%20of%20Young%20Werther-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "sorrows_young_werther_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "faust",
+            "title": "Faust",
+            "author": "Johann Wolfgang von Goethe",
+            "year": 1808,
+            "genre": "fiction",
+            "description": "A scholar makes a deal with the devil.",
+            "cover": "https://covers.openlibrary.org/b/title/Faust-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "faust_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "wilhelm-meisters-apprenticeship",
+            "title": "Wilhelm Meister's Apprenticeship",
+            "author": "Johann Wolfgang von Goethe",
+            "year": 1796,
+            "genre": "fiction",
+            "description": "A classic work by Johann Wolfgang von Goethe.",
+            "cover": "https://covers.openlibrary.org/b/title/Wilhelm%20Meister's%20Apprenticeship-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "wilhelm_meister_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
+        },
+        {
+            "id": "buddenbrooks",
+            "title": "Buddenbrooks",
+            "author": "Thomas Mann",
+            "year": 1901,
+            "genre": "fiction",
+            "description": "A classic work by Thomas Mann.",
+            "cover": "https://covers.openlibrary.org/b/title/Buddenbrooks-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "buddenbrooks_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": "Coming Soon"
+            }
         }
     ]
 }
