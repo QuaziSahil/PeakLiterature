@@ -30,9 +30,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 async function loadBooks() {
     try {
         // Handle both root and subfolder contexts
-        const basePath = window.location.pathname.includes('/') && !window.location.pathname.endsWith('/')
-            ? '../data/books.json'
-            : 'data/books.json';
+        // Check if we're in a known subfolder (audiobooks, ebooks, favorites, player, reader, stats)
+        const path = window.location.pathname;
+        const isInSubfolder = /\/(audiobooks|ebooks|favorites|player|reader|stats)(\/|$|\?)/.test(path);
+        const basePath = isInSubfolder ? '../data/books.json' : 'data/books.json';
+
         const response = await fetch(basePath);
         const data = await response.json();
         allBooks = data.books;
