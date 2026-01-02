@@ -730,7 +730,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/105/pg105.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "persuasion_etk",
+                "archiveId": "persuasion_0905_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -750,7 +750,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/2641/pg2641.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "roomwithaview_etk_librivox",
+                "archiveId": "room_view_ks_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -770,7 +770,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/4276/pg4276.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "north_and_south_librivox",
+                "archiveId": "north_and_south_0709_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -790,7 +790,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/2833/pg2833.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "portrait_lady_vol1_librivox",
+                "archiveId": "portrait_of_a_lady_1501_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -810,7 +810,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/2413/pg2413.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "madame_bovary_librivox",
+                "archiveId": "madame_bovary_0809_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -830,7 +830,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/164/pg164.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "20000_leagues_under_sea_librivox",
+                "archiveId": "20000_leagues_under_the_seas_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -850,7 +850,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/47/pg47.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "anne_of_avonlea_librivox",
+                "archiveId": "anne_avonlea",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -870,7 +870,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/45/pg45.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "anne_of_green_gables_2_librivox",
+                "archiveId": "anne_of_green_gables_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -890,7 +890,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/5200/pg5200.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "metamorphosis_kafka_librivox",
+                "archiveId": "metamorphosis_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -930,7 +930,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/146/pg146.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "little_princess_librivox",
+                "archiveId": "little_princess_krs",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -950,7 +950,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/1448/pg1448.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "heidi_librivox",
+                "archiveId": "heidi_solo_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -970,7 +970,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/289/pg289.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "wind_in_the_willows_librivox",
+                "archiveId": "wind_in_the_willows_collab_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -990,7 +990,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/2680/pg2680.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "meditations_ma_librivox",
+                "archiveId": "meditations_0708_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
