@@ -390,7 +390,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/2554/pg2554.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "crime_punishment_3_1708_librivox",
+                "archiveId": "crime_and_punishment_0902_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -570,7 +570,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/996/pg996.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "donquixote_2508_librivox",
+                "archiveId": "don_quijote_1_1001_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2650,7 +2650,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Hamlet-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "hamlet_librivox",
+                "archiveId": "hamlet_0911_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2670,7 +2670,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Macbeth-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "macbeth_librivox",
+                "archiveId": "macbeth_0810_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2690,7 +2690,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Othello-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "othello_librivox",
+                "archiveId": "othello_1005_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2730,7 +2730,7 @@
             "cover": "https://covers.openlibrary.org/b/title/A%20Midsummer%20Night's%20Dream-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "midsummer_nights_dream_librivox",
+                "archiveId": "midsummer_nights_dream_0811_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2750,7 +2750,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Merchant%20of%20Venice-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "merchant_venice_librivox",
+                "archiveId": "merchant_of_venice_1005_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2770,7 +2770,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Tempest-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "tempest_librivox",
+                "archiveId": "tempest_1002_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2830,7 +2830,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Twelfth%20Night-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "twelfth_night_librivox",
+                "archiveId": "twelfth_night_0906_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2850,7 +2850,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Julius%20Caesar-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "julius_caesar_librivox",
+                "archiveId": "juliuscaesar_1002_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
