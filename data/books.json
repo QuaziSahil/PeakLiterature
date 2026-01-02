@@ -999,6 +999,1066 @@
                 "epubUrl": "https://www.gutenberg.org/ebooks/2680.epub.noimages",
                 "source": "Project Gutenberg"
             }
+        },
+        {
+            "id": "the-art-of-war",
+            "title": "The Art of War",
+            "author": "Sun Tzu",
+            "year": 2006,
+            "genre": "philosophy",
+            "description": "Ancient Chinese military treatise on strategy and tactics.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Art%20of%20War-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "art_of_war_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "peter-pan",
+            "title": "Peter Pan",
+            "author": "J. M. Barrie",
+            "year": 1911,
+            "genre": "fiction",
+            "description": "The boy who never grows up takes children to Neverland.",
+            "cover": "https://www.gutenberg.org/cache/epub/16/pg16.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "peter_pan_0707_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "uncle-toms-cabin",
+            "title": "Uncle Tom's Cabin",
+            "author": "Harriet Beecher Stowe",
+            "year": 1852,
+            "genre": "fiction",
+            "description": "A powerful anti-slavery novel that changed America.",
+            "cover": "https://www.gutenberg.org/cache/epub/203/pg203.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "uncle_toms_cabin_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "grimms-fairy-tales",
+            "title": "Grimms' Fairy Tales",
+            "author": "Brothers Grimm",
+            "year": 1812,
+            "genre": "fiction",
+            "description": "Classic collection of German folk tales including Cinderella and Snow White.",
+            "cover": "https://covers.openlibrary.org/b/title/Grimms'%20Fairy%20Tales-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "grimms_english_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "the-swiss-family-robinson",
+            "title": "The Swiss Family Robinson",
+            "author": "Johann David Wyss",
+            "year": 1812,
+            "genre": "fiction",
+            "description": "A family shipwrecked on a tropical island builds a new life.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Swiss%20Family%20Robinson-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "swiss_family_robinson_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "andersens-fairy-tales",
+            "title": "Andersen's Fairy Tales",
+            "author": "Hans Christian Andersen",
+            "year": 1835,
+            "genre": "fiction",
+            "description": "Beautiful fairy tales including The Little Mermaid and The Ugly Duckling.",
+            "cover": "https://covers.openlibrary.org/b/title/Andersen's%20Fairy%20Tales-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "andersens_fairytales_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "the-adventures-of-pinocchio",
+            "title": "The Adventures of Pinocchio",
+            "author": "Carlo Collodi",
+            "year": 1883,
+            "genre": "fiction",
+            "description": "A wooden puppet dreams of becoming a real boy.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Adventures%20of%20Pinocchio-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "adventures_pinocchio_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "robinson-crusoe",
+            "title": "Robinson Crusoe",
+            "author": "Daniel Defoe",
+            "year": 1719,
+            "genre": "fiction",
+            "description": "A man survives alone on a deserted island for 28 years.",
+            "cover": "https://www.gutenberg.org/cache/epub/521/pg521.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "robinson_crusoe_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "walden",
+            "title": "Walden",
+            "author": "Henry David Thoreau",
+            "year": 1854,
+            "genre": "philosophy",
+            "description": "Thoreau's reflections on simple living in natural surroundings.",
+            "cover": "https://www.gutenberg.org/cache/epub/205/pg205.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "walden_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "the-wonderful-wizard-of-oz",
+            "title": "The Wonderful Wizard of Oz",
+            "author": "L. Frank Baum",
+            "year": 1900,
+            "genre": "fiction",
+            "description": "Dorothy's magical journey through the land of Oz.",
+            "cover": "https://www.gutenberg.org/cache/epub/55/pg55.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "wizard_of_oz",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "the-divine-comedy",
+            "title": "The Divine Comedy",
+            "author": "Dante Alighieri",
+            "year": 1320,
+            "genre": "fiction",
+            "description": "Dante's epic journey through Hell, Purgatory, and Paradise.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Divine%20Comedy-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "divine_comedy_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "heart-of-darkness",
+            "title": "Heart of Darkness",
+            "author": "Joseph Conrad",
+            "year": 1899,
+            "genre": "fiction",
+            "description": "A voyage up the Congo River into the heart of Africa.",
+            "cover": "https://www.gutenberg.org/cache/epub/219/pg219.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "heart_of_darkness",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "beowulf",
+            "title": "Beowulf",
+            "author": "Anonymous",
+            "year": 1000,
+            "genre": "fiction",
+            "description": "The Old English epic poem of a hero battling monsters.",
+            "cover": "https://www.gutenberg.org/cache/epub/16328/pg16328.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "beowulf_te_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "the-game-of-life-and-how-to-pl",
+            "title": "The Game of Life and How to Play It",
+            "author": "Florence Scovel Shinn",
+            "year": 1925,
+            "genre": "philosophy",
+            "description": "A guide to using the power of thought to create your reality.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Game%20of%20Life%20and%20How%20to%20Play%20It-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "game_of_life_0911_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "anthem",
+            "title": "Anthem",
+            "author": "Ayn Rand",
+            "year": 1938,
+            "genre": "scifi",
+            "description": "A dystopian novella about individuality and freedom.",
+            "cover": "https://covers.openlibrary.org/b/title/Anthem-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "anthem_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "bleak-house",
+            "title": "Bleak House",
+            "author": "Charles Dickens",
+            "year": 1853,
+            "genre": "fiction",
+            "description": "Dickens' masterpiece about the endless Jarndyce lawsuit.",
+            "cover": "https://www.gutenberg.org/cache/epub/1023/pg1023.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "bleak_house_cl_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "romeo-and-juliet",
+            "title": "Romeo and Juliet",
+            "author": "William Shakespeare",
+            "year": 1597,
+            "genre": "fiction",
+            "description": "Shakespeare's timeless tragedy of star-crossed lovers.",
+            "cover": "https://www.gutenberg.org/cache/epub/1513/pg1513.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "romeo_and_juliet_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "beyond-good-and-evil",
+            "title": "Beyond Good and Evil",
+            "author": "Friedrich Nietzsche",
+            "year": 1886,
+            "genre": "philosophy",
+            "description": "Nietzsche's critique of traditional morality.",
+            "cover": "https://covers.openlibrary.org/b/title/Beyond%20Good%20and%20Evil-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "beyond_good_and_evil_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "the-railway-children",
+            "title": "The Railway Children",
+            "author": "E. Nesbit",
+            "year": 1906,
+            "genre": "fiction",
+            "description": "Three children move to the countryside near a railway line.",
+            "cover": "https://www.gutenberg.org/cache/epub/1874/pg1874.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "railway_children_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "the-prince",
+            "title": "The Prince",
+            "author": "Niccolo Machiavelli",
+            "year": 1532,
+            "genre": "philosophy",
+            "description": "Machiavelli's famous treatise on political power.",
+            "cover": "https://www.gutenberg.org/cache/epub/1232/pg1232.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "prince_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "the-reluctant-dragon",
+            "title": "The Reluctant Dragon",
+            "author": "Kenneth Grahame",
+            "year": 1898,
+            "genre": "fiction",
+            "description": "A peaceful dragon who prefers poetry to fighting.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Reluctant%20Dragon-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "reluctant_dragon_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "2-b-r-0-2-b",
+            "title": "2 B R 0 2 B",
+            "author": "Kurt Vonnegut",
+            "year": 1962,
+            "genre": "scifi",
+            "description": "A satirical short story about population control.",
+            "cover": "https://covers.openlibrary.org/b/title/2%20B%20R%200%202%20B-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "2br02b_0801_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "the-amateur-cracksman",
+            "title": "The Amateur Cracksman",
+            "author": "E.W. Hornung",
+            "year": 1899,
+            "genre": "fiction",
+            "description": "The adventures of gentleman thief A.J. Raffles.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Amateur%20Cracksman-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "amateur_cracksman_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "fanny-hill",
+            "title": "Fanny Hill",
+            "author": "John Cleland",
+            "year": 1748,
+            "genre": "fiction",
+            "description": "An 18th-century erotic novel about a woman's life.",
+            "cover": "https://covers.openlibrary.org/b/title/Fanny%20Hill-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "fanny_hill_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "the-importance-of-being-earnes",
+            "title": "The Importance of Being Earnest",
+            "author": "Oscar Wilde",
+            "year": 1895,
+            "genre": "fiction",
+            "description": "Wilde's witty comedy of manners.",
+            "cover": "https://www.gutenberg.org/cache/epub/844/pg844.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "being_earnest_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "gullivers-travels",
+            "title": "Gulliver's Travels",
+            "author": "Jonathan Swift",
+            "year": 1726,
+            "genre": "fiction",
+            "description": "A satirical voyage to strange lands and peoples.",
+            "cover": "https://www.gutenberg.org/cache/epub/829/pg829.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "gulliver_ld_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "the-girl-on-the-boat",
+            "title": "The Girl on the Boat",
+            "author": "P.G. Wodehouse",
+            "year": 1922,
+            "genre": "fiction",
+            "description": "A Wodehouse romantic comedy on an ocean liner.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Girl%20on%20the%20Boat-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "girl_boat_1109_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "black-beauty",
+            "title": "Black Beauty",
+            "author": "Anna Sewell",
+            "year": 1877,
+            "genre": "fiction",
+            "description": "The autobiography of a horse and his various owners.",
+            "cover": "https://www.gutenberg.org/cache/epub/271/pg271.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "blackbeauty_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "my-man-jeeves",
+            "title": "My Man Jeeves",
+            "author": "P.G. Wodehouse",
+            "year": 1919,
+            "genre": "fiction",
+            "description": "Bertie Wooster and his brilliant valet Jeeves.",
+            "cover": "https://covers.openlibrary.org/b/title/My%20Man%20Jeeves-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "my_man_jeeves_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "kidnapped",
+            "title": "Kidnapped",
+            "author": "Robert Louis Stevenson",
+            "year": 1886,
+            "genre": "fiction",
+            "description": "A young Scotsman is kidnapped and has adventures in the Highlands.",
+            "cover": "https://www.gutenberg.org/cache/epub/421/pg421.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "kidnapped_0807_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "collected-works-of-hp-lovecraf",
+            "title": "Collected Works of H.P. Lovecraft",
+            "author": "H.P. Lovecraft",
+            "year": 1928,
+            "genre": "horror",
+            "description": "Tales of cosmic horror and the Cthulhu Mythos.",
+            "cover": "https://covers.openlibrary.org/b/title/Collected%20Works%20of%20H.P.%20Lovecraft-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "collected_lovecraft_0810_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "venus-in-furs",
+            "title": "Venus in Furs",
+            "author": "Leopold von Sacher-Masoch",
+            "year": 1870,
+            "genre": "fiction",
+            "description": "A novella exploring themes of obsession and submission.",
+            "cover": "https://covers.openlibrary.org/b/title/Venus%20in%20Furs-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "venus_furs_0810_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "northanger-abbey",
+            "title": "Northanger Abbey",
+            "author": "Jane Austen",
+            "year": 1817,
+            "genre": "romance",
+            "description": "Austen's parody of Gothic novels.",
+            "cover": "https://www.gutenberg.org/cache/epub/121/pg121.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "northanger_abbey_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "this-side-of-paradise",
+            "title": "This Side of Paradise",
+            "author": "F. Scott Fitzgerald",
+            "year": 1920,
+            "genre": "fiction",
+            "description": "Fitzgerald's debut about disenchanted post-WWI youth.",
+            "cover": "https://www.gutenberg.org/cache/epub/805/pg805.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "this_side_paradise_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "acres-of-diamonds",
+            "title": "Acres of Diamonds",
+            "author": "Russell Conwell",
+            "year": 1890,
+            "genre": "philosophy",
+            "description": "Inspirational lecture about finding opportunity at home.",
+            "cover": "https://covers.openlibrary.org/b/title/Acres%20of%20Diamonds-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "acres_of_diamonds_1008_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "the-antichrist",
+            "title": "The Antichrist",
+            "author": "Friedrich Nietzsche",
+            "year": 1895,
+            "genre": "philosophy",
+            "description": "Nietzsche's critique of Christianity.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Antichrist-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "antichrist_librivox_",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "the-three-musketeers",
+            "title": "The Three Musketeers",
+            "author": "Alexandre Dumas",
+            "year": 1844,
+            "genre": "fiction",
+            "description": "Swashbuckling adventures of Athos, Porthos, and Aramis.",
+            "cover": "https://www.gutenberg.org/cache/epub/1257/pg1257.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "three_musketeers_0712_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "first-love",
+            "title": "First Love",
+            "author": "Ivan Turgenev",
+            "year": 1860,
+            "genre": "romance",
+            "description": "Turgenev's tender novella about young romance.",
+            "cover": "https://covers.openlibrary.org/b/title/First%20Love-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "first_love_mg_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "the-merry-adventures-of-robin-",
+            "title": "The Merry Adventures of Robin Hood",
+            "author": "Howard Pyle",
+            "year": 1883,
+            "genre": "fiction",
+            "description": "Classic retelling of the legendary outlaw.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Merry%20Adventures%20of%20Robin%20Hood-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "merry_adventures_robin_hood_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "the-thirtynine-steps",
+            "title": "The Thirty-Nine Steps",
+            "author": "John Buchan",
+            "year": 1915,
+            "genre": "fiction",
+            "description": "A thriller about a man caught up in a spy plot.",
+            "cover": "https://www.gutenberg.org/cache/epub/558/pg558.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "39_steps_0807_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "as-a-man-thinketh",
+            "title": "As a Man Thinketh",
+            "author": "James Allen",
+            "year": 1903,
+            "genre": "philosophy",
+            "description": "A self-help classic on the power of thought.",
+            "cover": "https://covers.openlibrary.org/b/title/As%20a%20Man%20Thinketh-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "as_a_man_thinketh_mc_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "the-science-of-getting-rich",
+            "title": "The Science of Getting Rich",
+            "author": "Wallace D. Wattles",
+            "year": 1910,
+            "genre": "philosophy",
+            "description": "New Thought principles for achieving wealth.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Science%20of%20Getting%20Rich-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "science_gettingrich_1005_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "your-invisible-power",
+            "title": "Your Invisible Power",
+            "author": "Genevieve Behrend",
+            "year": 1921,
+            "genre": "philosophy",
+            "description": "A guide to visualization and mental science.",
+            "cover": "https://covers.openlibrary.org/b/title/Your%20Invisible%20Power-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "your_invisible_power_2104_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "alexander-the-great",
+            "title": "Alexander the Great",
+            "author": "Jacob Abbott",
+            "year": 1848,
+            "genre": "fiction",
+            "description": "Biography of the legendary Macedonian conqueror.",
+            "cover": "https://covers.openlibrary.org/b/title/Alexander%20the%20Great-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "alexander_great_ld_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "the-city-at-worlds-end",
+            "title": "The City at World's End",
+            "author": "Edmond Hamilton",
+            "year": 1951,
+            "genre": "scifi",
+            "description": "A town is transported to the far future.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20City%20at%20World's%20End-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "city_worlds_end_1203_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "king-solomons-mines",
+            "title": "King Solomon's Mines",
+            "author": "H. Rider Haggard",
+            "year": 1885,
+            "genre": "fiction",
+            "description": "An adventure to find legendary African treasure.",
+            "cover": "https://www.gutenberg.org/cache/epub/2166/pg2166.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "king_solomon_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "the-power-of-concentration",
+            "title": "The Power of Concentration",
+            "author": "Theron Q. Dumont",
+            "year": 1918,
+            "genre": "philosophy",
+            "description": "Lessons in developing mental focus.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Power%20of%20Concentration-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "power_concentration_0810_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "english-fairy-tales",
+            "title": "English Fairy Tales",
+            "author": "Joseph Jacobs",
+            "year": 1890,
+            "genre": "fiction",
+            "description": "Collection of traditional English fairy tales.",
+            "cover": "https://covers.openlibrary.org/b/title/English%20Fairy%20Tales-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "english_fairy_tales_joy_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "the-gods-of-mars",
+            "title": "The Gods of Mars",
+            "author": "Edgar Rice Burroughs",
+            "year": 1918,
+            "genre": "scifi",
+            "description": "John Carter's further adventures on Barsoom.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Gods%20of%20Mars-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "gods_of_mars_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "a-princess-of-mars",
+            "title": "A Princess of Mars",
+            "author": "Edgar Rice Burroughs",
+            "year": 1917,
+            "genre": "scifi",
+            "description": "John Carter is transported to Mars and finds adventure.",
+            "cover": "https://www.gutenberg.org/cache/epub/62/pg62.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "princess_of_mars_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "the-mysterious-island",
+            "title": "The Mysterious Island",
+            "author": "Jules Verne",
+            "year": 1875,
+            "genre": "scifi",
+            "description": "Castaways use science to survive on an island.",
+            "cover": "https://covers.openlibrary.org/b/title/The%20Mysterious%20Island-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "mysterious_island_ms_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "american-indian-fairy-tales",
+            "title": "American Indian Fairy Tales",
+            "author": "William Trowbridge Larned",
+            "year": 1921,
+            "genre": "fiction",
+            "description": "Native American folk tales and legends.",
+            "cover": "https://covers.openlibrary.org/b/title/American%20Indian%20Fairy%20Tales-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "american_indian_tales_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
+        },
+        {
+            "id": "penguin-island",
+            "title": "Penguin Island",
+            "author": "Anatole France",
+            "year": 1908,
+            "genre": "fiction",
+            "description": "A satirical novel about penguins who become human.",
+            "cover": "https://covers.openlibrary.org/b/title/Penguin%20Island-M.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "penguin_island_ms_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": false,
+                "gutenbergId": "",
+                "epubUrl": "",
+                "source": ""
+            }
         }
     ]
 }
