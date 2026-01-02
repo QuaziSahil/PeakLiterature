@@ -570,7 +570,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/996/pg996.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "don_quijote_1_1001_librivox",
+                "archiveId": "don_quixote_vol1_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -630,7 +630,7 @@
             "cover": "https://www.gutenberg.org/cache/epub/161/pg161.cover.medium.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "senseandsensibility_0703_librivox",
+                "archiveId": "sense_sensibility_ver3_ek",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2230,7 +2230,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Way%20of%20Peace-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "way_of_peace_0901_librivox",
+                "archiveId": "the_way_of_peace_0901_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2430,7 +2430,7 @@
             "cover": "https://covers.openlibrary.org/b/title/A%20Study%20in%20Scarlet-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "study_scarlet_0911_librivox",
+                "archiveId": "studyinscarlet_0811_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2450,7 +2450,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Hound%20of%20the%20Baskervilles-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "hound_baskervilles_1008_librivox",
+                "archiveId": "hound_baskervilles_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2470,7 +2470,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Sign%20of%20the%20Four-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "sign_four_librivox",
+                "archiveId": "sign_of_four_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2490,7 +2490,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Last%20of%20the%20Mohicans-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "last_mohicans_librivox",
+                "archiveId": "lastofthemohicans_0809_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2510,7 +2510,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Around%20the%20World%20in%20Eighty%20Days-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "around_world_80_days_librivox",
+                "archiveId": "around_the_world_in_eighty_days_0908_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2530,7 +2530,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Journey%20to%20the%20Center%20of%20the%20Earth-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "journey_center_earth_librivox",
+                "archiveId": "journey_verne_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2550,7 +2550,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Arabian%20Nights-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "arabian_nights_librivox",
+                "archiveId": "arabian_nights_01_0806",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2570,7 +2570,7 @@
             "cover": "https://covers.openlibrary.org/b/title/A%20Christmas%20Carol-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "christmas_carol_librivox",
+                "archiveId": "A_Christmas_Carol",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2590,7 +2590,7 @@
             "cover": "https://covers.openlibrary.org/b/title/David%20Copperfield-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "david_copperfield_librivox",
+                "archiveId": "david_copperfield_th_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2610,7 +2610,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Iliad-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "iliad_librivox",
+                "archiveId": "illiad_0801_librivox3",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2630,7 +2630,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Paradise%20Lost-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "paradise_lost_librivox",
+                "archiveId": "paradise_lost_08083_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2730,7 +2730,7 @@
             "cover": "https://covers.openlibrary.org/b/title/A%20Midsummer%20Night's%20Dream-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "midsummer_nights_dream_0811_librivox",
+                "archiveId": "midsummer_nights_dream_0806_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2790,7 +2790,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Much%20Ado%20About%20Nothing-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "much_ado_nothing_librivox",
+                "archiveId": "muchadoaboutnothing_1003_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2810,7 +2810,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Taming%20of%20the%20Shrew-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "taming_shrew_librivox",
+                "archiveId": "tamingoftheshrew_1009_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2870,7 +2870,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Shakespeare's%20Sonnets-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "sonnets_shakespeare_librivox",
+                "archiveId": "shakespeare_sonnets_ch",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2890,7 +2890,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Wealth%20of%20Nations-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "wealth_nations_librivox",
+                "archiveId": "wealth_nations01_se",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2910,7 +2910,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Communist%20Manifesto-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "communist_manifesto_librivox",
+                "archiveId": "communistmanifesto_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2950,7 +2950,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Thus%20Spoke%20Zarathustra-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "thus_spoke_zarathustra_librivox",
+                "archiveId": "zarathustra_0809_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2970,7 +2970,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Leviathan-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "leviathan_librivox",
+                "archiveId": "leviathan_1_2_0802_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -2990,7 +2990,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Utopia-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "utopia_librivox",
+                "archiveId": "utopia_j_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3010,7 +3010,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20House%20of%20the%20Seven%20Gables-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "house_seven_gables_librivox",
+                "archiveId": "house_sevengables_mfs_0904_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3030,7 +3030,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Billy%20Budd-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "billy_budd_librivox",
+                "archiveId": "billybudd_2001_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3050,7 +3050,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Bartleby%2C%20the%20Scrivener-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "bartleby_scrivener_librivox",
+                "archiveId": "bartleby_scrivener_1107_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3070,7 +3070,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Leaves%20of%20Grass-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "leaves_grass_librivox",
+                "archiveId": "leaves_of_grass_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3090,7 +3090,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Raven%20and%20Other%20Poems-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "raven_librivox",
+                "archiveId": "ravenandpoemspoe_pc_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3110,7 +3110,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Fall%20of%20the%20House%20of%20Usher-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "fall_house_usher_librivox",
+                "archiveId": "12_creepytales_1206_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3130,7 +3130,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Tell-Tale%20Heart-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "tell_tale_heart_librivox",
+                "archiveId": "12_creepytales_1206_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3150,7 +3150,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Cask%20of%20Amontillado-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "cask_amontillado_librivox",
+                "archiveId": "12_creepytales_1206_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3170,7 +3170,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Pit%20and%20the%20Pendulum-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "pit_pendulum_librivox",
+                "archiveId": "12_creepytales_1206_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3190,7 +3190,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Masque%20of%20the%20Red%20Death-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "masque_red_death_librivox",
+                "archiveId": "12_creepytales_1206_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3210,7 +3210,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Ethan%20Frome-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "ethan_frome_librivox",
+                "archiveId": "ethan_frome_0802_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3230,7 +3230,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Age%20of%20Innocence-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "age_innocence_librivox",
+                "archiveId": "age_of_innocence_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3250,7 +3250,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20House%20of%20Mirth-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "house_mirth_librivox",
+                "archiveId": "house_mirth_etk_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3270,7 +3270,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Daisy%20Miller-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "daisy_miller_librivox",
+                "archiveId": "daisy_miller_dramatic_reading_1308_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3330,7 +3330,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Red%20Badge%20of%20Courage-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "red_badge_courage_librivox",
+                "archiveId": "badge_courage_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3350,7 +3350,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Sister%20Carrie-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "sister_carrie_librivox",
+                "archiveId": "sister_carrie_0804_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3370,7 +3370,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Jungle-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "jungle_librivox",
+                "archiveId": "jungle_book_mh_0808_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3390,7 +3390,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Main%20Street-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "main_street_librivox",
+                "archiveId": "main_street_0707_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3410,7 +3410,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Babbitt-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "babbitt_librivox",
+                "archiveId": "babbitt_0903_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3430,7 +3430,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Winesburg%2C%20Ohio-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "winesburg_ohio_librivox",
+                "archiveId": "winesburg_ohio_0708_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3450,7 +3450,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Dubliners-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "dubliners_librivox",
+                "archiveId": "dubliners_0906_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3470,7 +3470,7 @@
             "cover": "https://covers.openlibrary.org/b/title/A%20Portrait%20of%20the%20Artist%20as%20a%20Young%20Man-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "portrait_artist_young_man_librivox",
+                "archiveId": "portrait_artist_pb_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3490,7 +3490,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Sons%20and%20Lovers-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "sons_lovers_librivox",
+                "archiveId": "sons_and_lovers_mfs_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3510,7 +3510,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Rainbow-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "rainbow_librivox",
+                "archiveId": "rainbow2_lawrence_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3530,7 +3530,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Tess%20of%20the%20d'Urbervilles-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "tess_durbervilles_librivox",
+                "archiveId": "tess_durbervilles_ap_0810_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3550,7 +3550,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Jude%20the%20Obscure-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "jude_obscure_librivox",
+                "archiveId": "jude_the_obscure_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3570,7 +3570,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Far%20from%20the%20Madding%20Crowd-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "far_madding_crowd_librivox",
+                "archiveId": "madding_crowd_0807_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3590,7 +3590,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Mayor%20of%20Casterbridge-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "mayor_casterbridge_librivox",
+                "archiveId": "mayor_of_casterbridge_0901_dl_librivox1",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3630,7 +3630,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Middlemarch-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "middlemarch_librivox",
+                "archiveId": "middlemarch_version2_1310_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3670,7 +3670,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Mill%20on%20the%20Floss-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "mill_floss_librivox",
+                "archiveId": "mill_on_the_floss_0812_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3690,7 +3690,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Adam%20Bede-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "adam_bede_librivox",
+                "archiveId": "adam_bede_0901_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3750,7 +3750,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Shirley-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "shirley_librivox",
+                "archiveId": "shirley_1006_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3770,7 +3770,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Agnes%20Grey-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "agnes_grey_librivox",
+                "archiveId": "agnes_grey_0906_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3790,7 +3790,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Tenant%20of%20Wildfell%20Hall-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "tenant_wildfell_hall_librivox",
+                "archiveId": "wildfell_hall_0712_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3810,7 +3810,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Moonstone-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "moonstone_librivox",
+                "archiveId": "moonstone_0802_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3830,7 +3830,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Woman%20in%20White-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "woman_white_librivox",
+                "archiveId": "woman_white_0811_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3850,7 +3850,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Way%20We%20Live%20Now-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "way_we_live_now_librivox",
+                "archiveId": "waywelivenow_dl_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3870,7 +3870,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Barchester%20Towers-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "barchester_towers_librivox",
+                "archiveId": "barchester_towers",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3890,7 +3890,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Cranford-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "cranford_librivox",
+                "archiveId": "cranford_sd_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3910,7 +3910,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Wives%20and%20Daughters-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "wives_daughters_librivox",
+                "archiveId": "wives_daughters_0710_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3930,7 +3930,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Evelina-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "evelina_librivox",
+                "archiveId": "evelina_0812_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3950,7 +3950,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Pamela-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "pamela_librivox",
+                "archiveId": "pamela_0910_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3970,7 +3970,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Clarissa-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "clarissa_librivox",
+                "archiveId": "clarissa_vol1_0907_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -3990,7 +3990,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Tom%20Jones-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "tom_jones_librivox",
+                "archiveId": "tomjones_0811_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4010,7 +4010,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Joseph%20Andrews-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "joseph_andrews_librivox",
+                "archiveId": "joseph_andrews_10_07_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4030,7 +4030,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Tristram%20Shandy-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "tristram_shandy_librivox",
+                "archiveId": "tristramshandy4_1008_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4050,7 +4050,7 @@
             "cover": "https://covers.openlibrary.org/b/title/A%20Sentimental%20Journey-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "sentimental_journey_librivox",
+                "archiveId": "sentimentaljourney_0911_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4090,7 +4090,7 @@
             "cover": "https://covers.openlibrary.org/b/title/A%20Journal%20of%20the%20Plague%20Year-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "journal_plague_year_librivox",
+                "archiveId": "journal_of_the_plague_year_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4150,7 +4150,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Confessions-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "confessions_rousseau_librivox",
+                "archiveId": "confessions_augustine_0911_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4170,7 +4170,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Sentimental%20Education-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "sentimental_education_librivox",
+                "archiveId": "sentimentaleducation_2110_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4190,7 +4190,7 @@
             "cover": "https://covers.openlibrary.org/b/title/P%C3%A8re%20Goriot-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "pere_goriot_librivox",
+                "archiveId": "le_pere_goriot_bnd_0808_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4210,7 +4210,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Eug%C3%A9nie%20Grandet-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "eugenie_grandet_librivox",
+                "archiveId": "eugenie_grandet_1504_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4230,7 +4230,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Germinal-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "germinal_librivox",
+                "archiveId": "germinal_1804_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4250,7 +4250,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Nana-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "nana_librivox",
+                "archiveId": "nanaversion2booknine_2510_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4270,7 +4270,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Th%C3%A9r%C3%A8se%20Raquin-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "therese_raquin_librivox",
+                "archiveId": "therese_raquin_1008_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4290,7 +4290,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Hunchback%20of%20Notre-Dame-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "hunchback_notre_dame_librivox",
+                "archiveId": "hunchback_notre_dame_mn_libriox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4310,7 +4310,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Red%20and%20the%20Black-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "red_black_librivox",
+                "archiveId": "red_black_v2_1308_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4330,7 +4330,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Charterhouse%20of%20Parma-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "chartreuse_parma_librivox",
+                "archiveId": "CharterhouseParma_2311_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4349,15 +4349,15 @@
             "description": "A classic work by Pierre Choderlos de Laclos.",
             "cover": "https://covers.openlibrary.org/b/title/Dangerous%20Liaisons-M.jpg",
             "audiobook": {
-                "available": true,
-                "archiveId": "dangerous_liaisons_librivox",
+                "available": false,
+                "archiveId": "",
                 "source": "LibriVox"
             },
             "ebook": {
                 "available": false,
                 "gutenbergId": "",
                 "epubUrl": "",
-                "source": "Coming Soon"
+                "source": "Unavailable (Copyright/Missing)"
             }
         },
         {
@@ -4370,7 +4370,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Manon%20Lescaut-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "manon_lescaut_librivox",
+                "archiveId": "manonlescaut_1712_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4390,7 +4390,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Carmen-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "carmen_librivox",
+                "archiveId": "carmen_venusille_neb_1009",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4410,7 +4410,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Cyrano%20de%20Bergerac-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "cyrano_bergerac_librivox",
+                "archiveId": "cyranodebergerac_1411_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4430,7 +4430,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Phantom%20of%20the%20Opera-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "phantom_opera_librivox",
+                "archiveId": "phantom6_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4450,7 +4450,7 @@
             "cover": "https://covers.openlibrary.org/b/title/In%20Search%20of%20Lost%20Time-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "in_search_lost_time_librivox",
+                "archiveId": "swannsway_1408_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4470,7 +4470,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Dead%20Souls-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "dead_souls_librivox",
+                "archiveId": "dead_souls_0910_librivox1",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4490,7 +4490,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Overcoat-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "overcoat_librivox",
+                "archiveId": "thegreenovercoat_2005_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4510,7 +4510,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Notes%20from%20Underground-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "notes_underground_librivox",
+                "archiveId": "notes_from_the_underground",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4530,7 +4530,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Idiot-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "idiot_librivox",
+                "archiveId": "idiot_mg_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4550,7 +4550,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Demons-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "demons_librivox",
+                "archiveId": "homilies_demons_2305_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4570,7 +4570,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Gambler-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "gambler_librivox",
+                "archiveId": "gambler_1011_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4590,7 +4590,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Resurrection-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "resurrection_librivox",
+                "archiveId": "resurrection_1_1002_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4610,7 +4610,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Death%20of%20Ivan%20Ilyich-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "death_ivan_ilyich_librivox",
+                "archiveId": "deathivanilyitch_1104_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4629,15 +4629,15 @@
             "description": "A classic work by Leo Tolstoy.",
             "cover": "https://covers.openlibrary.org/b/title/Hadji%20Murad-M.jpg",
             "audiobook": {
-                "available": true,
-                "archiveId": "hadji_murad_librivox",
+                "available": false,
+                "archiveId": "",
                 "source": "LibriVox"
             },
             "ebook": {
                 "available": false,
                 "gutenbergId": "",
                 "epubUrl": "",
-                "source": "Coming Soon"
+                "source": "Unavailable (Copyright/Missing)"
             }
         },
         {
@@ -4650,7 +4650,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Kreutzer%20Sonata-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "kreutzer_sonata_librivox",
+                "archiveId": "kreutzer_sonata_1101_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4670,7 +4670,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Fathers%20and%20Sons-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "fathers_sons_librivox",
+                "archiveId": "fathers_and_sons_0905_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4690,7 +4690,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Cherry%20Orchard-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "cherry_orchard_librivox",
+                "archiveId": "cherry_orchard_1008_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4710,7 +4710,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Seagull-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "seagull_librivox",
+                "archiveId": "seagull_0903_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4730,7 +4730,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Three%20Sisters-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "three_sisters_librivox",
+                "archiveId": "threesisters_1311_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4750,7 +4750,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Uncle%20Vanya-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "uncle_vanya_librivox",
+                "archiveId": "uncle_vanya_1006_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4770,7 +4770,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Lady%20with%20the%20Dog-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "lady_dog_librivox",
+                "archiveId": "ladywiththedog_1301_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4790,7 +4790,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Ward%20No.%206-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "ward_no_6_librivox",
+                "archiveId": "wardno6_1312_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4809,15 +4809,15 @@
             "description": "A classic work by Yevgeny Zamyatin.",
             "cover": "https://covers.openlibrary.org/b/title/We-M.jpg",
             "audiobook": {
-                "available": true,
-                "archiveId": "we_librivox",
+                "available": false,
+                "archiveId": "",
                 "source": "LibriVox"
             },
             "ebook": {
                 "available": false,
                 "gutenbergId": "",
                 "epubUrl": "",
-                "source": "Coming Soon"
+                "source": "Unavailable (Copyright/Missing)"
             }
         },
         {
@@ -4829,15 +4829,15 @@
             "description": "A classic work by Mikhail Bulgakov.",
             "cover": "https://covers.openlibrary.org/b/title/The%20Master%20and%20Margarita-M.jpg",
             "audiobook": {
-                "available": true,
-                "archiveId": "master_margarita_librivox",
+                "available": false,
+                "archiveId": "",
                 "source": "LibriVox"
             },
             "ebook": {
                 "available": false,
                 "gutenbergId": "",
                 "epubUrl": "",
-                "source": "Coming Soon"
+                "source": "Unavailable (Copyright/Missing)"
             }
         },
         {
@@ -4849,15 +4849,15 @@
             "description": "A classic work by Boris Pasternak.",
             "cover": "https://covers.openlibrary.org/b/title/Doctor%20Zhivago-M.jpg",
             "audiobook": {
-                "available": true,
-                "archiveId": "doctor_zhivago_librivox",
+                "available": false,
+                "archiveId": "",
                 "source": "LibriVox"
             },
             "ebook": {
                 "available": false,
                 "gutenbergId": "",
                 "epubUrl": "",
-                "source": "Coming Soon"
+                "source": "Unavailable (Copyright/Missing)"
             }
         },
         {
@@ -4870,7 +4870,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Trial-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "trial_librivox",
+                "archiveId": "trial_callista_blake_1208_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4890,7 +4890,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Castle-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "castle_librivox",
+                "archiveId": "enchanted_castle_pe_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4910,7 +4910,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Siddhartha-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "siddhartha_librivox",
+                "archiveId": "siddhartha_ap_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4930,7 +4930,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Steppenwolf-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "steppenwolf_librivox",
+                "archiveId": "steppenwolf_2501_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4950,7 +4950,7 @@
             "cover": "https://covers.openlibrary.org/b/title/All%20Quiet%20on%20the%20Western%20Front-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "all_quiet_western_front_librivox",
+                "archiveId": "allquietonthewesternfront_2505_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4970,7 +4970,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Death%20in%20Venice-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "death_venice_librivox",
+                "archiveId": "death_in_venice_ls_2109_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -4990,7 +4990,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Magic%20Mountain-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "magic_mountain_librivox",
+                "archiveId": "magic_mountain_v1_2305_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -5010,7 +5010,7 @@
             "cover": "https://covers.openlibrary.org/b/title/The%20Sorrows%20of%20Young%20Werther-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "sorrows_young_werther_librivox",
+                "archiveId": "sorrows_young_werther_1003_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -5030,7 +5030,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Faust-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "faust_librivox",
+                "archiveId": "faust1_1012_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -5050,7 +5050,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Wilhelm%20Meister's%20Apprenticeship-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "wilhelm_meister_librivox",
+                "archiveId": "wilhelmmeistersapprenticeshipvol2_2407_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
@@ -5070,7 +5070,7 @@
             "cover": "https://covers.openlibrary.org/b/title/Buddenbrooks-M.jpg",
             "audiobook": {
                 "available": true,
-                "archiveId": "buddenbrooks_librivox",
+                "archiveId": "buddenbrooks_bp_2204_librivox",
                 "source": "LibriVox"
             },
             "ebook": {
