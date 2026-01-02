@@ -699,6 +699,306 @@
                 "epubUrl": "https://www.gutenberg.org/ebooks/215.epub.noimages",
                 "source": "Project Gutenberg"
             }
+        },
+        {
+            "id": "little-women",
+            "title": "Little Women",
+            "author": "Louisa May Alcott",
+            "year": 1868,
+            "genre": "fiction",
+            "description": "Four sisters come of age in Civil War-era America.",
+            "cover": "https://www.gutenberg.org/cache/epub/514/pg514.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "little_women_0711_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "514",
+                "epubUrl": "https://www.gutenberg.org/ebooks/514.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "persuasion",
+            "title": "Persuasion",
+            "author": "Jane Austen",
+            "year": 1817,
+            "genre": "romance",
+            "description": "Anne Elliot reunites with a naval captain she was once persuaded to reject.",
+            "cover": "https://www.gutenberg.org/cache/epub/105/pg105.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "persuasion_etk",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "105",
+                "epubUrl": "https://www.gutenberg.org/ebooks/105.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "room-with-view",
+            "title": "A Room with a View",
+            "author": "E.M. Forster",
+            "year": 1908,
+            "genre": "romance",
+            "description": "A young woman's awakening to love and freedom in Italy and England.",
+            "cover": "https://www.gutenberg.org/cache/epub/2641/pg2641.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "roomwithaview_etk_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2641",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2641.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "north-and-south",
+            "title": "North and South",
+            "author": "Elizabeth Gaskell",
+            "year": 1855,
+            "genre": "romance",
+            "description": "A southern woman moves to industrial northern England and finds unexpected love.",
+            "cover": "https://www.gutenberg.org/cache/epub/4276/pg4276.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "north_and_south_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "4276",
+                "epubUrl": "https://www.gutenberg.org/ebooks/4276.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "portrait-lady",
+            "title": "The Portrait of a Lady",
+            "author": "Henry James",
+            "year": 1881,
+            "genre": "fiction",
+            "description": "An American woman navigates love and betrayal in European society.",
+            "cover": "https://www.gutenberg.org/cache/epub/2833/pg2833.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "portrait_lady_vol1_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2833",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2833.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "madame-bovary",
+            "title": "Madame Bovary",
+            "author": "Gustave Flaubert",
+            "year": 1857,
+            "genre": "fiction",
+            "description": "A doctor's wife seeks passion and escape from provincial life.",
+            "cover": "https://www.gutenberg.org/cache/epub/2413/pg2413.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "madame_bovary_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2413",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2413.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "20000-leagues",
+            "title": "20,000 Leagues Under the Sea",
+            "author": "Jules Verne",
+            "year": 1870,
+            "genre": "scifi",
+            "description": "Captain Nemo's submarine adventures beneath the ocean.",
+            "cover": "https://www.gutenberg.org/cache/epub/164/pg164.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "20000_leagues_under_sea_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "164",
+                "epubUrl": "https://www.gutenberg.org/ebooks/164.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "anne-avonlea",
+            "title": "Anne of Avonlea",
+            "author": "L.M. Montgomery",
+            "year": 1909,
+            "genre": "fiction",
+            "description": "Anne Shirley's adventures as a schoolteacher in Avonlea.",
+            "cover": "https://www.gutenberg.org/cache/epub/47/pg47.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "anne_of_avonlea_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "47",
+                "epubUrl": "https://www.gutenberg.org/ebooks/47.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "anne-green-gables",
+            "title": "Anne of Green Gables",
+            "author": "L.M. Montgomery",
+            "year": 1908,
+            "genre": "fiction",
+            "description": "An orphan girl finds a home and community on Prince Edward Island.",
+            "cover": "https://www.gutenberg.org/cache/epub/45/pg45.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "anne_of_green_gables_2_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "45",
+                "epubUrl": "https://www.gutenberg.org/ebooks/45.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "metamorphosis",
+            "title": "The Metamorphosis",
+            "author": "Franz Kafka",
+            "year": 1915,
+            "genre": "fiction",
+            "description": "A man wakes to find himself transformed into a giant insect.",
+            "cover": "https://www.gutenberg.org/cache/epub/5200/pg5200.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "metamorphosis_kafka_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "5200",
+                "epubUrl": "https://www.gutenberg.org/ebooks/5200.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "secret-garden",
+            "title": "The Secret Garden",
+            "author": "Frances Hodgson Burnett",
+            "year": 1911,
+            "genre": "fiction",
+            "description": "A spoiled orphan discovers a hidden garden and learns to grow.",
+            "cover": "https://www.gutenberg.org/cache/epub/113/pg113.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "secret_garden_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "113",
+                "epubUrl": "https://www.gutenberg.org/ebooks/113.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "little-princess",
+            "title": "A Little Princess",
+            "author": "Frances Hodgson Burnett",
+            "year": 1905,
+            "genre": "fiction",
+            "description": "A wealthy girl becomes a servant but never loses her princess spirit.",
+            "cover": "https://www.gutenberg.org/cache/epub/146/pg146.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "little_princess_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "146",
+                "epubUrl": "https://www.gutenberg.org/ebooks/146.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "heidi",
+            "title": "Heidi",
+            "author": "Johanna Spyri",
+            "year": 1881,
+            "genre": "fiction",
+            "description": "A young girl's life in the Swiss Alps with her grandfather.",
+            "cover": "https://www.gutenberg.org/cache/epub/1448/pg1448.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "heidi_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1448",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1448.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "wind-willows",
+            "title": "The Wind in the Willows",
+            "author": "Kenneth Grahame",
+            "year": 1908,
+            "genre": "fiction",
+            "description": "The adventures of Mole, Rat, Toad, and Badger along the riverbank.",
+            "cover": "https://www.gutenberg.org/cache/epub/289/pg289.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "wind_in_the_willows_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "289",
+                "epubUrl": "https://www.gutenberg.org/ebooks/289.epub.noimages",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "meditations",
+            "title": "Meditations",
+            "author": "Marcus Aurelius",
+            "year": 180,
+            "genre": "philosophy",
+            "description": "Personal writings of the Roman Emperor on Stoic philosophy.",
+            "cover": "https://www.gutenberg.org/cache/epub/2680/pg2680.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "meditations_ma_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2680",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2680.epub.noimages",
+                "source": "Project Gutenberg"
+            }
         }
     ]
 }
