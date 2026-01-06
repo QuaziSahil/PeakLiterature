@@ -5079,6 +5079,4006 @@
                 "epubUrl": "",
                 "source": "Coming Soon"
             }
+        },
+        {
+            "id": "frankenstein-or-the-modern-prometheus",
+            "title": "Frankenstein; Or, The Modern Prometheus",
+            "author": "Shelley, Mary Wollstonecraft",
+            "year": 1827,
+            "genre": "horror",
+            "description": "Frankenstein; Or, The Modern Prometheus by Shelley, Mary Wollstonecraft. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/84/pg84.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "frankenstein_cs_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "84",
+                "epubUrl": "https://www.gutenberg.org/ebooks/84.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "moby-dick-or-the-whale",
+            "title": "Moby Dick; Or, The Whale",
+            "author": "Melville, Herman",
+            "year": 1849,
+            "genre": "fiction",
+            "description": "Moby Dick; Or, The Whale by Melville, Herman. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/2701/pg2701.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "mobydick2_2511_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2701",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2701.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "a-christmas-carol-in-prose-being-a-ghost",
+            "title": "A Christmas Carol in Prose; Being a Ghost Story of Christmas",
+            "author": "Dickens, Charles",
+            "year": 1842,
+            "genre": "horror",
+            "description": "A Christmas Carol in Prose; Being a Ghost Story of Christmas by Dickens, Charles. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/46/pg46.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "christmas_carol_2101_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "46",
+                "epubUrl": "https://www.gutenberg.org/ebooks/46.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-strange-case-of-dr-jekyll-and-mr-hyd",
+            "title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+            "author": "Stevenson, Robert Louis",
+            "year": 1880,
+            "genre": "horror",
+            "description": "The Strange Case of Dr. Jekyll and Mr. Hyde by Stevenson, Robert Louis. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/43/pg43.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "drjeckyll_and_mr_hyde_1901_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "43",
+                "epubUrl": "https://www.gutenberg.org/ebooks/43.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-king-in-yellow",
+            "title": "The King in Yellow",
+            "author": "Chambers, Robert W. (Robert William)",
+            "year": 1895,
+            "genre": "horror",
+            "description": "The King in Yellow by Chambers, Robert W. (Robert William). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/8492/pg8492.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "king_in_yellow_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "8492",
+                "epubUrl": "https://www.gutenberg.org/ebooks/8492.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-enchanted-april",
+            "title": "The Enchanted April",
+            "author": "Von Arnim, Elizabeth",
+            "year": 1896,
+            "genre": "romance",
+            "description": "The Enchanted April by Von Arnim, Elizabeth. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/16389/pg16389.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "enchanted_april_dk_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "16389",
+                "epubUrl": "https://www.gutenberg.org/ebooks/16389.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "jane-eyre-an-autobiography",
+            "title": "Jane Eyre: An Autobiography",
+            "author": "Brontë, Charlotte",
+            "year": 1846,
+            "genre": "romance",
+            "description": "Jane Eyre: An Autobiography by Brontë, Charlotte. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1260/pg1260.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "jane_eyre_2208_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1260",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1260.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-expedition-of-humphry-clinker",
+            "title": "The Expedition of Humphry Clinker",
+            "author": "Smollett, T. (Tobias)",
+            "year": 1751,
+            "genre": "fiction",
+            "description": "The Expedition of Humphry Clinker by Smollett, T. (Tobias). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/2160/pg2160.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "expedition_humphry_clinker_0908_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2160",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2160.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "twenty-years-after",
+            "title": "Twenty years after",
+            "author": "Dumas, Alexandre",
+            "year": 1832,
+            "genre": "fiction",
+            "description": "Twenty years after by Dumas, Alexandre. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1259/pg1259.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "twentyyearsafter_0904_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1259",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1259.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "history-of-tom-jones-a-foundling",
+            "title": "History of Tom Jones, a Foundling",
+            "author": "Fielding, Henry",
+            "year": 1737,
+            "genre": "fiction",
+            "description": "History of Tom Jones, a Foundling by Fielding, Henry. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/6593/pg6593.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "tomjones_0811_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "6593",
+                "epubUrl": "https://www.gutenberg.org/ebooks/6593.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-adventures-of-roderick-random",
+            "title": "The Adventures of Roderick Random",
+            "author": "Smollett, T. (Tobias)",
+            "year": 1751,
+            "genre": "fiction",
+            "description": "The Adventures of Roderick Random by Smollett, T. (Tobias). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/4085/pg4085.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "roderick_random_1508_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "4085",
+                "epubUrl": "https://www.gutenberg.org/ebooks/4085.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "thus-spake-zarathustra-a-book-for-all-an",
+            "title": "Thus Spake Zarathustra: A Book for All and None",
+            "author": "Nietzsche, Friedrich Wilhelm",
+            "year": 1874,
+            "genre": "philosophy",
+            "description": "Thus Spake Zarathustra: A Book for All and None by Nietzsche, Friedrich Wilhelm. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1998/pg1998.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "zarathustra_2010_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1998",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1998.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "ulysses",
+            "title": "Ulysses",
+            "author": "Joyce, James",
+            "year": 1912,
+            "genre": "fiction",
+            "description": "Ulysses by Joyce, James. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/4300/pg4300.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "ulysses_lamb_rd_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "4300",
+                "epubUrl": "https://www.gutenberg.org/ebooks/4300.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-book-of-christmas",
+            "title": "The Book of Christmas",
+            "author": "Various",
+            "year": 1900,
+            "genre": "fiction",
+            "description": "The Book of Christmas by Various. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/66957/pg66957.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "childrens_book_of_christmas_2305_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "66957",
+                "epubUrl": "https://www.gutenberg.org/ebooks/66957.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "on-liberty",
+            "title": "On Liberty",
+            "author": "Mill, John Stuart",
+            "year": 1836,
+            "genre": "fiction",
+            "description": "On Liberty by Mill, John Stuart. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/34901/pg34901.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "onliberty_2505_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "34901",
+                "epubUrl": "https://www.gutenberg.org/ebooks/34901.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-souls-of-black-folk",
+            "title": "The Souls of Black Folk",
+            "author": "Du Bois, W. E. B. (William Edward Burghardt)",
+            "year": 1898,
+            "genre": "fiction",
+            "description": "The Souls of Black Folk by Du Bois, W. E. B. (William Edward Burghardt). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/408/pg408.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "souls_of_black_folk_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "408",
+                "epubUrl": "https://www.gutenberg.org/ebooks/408.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "right-ho-jeeves",
+            "title": "Right Ho, Jeeves",
+            "author": "Wodehouse, P. G. (Pelham Grenville)",
+            "year": 1911,
+            "genre": "fiction",
+            "description": "Right Ho, Jeeves by Wodehouse, P. G. (Pelham Grenville). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/10554/pg10554.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "right_ho_jeeves_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "10554",
+                "epubUrl": "https://www.gutenberg.org/ebooks/10554.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-aeneid",
+            "title": "The Aeneid",
+            "author": "Virgil",
+            "year": -40,
+            "genre": "poetry",
+            "description": "The Aeneid by Virgil. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/228/pg228.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "aeneid_0810_librivox1",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "228",
+                "epubUrl": "https://www.gutenberg.org/ebooks/228.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "simple-sabotage-field-manual",
+            "title": "Simple Sabotage Field Manual",
+            "author": "United States. Office of Strategic Services",
+            "year": 1900,
+            "genre": "fiction",
+            "description": "Simple Sabotage Field Manual by United States. Office of Strategic Services. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/26184/pg26184.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "simple_sabotage_0908_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "26184",
+                "epubUrl": "https://www.gutenberg.org/ebooks/26184.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-legend-of-sleepy-hollow",
+            "title": "The Legend of Sleepy Hollow",
+            "author": "Irving, Washington",
+            "year": 1813,
+            "genre": "horror",
+            "description": "The Legend of Sleepy Hollow by Irving, Washington. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/41/pg41.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "sleepyhollow_1206_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "41",
+                "epubUrl": "https://www.gutenberg.org/ebooks/41.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-critique-of-pure-reason",
+            "title": "The Critique of Pure Reason",
+            "author": "Kant, Immanuel",
+            "year": 1754,
+            "genre": "philosophy",
+            "description": "The Critique of Pure Reason by Kant, Immanuel. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/4280/pg4280.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "critique_pure_reason_0709_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "4280",
+                "epubUrl": "https://www.gutenberg.org/ebooks/4280.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "antiquities-of-the-jews",
+            "title": "Antiquities of the Jews",
+            "author": "Josephus, Flavius",
+            "year": 67,
+            "genre": "fiction",
+            "description": "Antiquities of the Jews by Josephus, Flavius. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/2848/pg2848.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "antiquities_of_jews_1002_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2848",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2848.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "autobiography-of-benjamin-franklin",
+            "title": "Autobiography of Benjamin Franklin",
+            "author": "Franklin, Benjamin",
+            "year": 1736,
+            "genre": "fiction",
+            "description": "Autobiography of Benjamin Franklin by Franklin, Benjamin. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/20203/pg20203.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "autobiography_1912_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "20203",
+                "epubUrl": "https://www.gutenberg.org/ebooks/20203.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "rip-van-winkle",
+            "title": "Rip Van Winkle",
+            "author": "Irving, Washington",
+            "year": 1813,
+            "genre": "fiction",
+            "description": "Rip Van Winkle by Irving, Washington. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/60976/pg60976.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "ripvanwinkleofthekalahari_2505_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "60976",
+                "epubUrl": "https://www.gutenberg.org/ebooks/60976.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "don-juan",
+            "title": "Don Juan",
+            "author": "Byron, George Gordon Byron, Baron",
+            "year": 1818,
+            "genre": "poetry",
+            "description": "Don Juan by Byron, George Gordon Byron, Baron. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/21700/pg21700.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "donjuan_2110_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "21700",
+                "epubUrl": "https://www.gutenberg.org/ebooks/21700.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "notes-from-the-underground",
+            "title": "Notes from the Underground",
+            "author": "Dostoyevsky, Fyodor",
+            "year": 1851,
+            "genre": "fiction",
+            "description": "Notes from the Underground by Dostoyevsky, Fyodor. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/600/pg600.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "notes_from_the_underground",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "600",
+                "epubUrl": "https://www.gutenberg.org/ebooks/600.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "on-war",
+            "title": "On War",
+            "author": "Clausewitz, Carl von",
+            "year": 1810,
+            "genre": "fiction",
+            "description": "On War by Clausewitz, Carl von. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1946/pg1946.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "on_war_vol2and3_1403_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1946",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1946.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "symposium",
+            "title": "Symposium",
+            "author": "Plato",
+            "year": -398,
+            "genre": "romance",
+            "description": "Symposium by Plato. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1600/pg1600.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "symposium_1403_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1600",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1600.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "carmilla",
+            "title": "Carmilla",
+            "author": "Le Fanu, Joseph Sheridan",
+            "year": 1844,
+            "genre": "fiction",
+            "description": "Carmilla by Le Fanu, Joseph Sheridan. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/10007/pg10007.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "carmilla_s_lefanu_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "10007",
+                "epubUrl": "https://www.gutenberg.org/ebooks/10007.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "nature",
+            "title": "Nature",
+            "author": "Emerson, Ralph Waldo",
+            "year": 1833,
+            "genre": "philosophy",
+            "description": "Nature by Emerson, Ralph Waldo. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/29433/pg29433.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "humannatureconduct1_1807_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "29433",
+                "epubUrl": "https://www.gutenberg.org/ebooks/29433.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-prince-and-the-pauper",
+            "title": "The Prince and the Pauper",
+            "author": "Twain, Mark",
+            "year": 1865,
+            "genre": "fiction",
+            "description": "The Prince and the Pauper by Twain, Mark. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1837/pg1837.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "princeandthepauper_1601_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1837",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1837.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "hector-berlioz-a-romantic-tragedy",
+            "title": "Hector Berlioz: A Romantic Tragedy",
+            "author": "Peyser, Herbert F. (Herbert Francis)",
+            "year": 1916,
+            "genre": "fiction",
+            "description": "Hector Berlioz: A Romantic Tragedy by Peyser, Herbert F. (Herbert Francis). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/49235/pg49235.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "hector_berlioz_a_romantic_tragedy_1607_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "49235",
+                "epubUrl": "https://www.gutenberg.org/ebooks/49235.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "myths-and-legends-of-ancient-greece-and-",
+            "title": "Myths and Legends of Ancient Greece and Rome",
+            "author": "Berens, E. M.",
+            "year": 1900,
+            "genre": "fiction",
+            "description": "Myths and Legends of Ancient Greece and Rome by Berens, E. M.. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/22381/pg22381.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "myths_and_legends_0810_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "22381",
+                "epubUrl": "https://www.gutenberg.org/ebooks/22381.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-gift-of-the-magi",
+            "title": "The Gift of the Magi",
+            "author": "Henry, O.",
+            "year": 1892,
+            "genre": "fiction",
+            "description": "The Gift of the Magi by Henry, O.. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/7256/pg7256.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "giftofmagi",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "7256",
+                "epubUrl": "https://www.gutenberg.org/ebooks/7256.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "twenty-thousand-leagues-under-the-sea",
+            "title": "Twenty Thousand Leagues under the Sea",
+            "author": "Verne, Jules",
+            "year": 1858,
+            "genre": "scifi",
+            "description": "Twenty Thousand Leagues under the Sea by Verne, Jules. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/164/pg164.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "twentythousandleagues_1311_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "164",
+                "epubUrl": "https://www.gutenberg.org/ebooks/164.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "hard-times",
+            "title": "Hard Times",
+            "author": "Dickens, Charles",
+            "year": 1842,
+            "genre": "fiction",
+            "description": "Hard Times by Dickens, Charles. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/786/pg786.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "hard_times_dickens_0709_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "786",
+                "epubUrl": "https://www.gutenberg.org/ebooks/786.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-life-and-adventures-of-robinson-crus",
+            "title": "The Life and Adventures of Robinson Crusoe",
+            "author": "Defoe, Daniel",
+            "year": 1900,
+            "genre": "fiction",
+            "description": "The Life and Adventures of Robinson Crusoe by Defoe, Daniel. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/521/pg521.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "robinson_crusoe_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "521",
+                "epubUrl": "https://www.gutenberg.org/ebooks/521.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-elementary-forms-of-the-religious-li",
+            "title": "The Elementary Forms of the Religious Life",
+            "author": "Durkheim, Émile",
+            "year": 1888,
+            "genre": "philosophy",
+            "description": "The Elementary Forms of the Religious Life by Durkheim, Émile. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/41360/pg41360.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "elementaryforms_2301_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "41360",
+                "epubUrl": "https://www.gutenberg.org/ebooks/41360.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-problems-of-philosophy",
+            "title": "The Problems of Philosophy",
+            "author": "Russell, Bertrand",
+            "year": 1902,
+            "genre": "philosophy",
+            "description": "The Problems of Philosophy by Russell, Bertrand. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/5827/pg5827.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "problemsofphilosophy_1706_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "5827",
+                "epubUrl": "https://www.gutenberg.org/ebooks/5827.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-elements-of-style",
+            "title": "The Elements of Style",
+            "author": "Strunk, William",
+            "year": 1899,
+            "genre": "fiction",
+            "description": "The Elements of Style by Strunk, William. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/37134/pg37134.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "elements_of_style_1004_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "37134",
+                "epubUrl": "https://www.gutenberg.org/ebooks/37134.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-professor",
+            "title": "The Professor",
+            "author": "Brontë, Charlotte",
+            "year": 1846,
+            "genre": "romance",
+            "description": "The Professor by Brontë, Charlotte. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1028/pg1028.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "professor_0905_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1028",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1028.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-reign-of-greed",
+            "title": "The Reign of Greed",
+            "author": "Rizal, José",
+            "year": 1891,
+            "genre": "fiction",
+            "description": "The Reign of Greed by Rizal, José. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/10676/pg10676.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "el_filibusterismo_2008_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "10676",
+                "epubUrl": "https://www.gutenberg.org/ebooks/10676.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-history-of-the-peloponnesian-war",
+            "title": "The History of the Peloponnesian War",
+            "author": "Thucydides",
+            "year": -430,
+            "genre": "fiction",
+            "description": "The History of the Peloponnesian War by Thucydides. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/7142/pg7142.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "history_peloponnesian_war_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "7142",
+                "epubUrl": "https://www.gutenberg.org/ebooks/7142.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "ethics",
+            "title": "Ethics",
+            "author": "Spinoza, Benedictus de",
+            "year": 1662,
+            "genre": "philosophy",
+            "description": "Ethics by Spinoza, Benedictus de. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/3800/pg3800.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "problem_modern_ethics_1106_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "3800",
+                "epubUrl": "https://www.gutenberg.org/ebooks/3800.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "life-on-the-mississippi",
+            "title": "Life on the Mississippi",
+            "author": "Twain, Mark",
+            "year": 1865,
+            "genre": "fiction",
+            "description": "Life on the Mississippi by Twain, Mark. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/245/pg245.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "life_mississippi_jg_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "245",
+                "epubUrl": "https://www.gutenberg.org/ebooks/245.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "common-sense",
+            "title": "Common Sense",
+            "author": "Paine, Thomas",
+            "year": 1767,
+            "genre": "fiction",
+            "description": "Common Sense by Paine, Thomas. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/147/pg147.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "commonsense3_1502_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "147",
+                "epubUrl": "https://www.gutenberg.org/ebooks/147.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "pygmalion",
+            "title": "Pygmalion",
+            "author": "Shaw, Bernard",
+            "year": 1886,
+            "genre": "fiction",
+            "description": "Pygmalion by Shaw, Bernard. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/3825/pg3825.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "pygmalion_0906_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "3825",
+                "epubUrl": "https://www.gutenberg.org/ebooks/3825.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-lady-of-the-lake",
+            "title": "The Lady of the Lake",
+            "author": "Scott, Walter",
+            "year": 1801,
+            "genre": "romance",
+            "description": "The Lady of the Lake by Scott, Walter. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/3011/pg3011.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "ladyofthelake_1503_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "3011",
+                "epubUrl": "https://www.gutenberg.org/ebooks/3011.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-birth-of-tragedy-or-hellenism-and-pe",
+            "title": "The Birth of Tragedy; or, Hellenism and Pessimism",
+            "author": "Nietzsche, Friedrich Wilhelm",
+            "year": 1874,
+            "genre": "philosophy",
+            "description": "The Birth of Tragedy; or, Hellenism and Pessimism by Nietzsche, Friedrich Wilhelm. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/51356/pg51356.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "birthoftragedy_2102_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "51356",
+                "epubUrl": "https://www.gutenberg.org/ebooks/51356.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "songs-of-innocence-and-of-experience",
+            "title": "Songs of Innocence and of Experience",
+            "author": "Blake, William",
+            "year": 1787,
+            "genre": "poetry",
+            "description": "Songs of Innocence and of Experience by Blake, William. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1934/pg1934.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "songsofinnocenceandexperience_2001_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1934",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1934.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "lysistrata",
+            "title": "Lysistrata",
+            "author": "Aristophanes",
+            "year": -420,
+            "genre": "fiction",
+            "description": "Lysistrata by Aristophanes. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/7700/pg7700.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "lysistrata_1709_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "7700",
+                "epubUrl": "https://www.gutenberg.org/ebooks/7700.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-life-and-opinions-of-tristram-shandy",
+            "title": "The life and opinions of Tristram Shandy, gentleman",
+            "author": "Sterne, Laurence",
+            "year": 1743,
+            "genre": "fiction",
+            "description": "The life and opinions of Tristram Shandy, gentleman by Sterne, Laurence. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1079/pg1079.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "tristramshandy4_1008_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1079",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1079.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "three-men-in-a-boat-to-say-nothing-of-th",
+            "title": "Three men in a boat (to say nothing of the dog)",
+            "author": "Jerome, Jerome K. (Jerome Klapka)",
+            "year": 1889,
+            "genre": "fiction",
+            "description": "Three men in a boat (to say nothing of the dog) by Jerome, Jerome K. (Jerome Klapka). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/308/pg308.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "three_men_boat_version_3_nb_1406_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "308",
+                "epubUrl": "https://www.gutenberg.org/ebooks/308.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "all-about-coffee",
+            "title": "All about coffee",
+            "author": "Ukers, William H. (William Harrison)",
+            "year": 1903,
+            "genre": "fiction",
+            "description": "All about coffee by Ukers, William H. (William Harrison). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/28500/pg28500.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "all_about_coffee_2212_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "28500",
+                "epubUrl": "https://www.gutenberg.org/ebooks/28500.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-prophet",
+            "title": "The Prophet",
+            "author": "Gibran, Kahlil",
+            "year": 1913,
+            "genre": "poetry",
+            "description": "The Prophet by Gibran, Kahlil. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/58585/pg58585.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "prophet3_1908_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "58585",
+                "epubUrl": "https://www.gutenberg.org/ebooks/58585.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-marriage-of-heaven-and-hell",
+            "title": "The Marriage of Heaven and Hell",
+            "author": "Blake, William",
+            "year": 1787,
+            "genre": "fiction",
+            "description": "The Marriage of Heaven and Hell by Blake, William. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/45315/pg45315.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "marriageheavenhell_1607_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "45315",
+                "epubUrl": "https://www.gutenberg.org/ebooks/45315.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "anabasis",
+            "title": "Anabasis",
+            "author": "Xenophon",
+            "year": -401,
+            "genre": "fiction",
+            "description": "Anabasis by Xenophon. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1170/pg1170.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "anabasis_1912_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1170",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1170.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "de-profundis",
+            "title": "De Profundis",
+            "author": "Wilde, Oscar",
+            "year": 1884,
+            "genre": "fiction",
+            "description": "De Profundis by Wilde, Oscar. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/921/pg921.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "de_profundis_ae_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "921",
+                "epubUrl": "https://www.gutenberg.org/ebooks/921.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "mansfield-park",
+            "title": "Mansfield Park",
+            "author": "Austen, Jane",
+            "year": 1805,
+            "genre": "romance",
+            "description": "Mansfield Park by Austen, Jane. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/141/pg141.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "mansfield_park_1104_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "141",
+                "epubUrl": "https://www.gutenberg.org/ebooks/141.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "white-fang",
+            "title": "White Fang",
+            "author": "London, Jack",
+            "year": 1906,
+            "genre": "fiction",
+            "description": "White Fang by London, Jack. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/910/pg910.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "whitefang2_1010_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "910",
+                "epubUrl": "https://www.gutenberg.org/ebooks/910.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "some-christmas-stories",
+            "title": "Some Christmas Stories",
+            "author": "Dickens, Charles",
+            "year": 1842,
+            "genre": "fiction",
+            "description": "Some Christmas Stories by Dickens, Charles. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1467/pg1467.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "short_christmas_stories_jv_2012_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1467",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1467.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "a-pickle-for-the-knowing-ones",
+            "title": "A Pickle for the Knowing Ones",
+            "author": "Dexter, Timothy",
+            "year": 1777,
+            "genre": "fiction",
+            "description": "A Pickle for the Knowing Ones by Dexter, Timothy. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/43453/pg43453.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "pickle_2306_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "43453",
+                "epubUrl": "https://www.gutenberg.org/ebooks/43453.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "little-brother",
+            "title": "Little Brother",
+            "author": "Doctorow, Cory",
+            "year": 2001,
+            "genre": "fiction",
+            "description": "Little Brother by Doctorow, Cory. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/30142/pg30142.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "littlebrothertothebear_1602_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "30142",
+                "epubUrl": "https://www.gutenberg.org/ebooks/30142.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "omens-and-superstitions-of-southern-indi",
+            "title": "Omens and Superstitions of Southern India",
+            "author": "Thurston, Edgar",
+            "year": 1885,
+            "genre": "fiction",
+            "description": "Omens and Superstitions of Southern India by Thurston, Edgar. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/35690/pg35690.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "omens_southern_india_1203_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "35690",
+                "epubUrl": "https://www.gutenberg.org/ebooks/35690.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "phaedrus",
+            "title": "Phaedrus",
+            "author": "Plato",
+            "year": -398,
+            "genre": "romance",
+            "description": "Phaedrus by Plato. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1636/pg1636.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "phaedrus_1005_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1636",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1636.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-consolation-of-philosophy",
+            "title": "The Consolation of Philosophy",
+            "author": "Boethius",
+            "year": 510,
+            "genre": "philosophy",
+            "description": "The Consolation of Philosophy by Boethius. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/14328/pg14328.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "the_consolation_of_philosophy_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "14328",
+                "epubUrl": "https://www.gutenberg.org/ebooks/14328.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "roughing-it",
+            "title": "Roughing It",
+            "author": "Twain, Mark",
+            "year": 1865,
+            "genre": "fiction",
+            "description": "Roughing It by Twain, Mark. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/3177/pg3177.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "roughing_in_bush_mf_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "3177",
+                "epubUrl": "https://www.gutenberg.org/ebooks/3177.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-enchiridion",
+            "title": "The Enchiridion",
+            "author": "Epictetus",
+            "year": 85,
+            "genre": "philosophy",
+            "description": "The Enchiridion by Epictetus. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/45109/pg45109.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "enchiridion_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "45109",
+                "epubUrl": "https://www.gutenberg.org/ebooks/45109.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-anatomy-of-melancholy",
+            "title": "The Anatomy of Melancholy",
+            "author": "Burton, Robert",
+            "year": 1607,
+            "genre": "fiction",
+            "description": "The Anatomy of Melancholy by Burton, Robert. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/10800/pg10800.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "anatomy_melancholy3_1211_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "10800",
+                "epubUrl": "https://www.gutenberg.org/ebooks/10800.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-mystery-of-edwin-drood",
+            "title": "The Mystery of Edwin Drood",
+            "author": "Dickens, Charles",
+            "year": 1842,
+            "genre": "mystery",
+            "description": "The Mystery of Edwin Drood by Dickens, Charles. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/564/pg564.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "edwin_drood_0901_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "564",
+                "epubUrl": "https://www.gutenberg.org/ebooks/564.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-pickwick-papers",
+            "title": "The Pickwick Papers",
+            "author": "Dickens, Charles",
+            "year": 1842,
+            "genre": "fiction",
+            "description": "The Pickwick Papers by Dickens, Charles. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/580/pg580.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "pickwick_papers_v3_1605_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "580",
+                "epubUrl": "https://www.gutenberg.org/ebooks/580.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-happy-prince-and-other-tales",
+            "title": "The Happy Prince, and Other Tales",
+            "author": "Wilde, Oscar",
+            "year": 1884,
+            "genre": "fiction",
+            "description": "The Happy Prince, and Other Tales by Wilde, Oscar. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/902/pg902.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "happyprinceothertales_1705_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "902",
+                "epubUrl": "https://www.gutenberg.org/ebooks/902.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-first-book-of-adam-and-eve",
+            "title": "The First Book of Adam and Eve",
+            "author": "Platt, Rutherford Hayes",
+            "year": 1924,
+            "genre": "fiction",
+            "description": "The First Book of Adam and Eve by Platt, Rutherford Hayes. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/398/pg398.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "firstbook_adameve_1001_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "398",
+                "epubUrl": "https://www.gutenberg.org/ebooks/398.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-jewish-state",
+            "title": "The Jewish State",
+            "author": "Herzl, Theodor",
+            "year": 1890,
+            "genre": "fiction",
+            "description": "The Jewish State by Herzl, Theodor. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/25282/pg25282.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "jewishstate_0810_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "25282",
+                "epubUrl": "https://www.gutenberg.org/ebooks/25282.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "hedda-gabler",
+            "title": "Hedda Gabler",
+            "author": "Ibsen, Henrik",
+            "year": 1858,
+            "genre": "fiction",
+            "description": "Hedda Gabler by Ibsen, Henrik. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/4093/pg4093.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "hedda_gabler_1002_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "4093",
+                "epubUrl": "https://www.gutenberg.org/ebooks/4093.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-practice-of-the-presence-of-god",
+            "title": "The Practice of the Presence of God",
+            "author": "Lawrence, of the Resurrection, Brother",
+            "year": 1641,
+            "genre": "fiction",
+            "description": "The Practice of the Presence of God by Lawrence, of the Resurrection, Brother. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/5657/pg5657.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "thepracticeofthepresenceofgod_1401_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "5657",
+                "epubUrl": "https://www.gutenberg.org/ebooks/5657.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "biographia-literaria",
+            "title": "Biographia Literaria",
+            "author": "Coleridge, Samuel Taylor",
+            "year": 1802,
+            "genre": "poetry",
+            "description": "Biographia Literaria by Coleridge, Samuel Taylor. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/6081/pg6081.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "biographialiteraria_1702_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "6081",
+                "epubUrl": "https://www.gutenberg.org/ebooks/6081.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-federalist-papers",
+            "title": "The Federalist Papers",
+            "author": "Hamilton, Alexander",
+            "year": 1787,
+            "genre": "fiction",
+            "description": "The Federalist Papers by Hamilton, Alexander. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1404/pg1404.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "federalistpapers_2202_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1404",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1404.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-castle-of-otranto",
+            "title": "The Castle of Otranto",
+            "author": "Walpole, Horace",
+            "year": 1747,
+            "genre": "horror",
+            "description": "The Castle of Otranto by Walpole, Horace. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/696/pg696.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "castle_of_otranto_0810_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "696",
+                "epubUrl": "https://www.gutenberg.org/ebooks/696.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "memoirs-of-extraordinary-popular-delusio",
+            "title": "Memoirs of Extraordinary Popular Delusions and the Madness of Crowds",
+            "author": "Mackay, Charles",
+            "year": 1844,
+            "genre": "fiction",
+            "description": "Memoirs of Extraordinary Popular Delusions and the Madness of Crowds by Mackay, Charles. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/24518/pg24518.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "populardelusion_vol2_1805_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "24518",
+                "epubUrl": "https://www.gutenberg.org/ebooks/24518.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "revelations-of-divine-love",
+            "title": "Revelations of Divine Love",
+            "author": "Julian, of Norwich",
+            "year": 1373,
+            "genre": "fiction",
+            "description": "Revelations of Divine Love by Julian, of Norwich. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/52958/pg52958.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "revelations_of_divine_love_drb_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "52958",
+                "epubUrl": "https://www.gutenberg.org/ebooks/52958.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "lone-star-planet",
+            "title": "Lone Star Planet",
+            "author": "Piper, H. Beam",
+            "year": 1934,
+            "genre": "scifi",
+            "description": "Lone Star Planet by Piper, H. Beam. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/20121/pg20121.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "lone_star_planet_0910_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "20121",
+                "epubUrl": "https://www.gutenberg.org/ebooks/20121.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-innocents-abroad",
+            "title": "The Innocents Abroad",
+            "author": "Twain, Mark",
+            "year": 1865,
+            "genre": "fiction",
+            "description": "The Innocents Abroad by Twain, Mark. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/3176/pg3176.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "innocentsabroad_1407_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "3176",
+                "epubUrl": "https://www.gutenberg.org/ebooks/3176.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "how-we-think",
+            "title": "How We Think",
+            "author": "Dewey, John",
+            "year": 1889,
+            "genre": "fiction",
+            "description": "How We Think by Dewey, John. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/37423/pg37423.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "how_we_think_la_1512_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "37423",
+                "epubUrl": "https://www.gutenberg.org/ebooks/37423.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-canterbury-tales-and-other-poems",
+            "title": "The Canterbury Tales, and Other Poems",
+            "author": "Chaucer, Geoffrey",
+            "year": 1372,
+            "genre": "poetry",
+            "description": "The Canterbury Tales, and Other Poems by Chaucer, Geoffrey. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/2383/pg2383.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "canterburytales_2401_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2383",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2383.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "plays",
+            "title": "Plays",
+            "author": "Glaspell, Susan",
+            "year": 1906,
+            "genre": "fiction",
+            "description": "Plays by Glaspell, Susan. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/10623/pg10623.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "nohplaysofjapan_1602_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "10623",
+                "epubUrl": "https://www.gutenberg.org/ebooks/10623.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-call-of-cthulhu",
+            "title": "The call of Cthulhu",
+            "author": "Lovecraft, H. P. (Howard Phillips)",
+            "year": 1920,
+            "genre": "horror",
+            "description": "The call of Cthulhu by Lovecraft, H. P. (Howard Phillips). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/68283/pg68283.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "thecallofcthulhu_2206_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "68283",
+                "epubUrl": "https://www.gutenberg.org/ebooks/68283.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-gilded-age-a-tale-of-today",
+            "title": "The Gilded Age: A Tale of Today",
+            "author": "Twain, Mark",
+            "year": 1865,
+            "genre": "fiction",
+            "description": "The Gilded Age: A Tale of Today by Twain, Mark. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/3178/pg3178.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "the_gilded_age_jg_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "3178",
+                "epubUrl": "https://www.gutenberg.org/ebooks/3178.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "an-enquiry-concerning-human-understandin",
+            "title": "An Enquiry Concerning Human Understanding",
+            "author": "Hume, David",
+            "year": 1741,
+            "genre": "philosophy",
+            "description": "An Enquiry Concerning Human Understanding by Hume, David. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/9662/pg9662.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "human_understanding_0711_lv_2",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "9662",
+                "epubUrl": "https://www.gutenberg.org/ebooks/9662.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "gilbert-keith-chesterton",
+            "title": "Gilbert Keith Chesterton",
+            "author": "Ward, Maisie",
+            "year": 1919,
+            "genre": "fiction",
+            "description": "Gilbert Keith Chesterton by Ward, Maisie. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/18707/pg18707.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "gilbertkeithchesterton_2002_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "18707",
+                "epubUrl": "https://www.gutenberg.org/ebooks/18707.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-golden-bough-a-study-of-magic-and-re",
+            "title": "The Golden Bough: A Study of Magic and Religion",
+            "author": "Frazer, James George",
+            "year": 1884,
+            "genre": "fiction",
+            "description": "The Golden Bough: A Study of Magic and Religion by Frazer, James George. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/3623/pg3623.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "golden_bough_5_vol2_2311_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "3623",
+                "epubUrl": "https://www.gutenberg.org/ebooks/3623.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "just-so-stories",
+            "title": "Just so stories",
+            "author": "Kipling, Rudyard",
+            "year": 1895,
+            "genre": "fiction",
+            "description": "Just so stories by Kipling, Rudyard. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/2781/pg2781.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "justsostories1301",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2781",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2781.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "sketches-new-and-old",
+            "title": "Sketches New and Old",
+            "author": "Twain, Mark",
+            "year": 1865,
+            "genre": "fiction",
+            "description": "Sketches New and Old by Twain, Mark. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/3189/pg3189.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "sketches_newandold_0912_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "3189",
+                "epubUrl": "https://www.gutenberg.org/ebooks/3189.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-pursuit-of-god",
+            "title": "The Pursuit of God",
+            "author": "Tozer, A. W. (Aiden Wilson)",
+            "year": 1927,
+            "genre": "romance",
+            "description": "The Pursuit of God by Tozer, A. W. (Aiden Wilson). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/25141/pg25141.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "pursuit_of_god_1105_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "25141",
+                "epubUrl": "https://www.gutenberg.org/ebooks/25141.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-tale-of-peter-rabbit",
+            "title": "The Tale of Peter Rabbit",
+            "author": "Potter, Beatrix",
+            "year": 1896,
+            "genre": "fiction",
+            "description": "The Tale of Peter Rabbit by Potter, Beatrix. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/14838/pg14838.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "thetaleofpeterrabbitandothers_2008_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "14838",
+                "epubUrl": "https://www.gutenberg.org/ebooks/14838.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "a-passage-to-india",
+            "title": "A passage to India",
+            "author": "Forster, E. M. (Edward Morgan)",
+            "year": 1909,
+            "genre": "fiction",
+            "description": "A passage to India by Forster, E. M. (Edward Morgan). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/61221/pg61221.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "passage_to_india_2207_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "61221",
+                "epubUrl": "https://www.gutenberg.org/ebooks/61221.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "two-on-a-tower",
+            "title": "Two on a Tower",
+            "author": "Hardy, Thomas",
+            "year": 1870,
+            "genre": "romance",
+            "description": "Two on a Tower by Hardy, Thomas. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/3146/pg3146.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "twoonatower_th_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "3146",
+                "epubUrl": "https://www.gutenberg.org/ebooks/3146.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-man-who-was-thursday-a-nightmare",
+            "title": "The Man Who Was Thursday: A Nightmare",
+            "author": "Chesterton, G. K. (Gilbert Keith)",
+            "year": 1904,
+            "genre": "mystery",
+            "description": "The Man Who Was Thursday: A Nightmare by Chesterton, G. K. (Gilbert Keith). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1695/pg1695.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "man_thursday_zach_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1695",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1695.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "human-all-too-human-a-book-for-free-spir",
+            "title": "Human, All Too Human: A Book for Free Spirits",
+            "author": "Nietzsche, Friedrich Wilhelm",
+            "year": 1874,
+            "genre": "fiction",
+            "description": "Human, All Too Human: A Book for Free Spirits by Nietzsche, Friedrich Wilhelm. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/38145/pg38145.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "human_all_too_human_1908_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "38145",
+                "epubUrl": "https://www.gutenberg.org/ebooks/38145.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-innocence-of-father-brown",
+            "title": "The innocence of Father Brown",
+            "author": "Chesterton, G. K. (Gilbert Keith)",
+            "year": 1904,
+            "genre": "mystery",
+            "description": "The innocence of Father Brown by Chesterton, G. K. (Gilbert Keith). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/204/pg204.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "innocence_father_brown_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "204",
+                "epubUrl": "https://www.gutenberg.org/ebooks/204.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "following-the-equator-a-journey-around-t",
+            "title": "Following the Equator: A Journey Around the World",
+            "author": "Twain, Mark",
+            "year": 1865,
+            "genre": "fiction",
+            "description": "Following the Equator: A Journey Around the World by Twain, Mark. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/2895/pg2895.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "following_the_equator_0910_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2895",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2895.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "on-the-duty-of-civil-disobedience",
+            "title": "On the Duty of Civil Disobedience",
+            "author": "Thoreau, Henry David",
+            "year": 1847,
+            "genre": "fiction",
+            "description": "On the Duty of Civil Disobedience by Thoreau, Henry David. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/71/pg71.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "civil_disobedience_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "71",
+                "epubUrl": "https://www.gutenberg.org/ebooks/71.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "mrs-dalloway",
+            "title": "Mrs. Dalloway",
+            "author": "Woolf, Virginia",
+            "year": 1912,
+            "genre": "fiction",
+            "description": "Mrs. Dalloway by Woolf, Virginia. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/71865/pg71865.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "mrsdalloway_2111_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "71865",
+                "epubUrl": "https://www.gutenberg.org/ebooks/71865.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-flowers-of-evil",
+            "title": "The Flowers of Evil",
+            "author": "Baudelaire, Charles",
+            "year": 1851,
+            "genre": "poetry",
+            "description": "The Flowers of Evil by Baudelaire, Charles. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/36098/pg36098.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "flowersofevil_1410_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "36098",
+                "epubUrl": "https://www.gutenberg.org/ebooks/36098.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "phaedo",
+            "title": "Phaedo",
+            "author": "Plato",
+            "year": -398,
+            "genre": "philosophy",
+            "description": "Phaedo by Plato. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1658/pg1658.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "phaedo_1105_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1658",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1658.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-interpretation-of-dreams",
+            "title": "The Interpretation of Dreams",
+            "author": "Freud, Sigmund",
+            "year": 1886,
+            "genre": "fiction",
+            "description": "The Interpretation of Dreams by Freud, Sigmund. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/66048/pg66048.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "interpretationofdreams_1401_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "66048",
+                "epubUrl": "https://www.gutenberg.org/ebooks/66048.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "autobiography-of-a-yogi",
+            "title": "Autobiography of a Yogi",
+            "author": "Yogananda, Paramahansa",
+            "year": 1923,
+            "genre": "fiction",
+            "description": "Autobiography of a Yogi by Yogananda, Paramahansa. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/7452/pg7452.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "autobiographyofayogi_2601_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "7452",
+                "epubUrl": "https://www.gutenberg.org/ebooks/7452.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "nicholas-nickleby",
+            "title": "Nicholas Nickleby",
+            "author": "Dickens, Charles",
+            "year": 1842,
+            "genre": "fiction",
+            "description": "Nicholas Nickleby by Dickens, Charles. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/967/pg967.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "nicholas_nickleby_v4_bf_1704_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "967",
+                "epubUrl": "https://www.gutenberg.org/ebooks/967.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-duchess-of-malfi",
+            "title": "The Duchess of Malfi",
+            "author": "Webster, John",
+            "year": 1900,
+            "genre": "fiction",
+            "description": "The Duchess of Malfi by Webster, John. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/2232/pg2232.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "duchess_malfi_0912_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2232",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2232.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-grand-inquisitor",
+            "title": "The Grand Inquisitor",
+            "author": "Dostoyevsky, Fyodor",
+            "year": 1851,
+            "genre": "fiction",
+            "description": "The Grand Inquisitor by Dostoyevsky, Fyodor. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/8578/pg8578.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "grand_inquisitor_1202_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "8578",
+                "epubUrl": "https://www.gutenberg.org/ebooks/8578.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-aeneid-of-virgil",
+            "title": "The Aeneid of Virgil",
+            "author": "Virgil",
+            "year": -40,
+            "genre": "poetry",
+            "description": "The Aeneid of Virgil by Virgil. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/22456/pg22456.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "aeneid_of_virgil_1708_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "22456",
+                "epubUrl": "https://www.gutenberg.org/ebooks/22456.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "auguste-comte-and-positivism",
+            "title": "Auguste Comte and Positivism",
+            "author": "Mill, John Stuart",
+            "year": 1836,
+            "genre": "fiction",
+            "description": "Auguste Comte and Positivism by Mill, John Stuart. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/16833/pg16833.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "auguste_comte_positivism_bb_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "16833",
+                "epubUrl": "https://www.gutenberg.org/ebooks/16833.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "spoon-river-anthology",
+            "title": "Spoon River Anthology",
+            "author": "Masters, Edgar Lee",
+            "year": 1898,
+            "genre": "poetry",
+            "description": "Spoon River Anthology by Masters, Edgar Lee. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1280/pg1280.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "spoon_river_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1280",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1280.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "a-farewell-to-arms",
+            "title": "A farewell to arms",
+            "author": "Hemingway, Ernest",
+            "year": 1929,
+            "genre": "fiction",
+            "description": "A farewell to arms by Hemingway, Ernest. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/75201/pg75201.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "afarewelltoarmsversion2_2504_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "75201",
+                "epubUrl": "https://www.gutenberg.org/ebooks/75201.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "apology",
+            "title": "Apology",
+            "author": "Plato",
+            "year": -398,
+            "genre": "philosophy",
+            "description": "Apology by Plato. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1656/pg1656.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "apology_of_socrates_plato_0908_librivox1",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1656",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1656.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-last-of-the-mohicans-a-narrative-of-",
+            "title": "The Last of the Mohicans; A narrative of 1757",
+            "author": "Cooper, James Fenimore",
+            "year": 1819,
+            "genre": "fiction",
+            "description": "The Last of the Mohicans; A narrative of 1757 by Cooper, James Fenimore. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/940/pg940.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "lastofthemohicans_0809_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "940",
+                "epubUrl": "https://www.gutenberg.org/ebooks/940.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "cowboy-songs-and-other-frontier-ballads",
+            "title": "Cowboy Songs, and Other Frontier Ballads",
+            "author": "Various",
+            "year": 1900,
+            "genre": "fiction",
+            "description": "Cowboy Songs, and Other Frontier Ballads by Various. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/21300/pg21300.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "cowboy_songs_ballads_1712_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "21300",
+                "epubUrl": "https://www.gutenberg.org/ebooks/21300.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-canterville-ghost",
+            "title": "The Canterville Ghost",
+            "author": "Wilde, Oscar",
+            "year": 1884,
+            "genre": "horror",
+            "description": "The Canterville Ghost by Wilde, Oscar. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/14522/pg14522.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "thecantervilleghostversion_2_1501_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "14522",
+                "epubUrl": "https://www.gutenberg.org/ebooks/14522.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-mysteries-of-udolpho",
+            "title": "The Mysteries of Udolpho",
+            "author": "Radcliffe, Ann Ward",
+            "year": 1794,
+            "genre": "horror",
+            "description": "The Mysteries of Udolpho by Radcliffe, Ann Ward. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/3268/pg3268.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "mysteries_udolpho_0904_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "3268",
+                "epubUrl": "https://www.gutenberg.org/ebooks/3268.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "a-treatise-of-human-nature",
+            "title": "A Treatise of Human Nature",
+            "author": "Hume, David",
+            "year": 1741,
+            "genre": "fiction",
+            "description": "A Treatise of Human Nature by Hume, David. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/4705/pg4705.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "treatise_human_nature_2_1107_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "4705",
+                "epubUrl": "https://www.gutenberg.org/ebooks/4705.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "susan-b-anthony-rebel-crusader-humanitar",
+            "title": "Susan B. Anthony: Rebel, Crusader, Humanitarian",
+            "author": "Lutz, Alma",
+            "year": 1900,
+            "genre": "fiction",
+            "description": "Susan B. Anthony: Rebel, Crusader, Humanitarian by Lutz, Alma. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/20439/pg20439.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "susanbanthony_2004_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "20439",
+                "epubUrl": "https://www.gutenberg.org/ebooks/20439.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "narrative-of-the-captivity-and-restorati",
+            "title": "Narrative of the Captivity and Restoration of Mrs. Mary Rowlandson",
+            "author": "Rowlandson, Mary White",
+            "year": 1900,
+            "genre": "fiction",
+            "description": "Narrative of the Captivity and Restoration of Mrs. Mary Rowlandson by Rowlandson, Mary White. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/851/pg851.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "captivity_restoration_rowlandson_0912_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "851",
+                "epubUrl": "https://www.gutenberg.org/ebooks/851.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "on-the-nature-of-things",
+            "title": "On the Nature of Things",
+            "author": "Lucretius Carus, Titus",
+            "year": -65,
+            "genre": "philosophy",
+            "description": "On the Nature of Things by Lucretius Carus, Titus. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/785/pg785.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "natureofthings_dv_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "785",
+                "epubUrl": "https://www.gutenberg.org/ebooks/785.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-common-law",
+            "title": "The Common Law",
+            "author": "Holmes, Oliver Wendell",
+            "year": 1871,
+            "genre": "fiction",
+            "description": "The Common Law by Holmes, Oliver Wendell. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/2449/pg2449.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "commonlaw_2011_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2449",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2449.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-subjection-of-women",
+            "title": "The Subjection of Women",
+            "author": "Mill, John Stuart",
+            "year": 1836,
+            "genre": "fiction",
+            "description": "The Subjection of Women by Mill, John Stuart. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/27083/pg27083.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "subjection_of_women_0807_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "27083",
+                "epubUrl": "https://www.gutenberg.org/ebooks/27083.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "scenes-in-the-life-of-harriet-tubman",
+            "title": "Scenes in the Life of Harriet Tubman",
+            "author": "Bradford, Sarah H. (Sarah Hopkins)",
+            "year": 1848,
+            "genre": "fiction",
+            "description": "Scenes in the Life of Harriet Tubman by Bradford, Sarah H. (Sarah Hopkins). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/57821/pg57821.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "scenes_in_the_life_of_harriet_tubman_1607_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "57821",
+                "epubUrl": "https://www.gutenberg.org/ebooks/57821.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "southern-horrors-lynch-law-in-all-its-ph",
+            "title": "Southern Horrors: Lynch Law in All Its Phases",
+            "author": "Wells-Barnett, Ida B.",
+            "year": 1892,
+            "genre": "fiction",
+            "description": "Southern Horrors: Lynch Law in All Its Phases by Wells-Barnett, Ida B.. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/14975/pg14975.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "southern_horrors_1307_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "14975",
+                "epubUrl": "https://www.gutenberg.org/ebooks/14975.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "up-from-slavery-an-autobiography",
+            "title": "Up from Slavery: An Autobiography",
+            "author": "Washington, Booker T.",
+            "year": 1886,
+            "genre": "fiction",
+            "description": "Up from Slavery: An Autobiography by Washington, Booker T.. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/2376/pg2376.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "up_from_slavery_3_2010_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2376",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2376.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "martin-eden",
+            "title": "Martin Eden",
+            "author": "London, Jack",
+            "year": 1906,
+            "genre": "fiction",
+            "description": "Martin Eden by London, Jack. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1056/pg1056.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "martineden_1101_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1056",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1056.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "jack-and-jill",
+            "title": "Jack and Jill",
+            "author": "Alcott, Louisa May",
+            "year": 1862,
+            "genre": "fiction",
+            "description": "Jack and Jill by Alcott, Louisa May. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/2786/pg2786.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "jackandjill_dr_2008_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2786",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2786.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "on-the-irrawaddy-a-story-of-the-first-bu",
+            "title": "On the Irrawaddy: A Story of the First Burmese War",
+            "author": "Henty, G. A. (George Alfred)",
+            "year": 1862,
+            "genre": "fiction",
+            "description": "On the Irrawaddy: A Story of the First Burmese War by Henty, G. A. (George Alfred). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/21242/pg21242.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "on_irrawaddy_1008_mh_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "21242",
+                "epubUrl": "https://www.gutenberg.org/ebooks/21242.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "an-account-of-egypt",
+            "title": "An Account of Egypt",
+            "author": "Herodotus",
+            "year": -454,
+            "genre": "fiction",
+            "description": "An Account of Egypt by Herodotus. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/2131/pg2131.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "anaccountofegyptbyherodotus_1807_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2131",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2131.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-argonautica",
+            "title": "The Argonautica",
+            "author": "Apollonius, Rhodius",
+            "year": 1900,
+            "genre": "fiction",
+            "description": "The Argonautica by Apollonius, Rhodius. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/830/pg830.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "argonautica_1303_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "830",
+                "epubUrl": "https://www.gutenberg.org/ebooks/830.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-island-of-doctor-moreau",
+            "title": "The island of Doctor Moreau",
+            "author": "Wells, H. G. (Herbert George)",
+            "year": 1896,
+            "genre": "scifi",
+            "description": "The island of Doctor Moreau by Wells, H. G. (Herbert George). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/159/pg159.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "drmoreau_1406_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "159",
+                "epubUrl": "https://www.gutenberg.org/ebooks/159.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "poems",
+            "title": "Poems",
+            "author": "Hugo, Victor",
+            "year": 1832,
+            "genre": "poetry",
+            "description": "Poems by Hugo, Victor. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/8775/pg8775.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "early_poems_1509_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "8775",
+                "epubUrl": "https://www.gutenberg.org/ebooks/8775.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "kwaidan-stories-and-studies-of-strange-t",
+            "title": "Kwaidan: Stories and Studies of Strange Things",
+            "author": "Hearn, Lafcadio",
+            "year": 1880,
+            "genre": "horror",
+            "description": "Kwaidan: Stories and Studies of Strange Things by Hearn, Lafcadio. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1210/pg1210.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "kwaidan_1005_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1210",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1210.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-ballad-of-the-white-horse",
+            "title": "The Ballad of the White Horse",
+            "author": "Chesterton, G. K. (Gilbert Keith)",
+            "year": 1904,
+            "genre": "poetry",
+            "description": "The Ballad of the White Horse by Chesterton, G. K. (Gilbert Keith). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1719/pg1719.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "balladwhitehorse_1404_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1719",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1719.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "best-russian-short-stories",
+            "title": "Best Russian Short Stories",
+            "author": "Unknown",
+            "year": 1900,
+            "genre": "fiction",
+            "description": "Best Russian Short Stories by Unknown. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/13437/pg13437.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "best_russian_shortstories_1010_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "13437",
+                "epubUrl": "https://www.gutenberg.org/ebooks/13437.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "peter-and-wendy",
+            "title": "Peter and Wendy",
+            "author": "Barrie, J. M. (James Matthew)",
+            "year": 1890,
+            "genre": "fiction",
+            "description": "Peter and Wendy by Barrie, J. M. (James Matthew). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/26654/pg26654.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "peter_and_wendy_2209_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "26654",
+                "epubUrl": "https://www.gutenberg.org/ebooks/26654.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "sonnets-from-the-portuguese",
+            "title": "Sonnets from the Portuguese",
+            "author": "Browning, Elizabeth Barrett",
+            "year": 1836,
+            "genre": "romance",
+            "description": "Sonnets from the Portuguese by Browning, Elizabeth Barrett. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/2002/pg2002.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "sonnetsfromportuguese_ss_1007",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2002",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2002.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-alchemist",
+            "title": "The Alchemist",
+            "author": "Jonson, Ben",
+            "year": 1900,
+            "genre": "fiction",
+            "description": "The Alchemist by Jonson, Ben. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/4081/pg4081.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "alchemist_1207_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "4081",
+                "epubUrl": "https://www.gutenberg.org/ebooks/4081.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "anne-of-the-island",
+            "title": "Anne of the Island",
+            "author": "Montgomery, L. M. (Lucy Maud)",
+            "year": 1904,
+            "genre": "fiction",
+            "description": "Anne of the Island by Montgomery, L. M. (Lucy Maud). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/51/pg51.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "anne_island",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "51",
+                "epubUrl": "https://www.gutenberg.org/ebooks/51.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "essays-of-schopenhauer",
+            "title": "Essays of Schopenhauer",
+            "author": "Schopenhauer, Arthur",
+            "year": 1818,
+            "genre": "philosophy",
+            "description": "Essays of Schopenhauer by Schopenhauer, Arthur. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/11945/pg11945.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "essays_of_schopenhauer_2107_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "11945",
+                "epubUrl": "https://www.gutenberg.org/ebooks/11945.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "mosses-from-an-old-manse",
+            "title": "Mosses from an old manse",
+            "author": "Hawthorne, Nathaniel",
+            "year": 1834,
+            "genre": "fiction",
+            "description": "Mosses from an old manse by Hawthorne, Nathaniel. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/512/pg512.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "mosses_old_manse_1201_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "512",
+                "epubUrl": "https://www.gutenberg.org/ebooks/512.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "etiquette",
+            "title": "Etiquette",
+            "author": "Post, Emily",
+            "year": 1902,
+            "genre": "fiction",
+            "description": "Etiquette by Post, Emily. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/14314/pg14314.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "practicaletiquette_2312_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "14314",
+                "epubUrl": "https://www.gutenberg.org/ebooks/14314.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-sun-also-rises",
+            "title": "The Sun Also Rises",
+            "author": "Hemingway, Ernest",
+            "year": 1929,
+            "genre": "fiction",
+            "description": "The Sun Also Rises by Hemingway, Ernest. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/67138/pg67138.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "sunalsorisesver2_2412_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "67138",
+                "epubUrl": "https://www.gutenberg.org/ebooks/67138.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-french-revolution-a-history",
+            "title": "The French Revolution: A History",
+            "author": "Carlyle, Thomas",
+            "year": 1825,
+            "genre": "fiction",
+            "description": "The French Revolution: A History by Carlyle, Thomas. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1301/pg1301.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "french_revolution_vol2_vers2_2109_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1301",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1301.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "gorgias",
+            "title": "Gorgias",
+            "author": "Plato",
+            "year": -398,
+            "genre": "philosophy",
+            "description": "Gorgias by Plato. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1672/pg1672.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "gorgias_1211",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1672",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1672.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "a-shropshire-lad",
+            "title": "A Shropshire Lad",
+            "author": "Housman, A. E. (Alfred Edward)",
+            "year": 1889,
+            "genre": "poetry",
+            "description": "A Shropshire Lad by Housman, A. E. (Alfred Edward). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/5720/pg5720.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "shropshire_lad_js_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "5720",
+                "epubUrl": "https://www.gutenberg.org/ebooks/5720.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-garden-party-and-other-stories",
+            "title": "The Garden Party, and Other Stories",
+            "author": "Mansfield, Katherine",
+            "year": 1918,
+            "genre": "fiction",
+            "description": "The Garden Party, and Other Stories by Mansfield, Katherine. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1429/pg1429.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "garden_party_2308_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1429",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1429.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-tale-of-genji",
+            "title": "The tale of Genji",
+            "author": "Murasaki Shikibu",
+            "year": 1900,
+            "genre": "romance",
+            "description": "The tale of Genji by Murasaki Shikibu. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/66057/pg66057.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "genji_monogatori_1305_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "66057",
+                "epubUrl": "https://www.gutenberg.org/ebooks/66057.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-monk-a-romance",
+            "title": "The Monk: A Romance",
+            "author": "Lewis, M. G. (Matthew Gregory)",
+            "year": 1805,
+            "genre": "horror",
+            "description": "The Monk: A Romance by Lewis, M. G. (Matthew Gregory). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/601/pg601.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "monk_a_romance_vers_2_2308_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "601",
+                "epubUrl": "https://www.gutenberg.org/ebooks/601.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-lost-world",
+            "title": "The Lost World",
+            "author": "Doyle, Arthur Conan",
+            "year": 1889,
+            "genre": "fiction",
+            "description": "The Lost World by Doyle, Arthur Conan. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/139/pg139.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "lost_world_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "139",
+                "epubUrl": "https://www.gutenberg.org/ebooks/139.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-country-of-the-blind-and-other-stori",
+            "title": "The Country of the Blind, and Other Stories",
+            "author": "Wells, H. G. (Herbert George)",
+            "year": 1896,
+            "genre": "scifi",
+            "description": "The Country of the Blind, and Other Stories by Wells, H. G. (Herbert George). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/11870/pg11870.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "country_of_the_blind_and_other_stories_2301_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "11870",
+                "epubUrl": "https://www.gutenberg.org/ebooks/11870.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-beautiful-and-damned",
+            "title": "The Beautiful and Damned",
+            "author": "Fitzgerald, F. Scott (Francis Scott)",
+            "year": 1926,
+            "genre": "fiction",
+            "description": "The Beautiful and Damned by Fitzgerald, F. Scott (Francis Scott). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/9830/pg9830.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "beautiful_damned_0809_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "9830",
+                "epubUrl": "https://www.gutenberg.org/ebooks/9830.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "stories-from-tagore",
+            "title": "Stories from Tagore",
+            "author": "Tagore, Rabindranath",
+            "year": 1891,
+            "genre": "fiction",
+            "description": "Stories from Tagore by Tagore, Rabindranath. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/33525/pg33525.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "stories_from_tagore_1911_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "33525",
+                "epubUrl": "https://www.gutenberg.org/ebooks/33525.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "bushido-the-soul-of-japan",
+            "title": "Bushido, the Soul of Japan",
+            "author": "Nitobe, Inazo",
+            "year": 1892,
+            "genre": "philosophy",
+            "description": "Bushido, the Soul of Japan by Nitobe, Inazo. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/12096/pg12096.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "bushidothesoulofjapan_2402_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "12096",
+                "epubUrl": "https://www.gutenberg.org/ebooks/12096.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-secret-agent-a-simple-tale",
+            "title": "The Secret Agent: A Simple Tale",
+            "author": "Conrad, Joseph",
+            "year": 1887,
+            "genre": "fiction",
+            "description": "The Secret Agent: A Simple Tale by Conrad, Joseph. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/974/pg974.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "secretagent_1607_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "974",
+                "epubUrl": "https://www.gutenberg.org/ebooks/974.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "a-history-of-the-philippines",
+            "title": "A History of the Philippines",
+            "author": "Barrows, David P.",
+            "year": 1903,
+            "genre": "fiction",
+            "description": "A History of the Philippines by Barrows, David P.. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/38269/pg38269.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "history_of_the_philippines_0908_librivox1",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "38269",
+                "epubUrl": "https://www.gutenberg.org/ebooks/38269.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "what-men-live-by-and-other-tales",
+            "title": "What Men Live By, and Other Tales",
+            "author": "Tolstoy, Leo, graf",
+            "year": 1858,
+            "genre": "fiction",
+            "description": "What Men Live By, and Other Tales by Tolstoy, Leo, graf. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/6157/pg6157.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "what_men_live_by_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "6157",
+                "epubUrl": "https://www.gutenberg.org/ebooks/6157.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "laws",
+            "title": "Laws",
+            "author": "Plato",
+            "year": -398,
+            "genre": "fiction",
+            "description": "Laws by Plato. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1750/pg1750.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "spirit_laws_01_1212",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1750",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1750.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-lives-and-opinions-of-eminent-philos",
+            "title": "The Lives and Opinions of Eminent Philosophers",
+            "author": "Diogenes Laertius",
+            "year": 1900,
+            "genre": "philosophy",
+            "description": "The Lives and Opinions of Eminent Philosophers by Diogenes Laertius. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/57342/pg57342.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "eminentphilosophers6_1405_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "57342",
+                "epubUrl": "https://www.gutenberg.org/ebooks/57342.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-old-curiosity-shop",
+            "title": "The Old Curiosity Shop",
+            "author": "Dickens, Charles",
+            "year": 1842,
+            "genre": "fiction",
+            "description": "The Old Curiosity Shop by Dickens, Charles. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/700/pg700.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "curiosity_shop_mn_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "700",
+                "epubUrl": "https://www.gutenberg.org/ebooks/700.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "emile",
+            "title": "Emile",
+            "author": "Rousseau, Jean-Jacques",
+            "year": 1742,
+            "genre": "fiction",
+            "description": "Emile by Rousseau, Jean-Jacques. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/5427/pg5427.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "poems_verhaeren_2211_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "5427",
+                "epubUrl": "https://www.gutenberg.org/ebooks/5427.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-great-god-pan",
+            "title": "The Great God Pan",
+            "author": "Machen, Arthur",
+            "year": 1893,
+            "genre": "horror",
+            "description": "The Great God Pan by Machen, Arthur. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/389/pg389.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "great_god_pan_1108_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "389",
+                "epubUrl": "https://www.gutenberg.org/ebooks/389.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-imitation-of-christ",
+            "title": "The Imitation of Christ",
+            "author": "Thomas, à Kempis",
+            "year": 1410,
+            "genre": "fiction",
+            "description": "The Imitation of Christ by Thomas, à Kempis. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1653/pg1653.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "imitation_of_christ_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1653",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1653.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "gargantua-and-pantagruel",
+            "title": "Gargantua and Pantagruel",
+            "author": "Rabelais, François",
+            "year": 1900,
+            "genre": "fiction",
+            "description": "Gargantua and Pantagruel by Rabelais, François. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1200/pg1200.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "gargantuapantagruel2_1308_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1200",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1200.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "lord-jim",
+            "title": "Lord Jim",
+            "author": "Conrad, Joseph",
+            "year": 1887,
+            "genre": "fiction",
+            "description": "Lord Jim by Conrad, Joseph. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/5658/pg5658.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "lord_jim_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "5658",
+                "epubUrl": "https://www.gutenberg.org/ebooks/5658.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "timaeus",
+            "title": "Timaeus",
+            "author": "Plato",
+            "year": -398,
+            "genre": "fiction",
+            "description": "Timaeus by Plato. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/1572/pg1572.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "timaeus_1003_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "1572",
+                "epubUrl": "https://www.gutenberg.org/ebooks/1572.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "on-the-sublime",
+            "title": "On the Sublime",
+            "author": "Longinus, active 1st century",
+            "year": 1900,
+            "genre": "fiction",
+            "description": "On the Sublime by Longinus, active 1st century. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/17957/pg17957.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "on_the_sublime_1705_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "17957",
+                "epubUrl": "https://www.gutenberg.org/ebooks/17957.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "barnaby-rudge-a-tale-of-the-riots-of-eig",
+            "title": "Barnaby Rudge: A Tale of the Riots of 'Eighty",
+            "author": "Dickens, Charles",
+            "year": 1842,
+            "genre": "mystery",
+            "description": "Barnaby Rudge: A Tale of the Riots of 'Eighty by Dickens, Charles. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/917/pg917.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "barnabyrudge4_2501_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "917",
+                "epubUrl": "https://www.gutenberg.org/ebooks/917.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-critique-of-practical-reason",
+            "title": "The Critique of Practical Reason",
+            "author": "Kant, Immanuel",
+            "year": 1754,
+            "genre": "philosophy",
+            "description": "The Critique of Practical Reason by Kant, Immanuel. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/5683/pg5683.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "critique_practical_0810_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "5683",
+                "epubUrl": "https://www.gutenberg.org/ebooks/5683.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "our-mutual-friend",
+            "title": "Our Mutual Friend",
+            "author": "Dickens, Charles",
+            "year": 1842,
+            "genre": "romance",
+            "description": "Our Mutual Friend by Dickens, Charles. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/883/pg883.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "our_mutualfriend_1_1009_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "883",
+                "epubUrl": "https://www.gutenberg.org/ebooks/883.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "1900-or-the-last-president",
+            "title": "1900; or, The last President",
+            "author": "Lockwood, Ingersoll",
+            "year": 1871,
+            "genre": "fiction",
+            "description": "1900; or, The last President by Lockwood, Ingersoll. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/60479/pg60479.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "1900lastpresident_1904_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "60479",
+                "epubUrl": "https://www.gutenberg.org/ebooks/60479.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-practice-and-science-of-drawing",
+            "title": "The Practice and Science of Drawing",
+            "author": "Speed, Harold",
+            "year": 1903,
+            "genre": "fiction",
+            "description": "The Practice and Science of Drawing by Speed, Harold. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/14264/pg14264.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "practice_and_science_of_drawing_1805_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "14264",
+                "epubUrl": "https://www.gutenberg.org/ebooks/14264.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-marvelous-land-of-oz",
+            "title": "The Marvelous Land of Oz",
+            "author": "Baum, L. Frank (Lyman Frank)",
+            "year": 1886,
+            "genre": "fiction",
+            "description": "The Marvelous Land of Oz by Baum, L. Frank (Lyman Frank). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/54/pg54.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "themarvelouslandofozver3_1501_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "54",
+                "epubUrl": "https://www.gutenberg.org/ebooks/54.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "psychological-warfare",
+            "title": "Psychological Warfare",
+            "author": "Linebarger, Paul Myron Anthony",
+            "year": 1943,
+            "genre": "fiction",
+            "description": "Psychological Warfare by Linebarger, Paul Myron Anthony. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/48612/pg48612.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "psychological_warfare_2106_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "48612",
+                "epubUrl": "https://www.gutenberg.org/ebooks/48612.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "troilus-and-criseyde",
+            "title": "Troilus and Criseyde",
+            "author": "Chaucer, Geoffrey",
+            "year": 1372,
+            "genre": "poetry",
+            "description": "Troilus and Criseyde by Chaucer, Geoffrey. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/257/pg257.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "troilus_criseyde_1208_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "257",
+                "epubUrl": "https://www.gutenberg.org/ebooks/257.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-best-american-humorous-short-stories",
+            "title": "The Best American Humorous Short Stories",
+            "author": "Unknown",
+            "year": 1900,
+            "genre": "fiction",
+            "description": "The Best American Humorous Short Stories by Unknown. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/10947/pg10947.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "best_american_humorous_short_stories_dw_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "10947",
+                "epubUrl": "https://www.gutenberg.org/ebooks/10947.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "letters-of-pliny",
+            "title": "Letters of Pliny",
+            "author": "Pliny, the Younger",
+            "year": 91,
+            "genre": "fiction",
+            "description": "Letters of Pliny by Pliny, the Younger. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/2811/pg2811.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "letters_of_pliny_1510_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2811",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2811.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "american-notes",
+            "title": "American Notes",
+            "author": "Dickens, Charles",
+            "year": 1842,
+            "genre": "fiction",
+            "description": "American Notes by Dickens, Charles. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/675/pg675.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "american_notes_1108_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "675",
+                "epubUrl": "https://www.gutenberg.org/ebooks/675.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "utilitarianism",
+            "title": "Utilitarianism",
+            "author": "Mill, John Stuart",
+            "year": 1836,
+            "genre": "fiction",
+            "description": "Utilitarianism by Mill, John Stuart. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/11224/pg11224.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "utilitarianism_dew_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "11224",
+                "epubUrl": "https://www.gutenberg.org/ebooks/11224.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-art-of-public-speaking",
+            "title": "The Art of Public Speaking",
+            "author": "Esenwein, J. Berg (Joseph Berg)",
+            "year": 1897,
+            "genre": "fiction",
+            "description": "The Art of Public Speaking by Esenwein, J. Berg (Joseph Berg). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/16317/pg16317.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "art_public_speaking_1101_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "16317",
+                "epubUrl": "https://www.gutenberg.org/ebooks/16317.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "how-to-sing-meine-gesangskunst",
+            "title": "How to sing [Meine Gesangskunst]",
+            "author": "Lehmann, Lilli",
+            "year": 1878,
+            "genre": "fiction",
+            "description": "How to sing [Meine Gesangskunst] by Lehmann, Lilli. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/19116/pg19116.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "how_to_sing_rg_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "19116",
+                "epubUrl": "https://www.gutenberg.org/ebooks/19116.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-legends-of-king-arthur-and-his-knigh",
+            "title": "The Legends of King Arthur and His Knights",
+            "author": "Malory, Thomas, Sir",
+            "year": 1900,
+            "genre": "romance",
+            "description": "The Legends of King Arthur and His Knights by Malory, Thomas, Sir. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/12753/pg12753.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "legendsofkingarthur_1806_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "12753",
+                "epubUrl": "https://www.gutenberg.org/ebooks/12753.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "cyropaedia-the-education-of-cyrus",
+            "title": "Cyropaedia: The Education of Cyrus",
+            "author": "Xenophon",
+            "year": -401,
+            "genre": "fiction",
+            "description": "Cyropaedia: The Education of Cyrus by Xenophon. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/2085/pg2085.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "cyropaediatheeducationofcyrus_1609_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2085",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2085.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "fundamental-principles-of-the-metaphysic",
+            "title": "Fundamental Principles of the Metaphysic of Morals",
+            "author": "Kant, Immanuel",
+            "year": 1754,
+            "genre": "philosophy",
+            "description": "Fundamental Principles of the Metaphysic of Morals by Kant, Immanuel. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/5682/pg5682.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "principles_metaphysic_morals_1109_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "5682",
+                "epubUrl": "https://www.gutenberg.org/ebooks/5682.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-blue-fairy-book",
+            "title": "The Blue Fairy Book",
+            "author": "Lang, Andrew",
+            "year": 1874,
+            "genre": "fiction",
+            "description": "The Blue Fairy Book by Lang, Andrew. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/503/pg503.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "blue_fairy_book_0707_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "503",
+                "epubUrl": "https://www.gutenberg.org/ebooks/503.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-book-of-household-management",
+            "title": "The Book of Household Management",
+            "author": "Beeton, Mrs. (Isabella Mary)",
+            "year": 1866,
+            "genre": "fiction",
+            "description": "The Book of Household Management by Beeton, Mrs. (Isabella Mary). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/10136/pg10136.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "book_of_household_management_0911_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "10136",
+                "epubUrl": "https://www.gutenberg.org/ebooks/10136.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "it-happened-in-egypt",
+            "title": "It Happened in Egypt",
+            "author": "Williamson, C. N. (Charles Norris)",
+            "year": 1889,
+            "genre": "fiction",
+            "description": "It Happened in Egypt by Williamson, C. N. (Charles Norris). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/9799/pg9799.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "it_happened_in_egypt_sd_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "9799",
+                "epubUrl": "https://www.gutenberg.org/ebooks/9799.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "thuvia-maid-of-mars",
+            "title": "Thuvia, Maid of Mars",
+            "author": "Burroughs, Edgar Rice",
+            "year": 1905,
+            "genre": "scifi",
+            "description": "Thuvia, Maid of Mars by Burroughs, Edgar Rice. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/72/pg72.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "thuvia_maid_of_mars_3_1404_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "72",
+                "epubUrl": "https://www.gutenberg.org/ebooks/72.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "an-enemy-of-the-people",
+            "title": "An Enemy of the People",
+            "author": "Ibsen, Henrik",
+            "year": 1858,
+            "genre": "fiction",
+            "description": "An Enemy of the People by Ibsen, Henrik. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/2446/pg2446.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "enemyofthepeople_1305_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "2446",
+                "epubUrl": "https://www.gutenberg.org/ebooks/2446.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "now-we-are-six",
+            "title": "Now we are six",
+            "author": "Milne, A. A. (Alan Alexander)",
+            "year": 1912,
+            "genre": "poetry",
+            "description": "Now we are six by Milne, A. A. (Alan Alexander). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/70516/pg70516.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "now_we_are_six3_2306_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "70516",
+                "epubUrl": "https://www.gutenberg.org/ebooks/70516.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "fairy-and-folk-tales-of-the-irish-peasan",
+            "title": "Fairy and Folk Tales of the Irish Peasantry",
+            "author": "Unknown",
+            "year": 1900,
+            "genre": "fiction",
+            "description": "Fairy and Folk Tales of the Irish Peasantry by Unknown. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/33887/pg33887.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "fairyandfolktales_irishpeasantry_1612_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "33887",
+                "epubUrl": "https://www.gutenberg.org/ebooks/33887.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "a-japanese-boy",
+            "title": "A Japanese Boy",
+            "author": "Shiukichi, Shigemi",
+            "year": 1895,
+            "genre": "fiction",
+            "description": "A Japanese Boy by Shiukichi, Shigemi. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/35249/pg35249.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "a_japanese_boy_2106_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "35249",
+                "epubUrl": "https://www.gutenberg.org/ebooks/35249.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "blindfolded",
+            "title": "Blindfolded",
+            "author": "Walcott, Earle Ashley",
+            "year": 1889,
+            "genre": "fiction",
+            "description": "Blindfolded by Walcott, Earle Ashley. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/7788/pg7788.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "blindfolded_1002_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "7788",
+                "epubUrl": "https://www.gutenberg.org/ebooks/7788.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-eyes-have-it",
+            "title": "The Eyes Have It",
+            "author": "Dick, Philip K.",
+            "year": 1958,
+            "genre": "scifi",
+            "description": "The Eyes Have It by Dick, Philip K.. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/31516/pg31516.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "theeyes_haveit_pc_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "31516",
+                "epubUrl": "https://www.gutenberg.org/ebooks/31516.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "erotica-romana",
+            "title": "Erotica Romana",
+            "author": "Goethe, Johann Wolfgang von",
+            "year": 1779,
+            "genre": "poetry",
+            "description": "Erotica Romana by Goethe, Johann Wolfgang von. A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/7889/pg7889.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "erotica_romana_1207_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "7889",
+                "epubUrl": "https://www.gutenberg.org/ebooks/7889.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-wisdom-of-father-brown",
+            "title": "The wisdom of Father Brown",
+            "author": "Chesterton, G. K. (Gilbert Keith)",
+            "year": 1904,
+            "genre": "mystery",
+            "description": "The wisdom of Father Brown by Chesterton, G. K. (Gilbert Keith). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/223/pg223.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "wisdom_father_brown_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "223",
+                "epubUrl": "https://www.gutenberg.org/ebooks/223.epub3.images",
+                "source": "Project Gutenberg"
+            }
+        },
+        {
+            "id": "the-red-room",
+            "title": "The Red Room",
+            "author": "Wells, H. G. (Herbert George)",
+            "year": 1896,
+            "genre": "fiction",
+            "description": "The Red Room by Wells, H. G. (Herbert George). A classic work of literature.",
+            "cover": "https://www.gutenberg.org/cache/epub/23218/pg23218.cover.medium.jpg",
+            "audiobook": {
+                "available": true,
+                "archiveId": "red_room_wp_librivox",
+                "source": "LibriVox"
+            },
+            "ebook": {
+                "available": true,
+                "gutenbergId": "23218",
+                "epubUrl": "https://www.gutenberg.org/ebooks/23218.epub3.images",
+                "source": "Project Gutenberg"
+            }
         }
     ]
 }

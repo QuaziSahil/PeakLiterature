@@ -1,0 +1,737 @@
+[
+    {
+        "id": "don-quixote",
+        "title": "Don Quixote",
+        "oldArchiveId": "don_quijote_1_1001_librivox",
+        "newArchiveId": "don_quixote_vol1_librivox",
+        "newTitle": "Don Quixote, Volume 1"
+    },
+    {
+        "id": "sense-sensibility",
+        "title": "Sense and Sensibility",
+        "oldArchiveId": "senseandsensibility_0703_librivox",
+        "newArchiveId": "sense_sensibility_ver3_ek",
+        "newTitle": "Sense and Sensibility (Version 3)"
+    },
+    {
+        "id": "the-way-of-peace",
+        "title": "The Way of Peace",
+        "oldArchiveId": "way_of_peace_0901_librivox",
+        "newArchiveId": "the_way_of_peace_0901_librivox",
+        "newTitle": "The Way of Peace"
+    },
+    {
+        "id": "a-study-in-scarlet",
+        "title": "A Study in Scarlet",
+        "oldArchiveId": "study_scarlet_0911_librivox",
+        "newArchiveId": "studyinscarlet_0811_librivox",
+        "newTitle": "A Study in Scarlet"
+    },
+    {
+        "id": "the-sign-of-the-four",
+        "title": "The Sign of the Four",
+        "oldArchiveId": "sign_four_librivox",
+        "newArchiveId": "sign_of_four_librivox",
+        "newTitle": "The Sign of the Four"
+    },
+    {
+        "id": "the-hound-of-the-baskervilles",
+        "title": "The Hound of the Baskervilles",
+        "oldArchiveId": "hound_baskervilles_1008_librivox",
+        "newArchiveId": "hound_baskervilles_librivox",
+        "newTitle": "The Hound of the Baskervilles"
+    },
+    {
+        "id": "a-christmas-carol",
+        "title": "A Christmas Carol",
+        "oldArchiveId": "christmas_carol_librivox",
+        "newArchiveId": "A_Christmas_Carol",
+        "newTitle": "A Christmas Carol"
+    },
+    {
+        "id": "around-the-world-in-eighty-days",
+        "title": "Around the World in Eighty Days",
+        "oldArchiveId": "around_world_80_days_librivox",
+        "newArchiveId": "around_the_world_in_eighty_days_0908_librivox",
+        "newTitle": "Around the World in Eighty Days"
+    },
+    {
+        "id": "the-arabian-nights",
+        "title": "The Arabian Nights",
+        "oldArchiveId": "arabian_nights_librivox",
+        "newArchiveId": "arabian_nights_01_0806",
+        "newTitle": "The Arabian Nights Entertainments, Volume 01"
+    },
+    {
+        "id": "the-last-of-the-mohicans",
+        "title": "The Last of the Mohicans",
+        "oldArchiveId": "last_mohicans_librivox",
+        "newArchiveId": "lastofthemohicans_0809_librivox",
+        "newTitle": "The Last of the Mohicans - A Narrative of 1757 (version 2)"
+    },
+    {
+        "id": "david-copperfield",
+        "title": "David Copperfield",
+        "oldArchiveId": "david_copperfield_librivox",
+        "newArchiveId": "david_copperfield_th_librivox",
+        "newTitle": "David Copperfield"
+    },
+    {
+        "id": "paradise-lost",
+        "title": "Paradise Lost",
+        "oldArchiveId": "paradise_lost_librivox",
+        "newArchiveId": "paradise_lost_08083_librivox",
+        "newTitle": "Paradise Lost"
+    },
+    {
+        "id": "the-iliad",
+        "title": "The Iliad",
+        "oldArchiveId": "iliad_librivox",
+        "newArchiveId": "illiad_0801_librivox3",
+        "newTitle": "The Iliad"
+    },
+    {
+        "id": "a-midsummer-nights-dream",
+        "title": "A Midsummer Night's Dream",
+        "oldArchiveId": "midsummer_nights_dream_0811_librivox",
+        "newArchiveId": "midsummer_nights_dream_0806_librivox",
+        "newTitle": "A Midsummer Night's Dream"
+    },
+    {
+        "id": "much-ado-about-nothing",
+        "title": "Much Ado About Nothing",
+        "oldArchiveId": "much_ado_nothing_librivox",
+        "newArchiveId": "muchadoaboutnothing_1003_librivox",
+        "newTitle": "Much Ado About Nothing"
+    },
+    {
+        "id": "shakespeares-sonnets",
+        "title": "Shakespeare's Sonnets",
+        "oldArchiveId": "sonnets_shakespeare_librivox",
+        "newArchiveId": "shakespeare_sonnets_ch",
+        "newTitle": "Shakespeare's Sonnets"
+    },
+    {
+        "id": "the-taming-of-the-shrew",
+        "title": "The Taming of the Shrew",
+        "oldArchiveId": "taming_shrew_librivox",
+        "newArchiveId": "tamingoftheshrew_1009_librivox",
+        "newTitle": "The Taming of the Shrew"
+    },
+    {
+        "id": "the-wealth-of-nations",
+        "title": "The Wealth of Nations",
+        "oldArchiveId": "wealth_nations_librivox",
+        "newArchiveId": "wealth_nations01_se",
+        "newTitle": "The Wealth of Nations - Book 1"
+    },
+    {
+        "id": "the-communist-manifesto",
+        "title": "The Communist Manifesto",
+        "oldArchiveId": "communist_manifesto_librivox",
+        "newArchiveId": "communistmanifesto_librivox",
+        "newTitle": "The Communist Manifesto, by Karl Marx and Friedrich Engels"
+    },
+    {
+        "id": "leviathan",
+        "title": "Leviathan",
+        "oldArchiveId": "leviathan_librivox",
+        "newArchiveId": "leviathan_1_2_0802_librivox",
+        "newTitle": "Leviathan (Books I and II)"
+    },
+    {
+        "id": "utopia",
+        "title": "Utopia",
+        "oldArchiveId": "utopia_librivox",
+        "newArchiveId": "utopia_j_librivox",
+        "newTitle": "Utopia"
+    },
+    {
+        "id": "billy-budd",
+        "title": "Billy Budd",
+        "oldArchiveId": "billy_budd_librivox",
+        "newArchiveId": "billybudd_2001_librivox",
+        "newTitle": "Billy Budd"
+    },
+    {
+        "id": "the-house-of-the-seven-gables",
+        "title": "The House of the Seven Gables",
+        "oldArchiveId": "house_seven_gables_librivox",
+        "newArchiveId": "house_sevengables_mfs_0904_librivox",
+        "newTitle": "House of the Seven Gables (version 2)"
+    },
+    {
+        "id": "leaves-of-grass",
+        "title": "Leaves of Grass",
+        "oldArchiveId": "leaves_grass_librivox",
+        "newArchiveId": "leaves_of_grass_librivox",
+        "newTitle": "Leaves of Grass"
+    },
+    {
+        "id": "bartleby-the-scrivener",
+        "title": "Bartleby, the Scrivener",
+        "oldArchiveId": "bartleby_scrivener_librivox",
+        "newArchiveId": "bartleby_scrivener_1107_librivox",
+        "newTitle": "Bartleby the Scrivener"
+    },
+    {
+        "id": "the-raven-and-other-poems",
+        "title": "The Raven and Other Poems",
+        "oldArchiveId": "raven_librivox",
+        "newArchiveId": "ravenandpoemspoe_pc_librivox",
+        "newTitle": "The Raven and Other Poems by Edgar Allan Poe"
+    },
+    {
+        "id": "the-age-of-innocence",
+        "title": "The Age of Innocence",
+        "oldArchiveId": "age_innocence_librivox",
+        "newArchiveId": "age_of_innocence_librivox",
+        "newTitle": "The Age of Innocence"
+    },
+    {
+        "id": "daisy-miller",
+        "title": "Daisy Miller",
+        "oldArchiveId": "daisy_miller_librivox",
+        "newArchiveId": "daisy_miller_dramatic_reading_1308_librivox",
+        "newTitle": "Daisy Miller (dramatic reading)"
+    },
+    {
+        "id": "ethan-frome",
+        "title": "Ethan Frome",
+        "oldArchiveId": "ethan_frome_librivox",
+        "newArchiveId": "ethan_frome_0802_librivox",
+        "newTitle": "Ethan Frome"
+    },
+    {
+        "id": "the-house-of-mirth",
+        "title": "The House of Mirth",
+        "oldArchiveId": "house_mirth_librivox",
+        "newArchiveId": "house_mirth_etk_librivox",
+        "newTitle": "The House of Mirth"
+    },
+    {
+        "id": "sister-carrie",
+        "title": "Sister Carrie",
+        "oldArchiveId": "sister_carrie_librivox",
+        "newArchiveId": "sister_carrie_0804_librivox",
+        "newTitle": "Sister Carrie"
+    },
+    {
+        "id": "the-red-badge-of-courage",
+        "title": "The Red Badge of Courage",
+        "oldArchiveId": "red_badge_courage_librivox",
+        "newArchiveId": "badge_courage_librivox",
+        "newTitle": "The Red Badge of Courage"
+    },
+    {
+        "id": "the-jungle",
+        "title": "The Jungle",
+        "oldArchiveId": "jungle_librivox",
+        "newArchiveId": "jungle_book_mh_0808_librivox",
+        "newTitle": "The Jungle Book"
+    },
+    {
+        "id": "main-street",
+        "title": "Main Street",
+        "oldArchiveId": "main_street_librivox",
+        "newArchiveId": "main_street_0707_librivox",
+        "newTitle": "Main Street"
+    },
+    {
+        "id": "winesburg-ohio",
+        "title": "Winesburg, Ohio",
+        "oldArchiveId": "winesburg_ohio_librivox",
+        "newArchiveId": "winesburg_ohio_0708_librivox",
+        "newTitle": "Winesburg, Ohio"
+    },
+    {
+        "id": "babbitt",
+        "title": "Babbitt",
+        "oldArchiveId": "babbitt_librivox",
+        "newArchiveId": "babbitt_0903_librivox",
+        "newTitle": "Babbitt"
+    },
+    {
+        "id": "a-portrait-of-the-artist-as-a-young",
+        "title": "A Portrait of the Artist as a Young Man",
+        "oldArchiveId": "portrait_artist_young_man_librivox",
+        "newArchiveId": "portrait_artist_pb_librivox",
+        "newTitle": "A Portrait of the Artist as a Young Man"
+    },
+    {
+        "id": "tess-of-the-durbervilles",
+        "title": "Tess of the d'Urbervilles",
+        "oldArchiveId": "tess_durbervilles_librivox",
+        "newArchiveId": "tess_durbervilles_ap_0810_librivox",
+        "newTitle": "Tess of the d'Urbervilles"
+    },
+    {
+        "id": "sons-and-lovers",
+        "title": "Sons and Lovers",
+        "oldArchiveId": "sons_lovers_librivox",
+        "newArchiveId": "sons_and_lovers_mfs_librivox",
+        "newTitle": "Sons and Lovers"
+    },
+    {
+        "id": "dubliners",
+        "title": "Dubliners",
+        "oldArchiveId": "dubliners_librivox",
+        "newArchiveId": "dubliners_0906_librivox",
+        "newTitle": "Dubliners"
+    },
+    {
+        "id": "the-rainbow",
+        "title": "The Rainbow",
+        "oldArchiveId": "rainbow_librivox",
+        "newArchiveId": "rainbow2_lawrence_librivox",
+        "newTitle": "The Rainbow"
+    },
+    {
+        "id": "the-mayor-of-casterbridge",
+        "title": "The Mayor of Casterbridge",
+        "oldArchiveId": "mayor_casterbridge_librivox",
+        "newArchiveId": "mayor_of_casterbridge_0901_dl_librivox1",
+        "newTitle": "The Mayor of Casterbridge"
+    },
+    {
+        "id": "far-from-the-madding-crowd",
+        "title": "Far from the Madding Crowd",
+        "oldArchiveId": "far_madding_crowd_librivox",
+        "newArchiveId": "madding_crowd_0807_librivox",
+        "newTitle": "Far From The Madding Crowd"
+    },
+    {
+        "id": "jude-the-obscure",
+        "title": "Jude the Obscure",
+        "oldArchiveId": "jude_obscure_librivox",
+        "newArchiveId": "jude_the_obscure_librivox",
+        "newTitle": "Jude the Obscure"
+    },
+    {
+        "id": "the-mill-on-the-floss",
+        "title": "The Mill on the Floss",
+        "oldArchiveId": "mill_floss_librivox",
+        "newArchiveId": "mill_on_the_floss_0812_librivox",
+        "newTitle": "The Mill on the Floss"
+    },
+    {
+        "id": "middlemarch",
+        "title": "Middlemarch",
+        "oldArchiveId": "middlemarch_librivox",
+        "newArchiveId": "middlemarch_version2_1310_librivox",
+        "newTitle": "Middlemarch (version 2)"
+    },
+    {
+        "id": "adam-bede",
+        "title": "Adam Bede",
+        "oldArchiveId": "adam_bede_librivox",
+        "newArchiveId": "adam_bede_0901_librivox",
+        "newTitle": "Adam Bede"
+    },
+    {
+        "id": "shirley",
+        "title": "Shirley",
+        "oldArchiveId": "shirley_librivox",
+        "newArchiveId": "shirley_1006_librivox",
+        "newTitle": "Shirley"
+    },
+    {
+        "id": "agnes-grey",
+        "title": "Agnes Grey",
+        "oldArchiveId": "agnes_grey_librivox",
+        "newArchiveId": "agnes_grey_0906_librivox",
+        "newTitle": "Agnes Grey"
+    },
+    {
+        "id": "the-tenant-of-wildfell-hall",
+        "title": "The Tenant of Wildfell Hall",
+        "oldArchiveId": "tenant_wildfell_hall_librivox",
+        "newArchiveId": "wildfell_hall_0712_librivox",
+        "newTitle": "The Tenant of Wildfell Hall"
+    },
+    {
+        "id": "the-way-we-live-now",
+        "title": "The Way We Live Now",
+        "oldArchiveId": "way_we_live_now_librivox",
+        "newArchiveId": "waywelivenow_dl_librivox",
+        "newTitle": "The Way We Live Now"
+    },
+    {
+        "id": "the-woman-in-white",
+        "title": "The Woman in White",
+        "oldArchiveId": "woman_white_librivox",
+        "newArchiveId": "woman_white_0811_librivox",
+        "newTitle": "The Woman in White"
+    },
+    {
+        "id": "the-moonstone",
+        "title": "The Moonstone",
+        "oldArchiveId": "moonstone_librivox",
+        "newArchiveId": "moonstone_0802_librivox",
+        "newTitle": "The Moonstone"
+    },
+    {
+        "id": "barchester-towers",
+        "title": "Barchester Towers",
+        "oldArchiveId": "barchester_towers_librivox",
+        "newArchiveId": "barchester_towers",
+        "newTitle": "Barchester Towers"
+    },
+    {
+        "id": "pamela",
+        "title": "Pamela",
+        "oldArchiveId": "pamela_librivox",
+        "newArchiveId": "pamela_0910_librivox",
+        "newTitle": "Pamela, or Virtue Rewarded"
+    },
+    {
+        "id": "cranford",
+        "title": "Cranford",
+        "oldArchiveId": "cranford_librivox",
+        "newArchiveId": "cranford_sd_librivox",
+        "newTitle": "Cranford"
+    },
+    {
+        "id": "evelina",
+        "title": "Evelina",
+        "oldArchiveId": "evelina_librivox",
+        "newArchiveId": "evelina_0812_librivox",
+        "newTitle": "Evelina"
+    },
+    {
+        "id": "clarissa",
+        "title": "Clarissa",
+        "oldArchiveId": "clarissa_librivox",
+        "newArchiveId": "clarissa_vol1_0907_librivox",
+        "newTitle": "Clarissa, or the History of a Young Lady, Volume 1"
+    },
+    {
+        "id": "wives-and-daughters",
+        "title": "Wives and Daughters",
+        "oldArchiveId": "wives_daughters_librivox",
+        "newArchiveId": "wives_daughters_0710_librivox",
+        "newTitle": "Wives and Daughters"
+    },
+    {
+        "id": "tom-jones",
+        "title": "Tom Jones",
+        "oldArchiveId": "tom_jones_librivox",
+        "newArchiveId": "tomjones_0811_librivox",
+        "newTitle": "The History of Tom Jones, A Foundling"
+    },
+    {
+        "id": "a-sentimental-journey",
+        "title": "A Sentimental Journey",
+        "oldArchiveId": "sentimental_journey_librivox",
+        "newArchiveId": "sentimentaljourney_0911_librivox",
+        "newTitle": "A Sentimental Journey Through France and Italy"
+    },
+    {
+        "id": "joseph-andrews",
+        "title": "Joseph Andrews",
+        "oldArchiveId": "joseph_andrews_librivox",
+        "newArchiveId": "joseph_andrews_10_07_librivox",
+        "newTitle": "Joseph Andrews"
+    },
+    {
+        "id": "tristram-shandy",
+        "title": "Tristram Shandy",
+        "oldArchiveId": "tristram_shandy_librivox",
+        "newArchiveId": "tristramshandy4_1008_librivox",
+        "newTitle": "The Life and Opinions of Tristram Shandy, Gentleman, Vol. 4"
+    },
+    {
+        "id": "a-journal-of-the-plague-year",
+        "title": "A Journal of the Plague Year",
+        "oldArchiveId": "journal_plague_year_librivox",
+        "newArchiveId": "journal_of_the_plague_year_librivox",
+        "newTitle": "A Journal of the Plague Year"
+    },
+    {
+        "id": "sentimental-education",
+        "title": "Sentimental Education",
+        "oldArchiveId": "sentimental_education_librivox",
+        "newArchiveId": "sentimentaleducation_2110_librivox",
+        "newTitle": "Sentimental Education"
+    },
+    {
+        "id": "confessions",
+        "title": "Confessions",
+        "oldArchiveId": "confessions_rousseau_librivox",
+        "newArchiveId": "confessions_augustine_0911_librivox",
+        "newTitle": "Confessions"
+    },
+    {
+        "id": "pere-goriot",
+        "title": "Père Goriot",
+        "oldArchiveId": "pere_goriot_librivox",
+        "newArchiveId": "le_pere_goriot_bnd_0808_librivox",
+        "newTitle": "Le pere Goriot"
+    },
+    {
+        "id": "germinal",
+        "title": "Germinal",
+        "oldArchiveId": "germinal_librivox",
+        "newArchiveId": "germinal_1804_librivox",
+        "newTitle": "Germinal"
+    },
+    {
+        "id": "eugenie-grandet",
+        "title": "Eugénie Grandet",
+        "oldArchiveId": "eugenie_grandet_librivox",
+        "newArchiveId": "eugenie_grandet_1504_librivox",
+        "newTitle": "Eugénie Grandet"
+    },
+    {
+        "id": "nana",
+        "title": "Nana",
+        "oldArchiveId": "nana_librivox",
+        "newArchiveId": "nanaversion2booknine_2510_librivox",
+        "newTitle": "Nana (Version 2), Book Nine of Rougon-Macquart Cycle"
+    },
+    {
+        "id": "the-hunchback-of-notredame",
+        "title": "The Hunchback of Notre-Dame",
+        "oldArchiveId": "hunchback_notre_dame_librivox",
+        "newArchiveId": "hunchback_notre_dame_mn_libriox",
+        "newTitle": "The Hunchback of Notre Dame"
+    },
+    {
+        "id": "the-charterhouse-of-parma",
+        "title": "The Charterhouse of Parma",
+        "oldArchiveId": "chartreuse_parma_librivox",
+        "newArchiveId": "CharterhouseParma_2311_librivox",
+        "newTitle": "The Charterhouse of Parma"
+    },
+    {
+        "id": "the-red-and-the-black",
+        "title": "The Red and the Black",
+        "oldArchiveId": "red_black_librivox",
+        "newArchiveId": "red_black_v2_1308_librivox",
+        "newTitle": "The Red and the Black, Volume II"
+    },
+    {
+        "id": "therese-raquin",
+        "title": "Thérèse Raquin",
+        "oldArchiveId": "therese_raquin_librivox",
+        "newArchiveId": "therese_raquin_1008_librivox",
+        "newTitle": "Therese Raquin"
+    },
+    {
+        "id": "carmen",
+        "title": "Carmen",
+        "oldArchiveId": "carmen_librivox",
+        "newArchiveId": "carmen_venusille_neb_1009",
+        "newTitle": "Carmen et la Vénus d'Ille"
+    },
+    {
+        "id": "manon-lescaut",
+        "title": "Manon Lescaut",
+        "oldArchiveId": "manon_lescaut_librivox",
+        "newArchiveId": "manonlescaut_1712_librivox",
+        "newTitle": "Manon Lescaut y el caballero des Grieux"
+    },
+    {
+        "id": "cyrano-de-bergerac",
+        "title": "Cyrano de Bergerac",
+        "oldArchiveId": "cyrano_bergerac_librivox",
+        "newArchiveId": "cyranodebergerac_1411_librivox",
+        "newTitle": "Cyrano de Bergerac"
+    },
+    {
+        "id": "the-phantom-of-the-opera",
+        "title": "The Phantom of the Opera",
+        "oldArchiveId": "phantom_opera_librivox",
+        "newArchiveId": "phantom6_librivox",
+        "newTitle": "The Phantom of the Opera"
+    },
+    {
+        "id": "demons",
+        "title": "Demons",
+        "oldArchiveId": "demons_librivox",
+        "newArchiveId": "homilies_demons_2305_librivox",
+        "newTitle": "Three Homilies concerning the Power of Demons"
+    },
+    {
+        "id": "dead-souls",
+        "title": "Dead Souls",
+        "oldArchiveId": "dead_souls_librivox",
+        "newArchiveId": "dead_souls_0910_librivox1",
+        "newTitle": "Dead Souls"
+    },
+    {
+        "id": "the-idiot",
+        "title": "The Idiot",
+        "oldArchiveId": "idiot_librivox",
+        "newArchiveId": "idiot_mg_librivox",
+        "newTitle": "The Idiot (Part 01 and 02)"
+    },
+    {
+        "id": "the-overcoat",
+        "title": "The Overcoat",
+        "oldArchiveId": "overcoat_librivox",
+        "newArchiveId": "thegreenovercoat_2005_librivox",
+        "newTitle": "The Green Overcoat"
+    },
+    {
+        "id": "notes-from-underground",
+        "title": "Notes from Underground",
+        "oldArchiveId": "notes_underground_librivox",
+        "newArchiveId": "notes_from_the_underground",
+        "newTitle": "Notes from the Underground"
+    },
+    {
+        "id": "the-gambler",
+        "title": "The Gambler",
+        "oldArchiveId": "gambler_librivox",
+        "newArchiveId": "gambler_1011_librivox",
+        "newTitle": "The Gambler"
+    },
+    {
+        "id": "resurrection",
+        "title": "Resurrection",
+        "oldArchiveId": "resurrection_librivox",
+        "newArchiveId": "resurrection_1_1002_librivox",
+        "newTitle": "Resurrection, Book 1"
+    },
+    {
+        "id": "the-kreutzer-sonata",
+        "title": "The Kreutzer Sonata",
+        "oldArchiveId": "kreutzer_sonata_librivox",
+        "newArchiveId": "kreutzer_sonata_1101_librivox",
+        "newTitle": "The Kreutzer Sonata"
+    },
+    {
+        "id": "fathers-and-sons",
+        "title": "Fathers and Sons",
+        "oldArchiveId": "fathers_sons_librivox",
+        "newArchiveId": "fathers_and_sons_0905_librivox",
+        "newTitle": "Fathers and Sons"
+    },
+    {
+        "id": "the-lady-with-the-dog",
+        "title": "The Lady with the Dog",
+        "oldArchiveId": "lady_dog_librivox",
+        "newArchiveId": "ladywiththedog_1301_librivox",
+        "newTitle": "The Lady With the Dog"
+    },
+    {
+        "id": "three-sisters",
+        "title": "Three Sisters",
+        "oldArchiveId": "three_sisters_librivox",
+        "newArchiveId": "threesisters_1311_librivox",
+        "newTitle": "The Three Sisters"
+    },
+    {
+        "id": "uncle-vanya",
+        "title": "Uncle Vanya",
+        "oldArchiveId": "uncle_vanya_librivox",
+        "newArchiveId": "uncle_vanya_1006_librivox",
+        "newTitle": "Uncle Vanya"
+    },
+    {
+        "id": "the-seagull",
+        "title": "The Seagull",
+        "oldArchiveId": "seagull_librivox",
+        "newArchiveId": "seagull_0903_librivox",
+        "newTitle": "The Seagull"
+    },
+    {
+        "id": "the-cherry-orchard",
+        "title": "The Cherry Orchard",
+        "oldArchiveId": "cherry_orchard_librivox",
+        "newArchiveId": "cherry_orchard_1008_librivox",
+        "newTitle": "The Cherry Orchard"
+    },
+    {
+        "id": "ward-no-6",
+        "title": "Ward No. 6",
+        "oldArchiveId": "ward_no_6_librivox",
+        "newArchiveId": "wardno6_1312_librivox",
+        "newTitle": "Ward No. 6"
+    },
+    {
+        "id": "the-trial",
+        "title": "The Trial",
+        "oldArchiveId": "trial_librivox",
+        "newArchiveId": "trial_callista_blake_1208_librivox",
+        "newTitle": "The Trial of Callista Blake"
+    },
+    {
+        "id": "we",
+        "title": "We",
+        "oldArchiveId": "we_librivox",
+        "newArchiveId": "waywelivenow_dl_librivox",
+        "newTitle": "The Way We Live Now"
+    },
+    {
+        "id": "steppenwolf",
+        "title": "Steppenwolf",
+        "oldArchiveId": "steppenwolf_librivox",
+        "newArchiveId": "steppenwolf_2501_librivox",
+        "newTitle": "Steppenwolf"
+    },
+    {
+        "id": "the-castle",
+        "title": "The Castle",
+        "oldArchiveId": "castle_librivox",
+        "newArchiveId": "enchanted_castle_pe_librivox",
+        "newTitle": "The Enchanted Castle"
+    },
+    {
+        "id": "death-in-venice",
+        "title": "Death in Venice",
+        "oldArchiveId": "death_venice_librivox",
+        "newArchiveId": "death_in_venice_ls_2109_librivox",
+        "newTitle": "Death in Venice"
+    },
+    {
+        "id": "all-quiet-on-the-western-front",
+        "title": "All Quiet on the Western Front",
+        "oldArchiveId": "all_quiet_western_front_librivox",
+        "newArchiveId": "allquietonthewesternfront_2505_librivox",
+        "newTitle": "All Quiet on the Western Front"
+    },
+    {
+        "id": "siddhartha",
+        "title": "Siddhartha",
+        "oldArchiveId": "siddhartha_librivox",
+        "newArchiveId": "siddhartha_ap_librivox",
+        "newTitle": "Siddhartha"
+    },
+    {
+        "id": "the-magic-mountain",
+        "title": "The Magic Mountain",
+        "oldArchiveId": "magic_mountain_librivox",
+        "newArchiveId": "magic_mountain_v1_2305_librivox",
+        "newTitle": "The Magic Mountain (Volume One)"
+    },
+    {
+        "id": "the-sorrows-of-young-werther",
+        "title": "The Sorrows of Young Werther",
+        "oldArchiveId": "sorrows_young_werther_librivox",
+        "newArchiveId": "sorrows_young_werther_1003_librivox",
+        "newTitle": "The Sorrows of Young Werther"
+    },
+    {
+        "id": "faust",
+        "title": "Faust",
+        "oldArchiveId": "faust_librivox",
+        "newArchiveId": "faust1_1012_librivox",
+        "newTitle": "Faust - Der Tragödie erster Teil"
+    },
+    {
+        "id": "wilhelm-meisters-apprenticeship",
+        "title": "Wilhelm Meister's Apprenticeship",
+        "oldArchiveId": "wilhelm_meister_librivox",
+        "newArchiveId": "wilhelmmeistersapprenticeshipvol2_2407_librivox",
+        "newTitle": "Wilhelm Meister's Apprenticeship Volume 2"
+    },
+    {
+        "id": "buddenbrooks",
+        "title": "Buddenbrooks",
+        "oldArchiveId": "buddenbrooks_librivox",
+        "newArchiveId": "buddenbrooks_bp_2204_librivox",
+        "newTitle": "Buddenbrooks"
+    }
+]

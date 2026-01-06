@@ -1,0 +1,113 @@
+{
+    "timestamp": "2026-01-02T11:10:44.717Z",
+    "totalBooks": 254,
+    "brokenAudio": [],
+    "brokenCovers": [
+        {
+            "id": "uncle-vanya",
+            "title": "Uncle Vanya",
+            "coverUrl": "https://covers.openlibrary.org/b/title/Uncle%20Vanya-M.jpg"
+        },
+        {
+            "id": "three-sisters",
+            "title": "Three Sisters",
+            "coverUrl": "https://covers.openlibrary.org/b/title/Three%20Sisters-M.jpg"
+        },
+        {
+            "id": "the-cherry-orchard",
+            "title": "The Cherry Orchard",
+            "coverUrl": "https://covers.openlibrary.org/b/title/The%20Cherry%20Orchard-M.jpg"
+        },
+        {
+            "id": "the-seagull",
+            "title": "The Seagull",
+            "coverUrl": "https://covers.openlibrary.org/b/title/The%20Seagull-M.jpg"
+        },
+        {
+            "id": "the-lady-with-the-dog",
+            "title": "The Lady with the Dog",
+            "coverUrl": "https://covers.openlibrary.org/b/title/The%20Lady%20with%20the%20Dog-M.jpg"
+        },
+        {
+            "id": "ward-no-6",
+            "title": "Ward No. 6",
+            "coverUrl": "https://covers.openlibrary.org/b/title/Ward%20No.%206-M.jpg"
+        },
+        {
+            "id": "the-master-and-margarita",
+            "title": "The Master and Margarita",
+            "coverUrl": "https://covers.openlibrary.org/b/title/The%20Master%20and%20Margarita-M.jpg"
+        },
+        {
+            "id": "we",
+            "title": "We",
+            "coverUrl": "https://covers.openlibrary.org/b/title/We-M.jpg"
+        },
+        {
+            "id": "doctor-zhivago",
+            "title": "Doctor Zhivago",
+            "coverUrl": "https://covers.openlibrary.org/b/title/Doctor%20Zhivago-M.jpg"
+        },
+        {
+            "id": "steppenwolf",
+            "title": "Steppenwolf",
+            "coverUrl": "https://covers.openlibrary.org/b/title/Steppenwolf-M.jpg"
+        },
+        {
+            "id": "all-quiet-on-the-western-front",
+            "title": "All Quiet on the Western Front",
+            "coverUrl": "https://covers.openlibrary.org/b/title/All%20Quiet%20on%20the%20Western%20Front-M.jpg"
+        },
+        {
+            "id": "the-castle",
+            "title": "The Castle",
+            "coverUrl": "https://covers.openlibrary.org/b/title/The%20Castle-M.jpg"
+        },
+        {
+            "id": "siddhartha",
+            "title": "Siddhartha",
+            "coverUrl": "https://covers.openlibrary.org/b/title/Siddhartha-M.jpg"
+        },
+        {
+            "id": "the-trial",
+            "title": "The Trial",
+            "coverUrl": "https://covers.openlibrary.org/b/title/The%20Trial-M.jpg"
+        },
+        {
+            "id": "death-in-venice",
+            "title": "Death in Venice",
+            "coverUrl": "https://covers.openlibrary.org/b/title/Death%20in%20Venice-M.jpg"
+        },
+        {
+            "id": "the-magic-mountain",
+            "title": "The Magic Mountain",
+            "coverUrl": "https://covers.openlibrary.org/b/title/The%20Magic%20Mountain-M.jpg"
+        },
+        {
+            "id": "wilhelm-meisters-apprenticeship",
+            "title": "Wilhelm Meister's Apprenticeship",
+            "coverUrl": "https://covers.openlibrary.org/b/title/Wilhelm%20Meister's%20Apprenticeship-M.jpg"
+        },
+        {
+            "id": "the-sorrows-of-young-werther",
+            "title": "The Sorrows of Young Werther",
+            "coverUrl": "https://covers.openlibrary.org/b/title/The%20Sorrows%20of%20Young%20Werther-M.jpg"
+        },
+        {
+            "id": "faust",
+            "title": "Faust",
+            "coverUrl": "https://covers.openlibrary.org/b/title/Faust-M.jpg"
+        },
+        {
+            "id": "buddenbrooks",
+            "title": "Buddenbrooks",
+            "coverUrl": "https://covers.openlibrary.org/b/title/Buddenbrooks-M.jpg"
+        }
+    ],
+    "stats": {
+        "successAudio": 248,
+        "failedAudio": 0,
+        "successCover": 234,
+        "failedCover": 20
+    }
+}
