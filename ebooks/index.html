@@ -12,6 +12,71 @@
         rel="stylesheet">
     <link rel="icon" type="image/png" href="../assets/logo.png">
     <link rel="stylesheet" href="../styles/main.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8144222817767750"
+        crossorigin="anonymous"></script>
+    <style>
+        /* Pagination Styles */
+        .pagination-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-top: 50px;
+            padding: 30px 0;
+        }
+
+        .pagination-info {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .pagination {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .page-btn {
+            min-width: 44px;
+            height: 44px;
+            padding: 0 16px;
+            border: 1px solid var(--border-color);
+            background: var(--bg-card);
+            color: var(--text-secondary);
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .page-btn:hover:not(:disabled) {
+            border-color: var(--accent-primary);
+            color: var(--accent-primary);
+            background: rgba(231, 111, 81, 0.1);
+        }
+
+        .page-btn.active {
+            background: var(--accent-gradient);
+            border-color: transparent;
+            color: white;
+        }
+
+        .page-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        .page-ellipsis {
+            color: var(--text-muted);
+            padding: 0 8px;
+        }
+    </style>
 </head>
 
 <body>
@@ -79,6 +144,12 @@
                 <!-- Books loaded by JavaScript -->
             </div>
             <p class="no-results" id="noResults" style="display: none;">No ebooks found matching your search.</p>
+
+            <!-- Pagination -->
+            <div class="pagination-container" id="paginationContainer">
+                <div class="pagination-info" id="paginationInfo"></div>
+                <div class="pagination" id="pagination"></div>
+            </div>
         </div>
     </section>
 
@@ -90,6 +161,12 @@
                     Ebooks sourced from <a href="https://gutenberg.org" target="_blank">Project Gutenberg</a> and
                     <a href="https://archive.org" target="_blank">Internet Archive</a>.
                 </p>
+                <div class="footer-links">
+                    <a href="../privacy/">Privacy Policy</a>
+                    <a href="../terms/">Terms of Service</a>
+                    <a href="../about/">About</a>
+                    <a href="../contact/">Contact</a>
+                </div>
                 <p class="footer-copyright">© 2026 PeakLiterature</p>
             </div>
         </div>
@@ -98,12 +175,18 @@
     <script src="../scripts/app.js"></script>
     <script type="module" src="../scripts/firebase-auth.js"></script>
     <script>
+        // Pagination state
+        const BOOKS_PER_PAGE = 25;
+        let currentPage = 1;
+        let filteredBooks = [];
+
         document.addEventListener('DOMContentLoaded', async () => {
             await new Promise(resolve => setTimeout(resolve, 500));
 
             const urlParams = new URLSearchParams(window.location.search);
             const searchQuery = urlParams.get('search');
             const genre = urlParams.get('genre');
+            const page = urlParams.get('page');
 
             if (searchQuery) {
                 document.getElementById('searchInput').value = searchQuery;
@@ -111,8 +194,16 @@
             if (genre) {
                 document.getElementById('genreFilter').value = genre;
             }
+            if (page) {
+                currentPage = parseInt(page) || 1;
+            }
 
             applyFilters();
+
+            // Enter key for search
+            document.getElementById('searchInput').addEventListener('keyup', (e) => {
+                if (e.key === 'Enter') applyFilters();
+            });
         });
 
         function applyFilters() {
@@ -133,16 +224,96 @@
                 return 0;
             });
 
+            filteredBooks = books;
+            currentPage = 1;
+            renderPage();
+        }
+
+        function renderPage() {
             const grid = document.getElementById('ebookGrid');
             const noResults = document.getElementById('noResults');
+            const paginationContainer = document.getElementById('paginationContainer');
 
-            if (books.length === 0) {
+            if (filteredBooks.length === 0) {
                 grid.innerHTML = '';
                 noResults.style.display = 'block';
-            } else {
-                noResults.style.display = 'none';
-                window.PeakLit.renderBooks(books, grid);
+                paginationContainer.style.display = 'none';
+                return;
             }
+
+            noResults.style.display = 'none';
+            paginationContainer.style.display = 'flex';
+
+            // Calculate pagination
+            const totalPages = Math.ceil(filteredBooks.length / BOOKS_PER_PAGE);
+            currentPage = Math.min(currentPage, totalPages);
+            currentPage = Math.max(currentPage, 1);
+
+            const startIndex = (currentPage - 1) * BOOKS_PER_PAGE;
+            const endIndex = Math.min(startIndex + BOOKS_PER_PAGE, filteredBooks.length);
+            const pageBooks = filteredBooks.slice(startIndex, endIndex);
+
+            // Render books
+            window.PeakLit.renderBooks(pageBooks, grid);
+
+            // Render pagination info
+            document.getElementById('paginationInfo').textContent =
+                `Showing ${startIndex + 1}-${endIndex} of ${filteredBooks.length} ebooks`;
+
+            // Render pagination controls
+            renderPagination(totalPages);
+
+            // Scroll to top of grid
+            grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        function renderPagination(totalPages) {
+            const pagination = document.getElementById('pagination');
+
+            if (totalPages <= 1) {
+                pagination.innerHTML = '';
+                return;
+            }
+
+            let html = '';
+
+            // Previous button
+            html += `<button class="page-btn" onclick="goToPage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''}>← Prev</button>`;
+
+            // Page numbers
+            const maxVisiblePages = 5;
+            let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+            let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+
+            if (endPage - startPage < maxVisiblePages - 1) {
+                startPage = Math.max(1, endPage - maxVisiblePages + 1);
+            }
+
+            if (startPage > 1) {
+                html += `<button class="page-btn" onclick="goToPage(1)">1</button>`;
+                if (startPage > 2) html += '<span class="page-ellipsis">...</span>';
+            }
+
+            for (let i = startPage; i <= endPage; i++) {
+                html += `<button class="page-btn ${i === currentPage ? 'active' : ''}" onclick="goToPage(${i})">${i}</button>`;
+            }
+
+            if (endPage < totalPages) {
+                if (endPage < totalPages - 1) html += '<span class="page-ellipsis">...</span>';
+                html += `<button class="page-btn" onclick="goToPage(${totalPages})">${totalPages}</button>`;
+            }
+
+            // Next button
+            html += `<button class="page-btn" onclick="goToPage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled' : ''}>Next →</button>`;
+
+            pagination.innerHTML = html;
+        }
+
+        function goToPage(page) {
+            const totalPages = Math.ceil(filteredBooks.length / BOOKS_PER_PAGE);
+            if (page < 1 || page > totalPages) return;
+            currentPage = page;
+            renderPage();
         }
     </script>
 </body>
