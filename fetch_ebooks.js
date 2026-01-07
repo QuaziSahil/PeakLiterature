@@ -125,7 +125,7 @@ async function fetchAllEbooks() {
                 console.log(`  Page ${page}: ${books.length} results`);
 
                 for (const book of books) {
-                    if (newBooks.length >= 2000) break;
+                    if (newBooks.length >= 500) break;
 
                     const gutenbergId = book.id?.toString();
                     const title = book.title;
@@ -184,7 +184,7 @@ async function fetchAllEbooks() {
                     }
                 }
 
-                if (newBooks.length >= 2000) break;
+                if (newBooks.length >= 500) break;
 
                 // Small delay
                 await new Promise(r => setTimeout(r, 300));
@@ -194,7 +194,7 @@ async function fetchAllEbooks() {
             }
         }
 
-        if (newBooks.length >= 2000) break;
+        if (newBooks.length >= 500) break;
     }
 
     return newBooks;
