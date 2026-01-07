@@ -1,0 +1,9 @@
+# Robots.txt for PeakLiterature
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://peakliterature.vercel.app/sitemap.xml
+
+# Crawl delay (be nice to servers)
+Crawl-delay: 1
