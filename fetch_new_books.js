@@ -15,23 +15,43 @@ const existingArchiveIds = new Set(existingData.books.map(b => b.audiobook?.arch
 console.log(`Existing books: ${existingData.books.length}`);
 console.log(`Starting fetch from Internet Archive...`);
 
-// Genres to search for variety
+// Genres to search for variety - expanded for 2000 books
 const searchQueries = [
-    { query: 'librivox fiction', genre: 'fiction' },
-    { query: 'librivox mystery detective', genre: 'mystery' },
-    { query: 'librivox adventure', genre: 'fiction' },
-    { query: 'librivox horror ghost', genre: 'horror' },
-    { query: 'librivox science fiction', genre: 'scifi' },
-    { query: 'librivox poetry poems', genre: 'poetry' },
-    { query: 'librivox philosophy', genre: 'philosophy' },
+    { query: 'librivox fiction novel', genre: 'fiction' },
+    { query: 'librivox mystery detective crime', genre: 'mystery' },
+    { query: 'librivox adventure travel', genre: 'fiction' },
+    { query: 'librivox horror ghost supernatural', genre: 'horror' },
+    { query: 'librivox science fiction scifi', genre: 'scifi' },
+    { query: 'librivox poetry poems verse', genre: 'poetry' },
+    { query: 'librivox philosophy ethics', genre: 'philosophy' },
     { query: 'librivox romance love', genre: 'romance' },
     { query: 'librivox history historical', genre: 'fiction' },
-    { query: 'librivox novel classic', genre: 'fiction' },
-    { query: 'librivox short stories', genre: 'fiction' },
-    { query: 'librivox drama plays', genre: 'fiction' },
-    { query: 'librivox children fairy', genre: 'fiction' },
-    { query: 'librivox biography memoir', genre: 'fiction' },
-    { query: 'librivox war military', genre: 'fiction' },
+    { query: 'librivox classic literature', genre: 'fiction' },
+    { query: 'librivox short stories tales', genre: 'fiction' },
+    { query: 'librivox drama plays theater', genre: 'fiction' },
+    { query: 'librivox children fairy tales', genre: 'fiction' },
+    { query: 'librivox biography memoir autobiography', genre: 'fiction' },
+    { query: 'librivox war military battle', genre: 'fiction' },
+    { query: 'librivox religion spiritual bible', genre: 'philosophy' },
+    { query: 'librivox western frontier cowboy', genre: 'fiction' },
+    { query: 'librivox fantasy magic', genre: 'fiction' },
+    { query: 'librivox thriller suspense', genre: 'mystery' },
+    { query: 'librivox comedy humor satire', genre: 'fiction' },
+    { query: 'librivox essays letters', genre: 'philosophy' },
+    { query: 'librivox myth legend epic', genre: 'fiction' },
+    { query: 'librivox sea ocean nautical', genre: 'fiction' },
+    { query: 'librivox gothic victorian', genre: 'horror' },
+    { query: 'librivox american literature', genre: 'fiction' },
+    { query: 'librivox british english literature', genre: 'fiction' },
+    { query: 'librivox french literature translated', genre: 'fiction' },
+    { query: 'librivox russian literature', genre: 'fiction' },
+    { query: 'librivox german literature', genre: 'fiction' },
+    { query: 'librivox ancient greek roman', genre: 'fiction' },
+    { query: 'librivox medieval renaissance', genre: 'fiction' },
+    { query: 'librivox nature wilderness', genre: 'fiction' },
+    { query: 'librivox social political', genre: 'fiction' },
+    { query: 'librivox education teaching', genre: 'philosophy' },
+    { query: 'librivox science medicine', genre: 'philosophy' },
 ];
 
 function fetchFromArchive(query, rows = 100, page = 1) {
@@ -90,13 +110,13 @@ async function fetchAllBooks() {
     for (const { query, genre } of searchQueries) {
         console.log(`\nFetching: ${query}`);
 
-        for (let page = 1; page <= 5; page++) {
+        for (let page = 1; page <= 15; page++) {
             try {
                 const docs = await fetchFromArchive(query, 100, page);
                 console.log(`  Page ${page}: ${docs.length} results`);
 
                 for (const doc of docs) {
-                    if (newBooks.length >= 500) break;
+                    if (newBooks.length >= 2000) break;
 
                     const identifier = doc.identifier;
                     const title = doc.title;
@@ -148,7 +168,7 @@ async function fetchAllBooks() {
                     }
                 }
 
-                if (newBooks.length >= 500) break;
+                if (newBooks.length >= 2000) break;
 
                 // Small delay to be nice to the API
                 await new Promise(r => setTimeout(r, 200));
@@ -158,7 +178,7 @@ async function fetchAllBooks() {
             }
         }
 
-        if (newBooks.length >= 500) break;
+        if (newBooks.length >= 2000) break;
     }
 
     return newBooks;
