@@ -238,18 +238,24 @@ function getLastBook() {
 }
 
 // ========================================
-// BOOK PROGRESS TRACKING
+// BOOK PROGRESS TRACKING (with time spent)
 // ========================================
 const PROGRESS_KEY_PREFIX = 'peakliterature_progress_';
 
 function saveBookProgress(bookId, type, position) {
     if (!bookId) return;
 
+    // Get existing progress to accumulate time
+    const existing = getBookProgress(bookId);
+    const timeSpent = (existing?.timeSpent || 0) + 1; // Add 1 second each call
+
     const progressData = {
         bookId,
         type,
         position,
-        updatedAt: new Date().toISOString()
+        timeSpent, // Total seconds spent on this book
+        updatedAt: new Date().toISOString(),
+        startedAt: existing?.startedAt || new Date().toISOString()
     };
 
     localStorage.setItem(PROGRESS_KEY_PREFIX + bookId, JSON.stringify(progressData));
@@ -283,6 +289,25 @@ function getAllProgress() {
         }
     }
     return progress;
+}
+
+// Format time spent for display
+function formatTimeSpent(seconds) {
+    if (!seconds || seconds < 60) return null; // Don't show if less than 1 min
+
+    const hours = Math.floor(seconds / 3600);
+    const mins = Math.floor((seconds % 3600) / 60);
+
+    if (hours > 0) {
+        return `${hours}h ${mins}m`;
+    }
+    return `${mins} min`;
+}
+
+// Check if user has started a book
+function hasStartedBook(bookId) {
+    const progress = getBookProgress(bookId);
+    return progress && progress.timeSpent > 0;
 }
 
 // ========================================
@@ -461,6 +486,8 @@ window.PeakStats = {
     saveBookProgress,
     getBookProgress,
     getAllProgress,
+    formatTimeSpent,
+    hasStartedBook,
 
     // Badges
     getAllBadges,

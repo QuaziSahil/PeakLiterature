@@ -57,9 +57,15 @@ function createBookCard(book) {
     const hasAudio = book.audiobook?.available;
     const hasEbook = book.ebook?.available;
 
+    // Get reading progress
+    const progress = window.PeakStats?.getBookProgress(book.id);
+    const timeSpent = progress?.timeSpent || 0;
+    const formattedTime = window.PeakStats?.formatTimeSpent(timeSpent);
+
     return `
         <div class="book-card" data-id="${book.id}">
             <span class="book-type">${hasAudio ? '🎧' : ''} ${hasEbook ? '📖' : ''}</span>
+            ${formattedTime ? `<span class="book-progress-badge">⏱️ ${formattedTime}</span>` : ''}
             <img src="${book.cover}" alt="${book.title}" class="book-cover" 
                  onerror="this.src='https://via.placeholder.com/200x300/1a1a24/ffffff?text=No+Cover'">
             <div class="book-info">
