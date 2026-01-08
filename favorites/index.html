@@ -70,12 +70,58 @@
     </footer>
 
     <script src="../scripts/app.js"></script>
+    <script src="../scripts/user-stats.js"></script>
     <script type="module" src="../scripts/firebase-auth.js"></script>
     <script>
+        let initialLoadDone = false;
+
         document.addEventListener('DOMContentLoaded', async () => {
             await new Promise(resolve => setTimeout(resolve, 500));
             loadFavorites();
+            initialLoadDone = true;
+
+            // Listen for auth state changes to refresh favorites after cloud sync
+            // Poll for Firebase auth state (since we can't easily add listeners from here)
+            checkForAuthAndSync();
         });
+
+        // Check for user login and sync - refresh favorites when detected
+        async function checkForAuthAndSync() {
+            let wasSignedIn = false;
+            let lastFavCount = window.PeakLit?.favorites()?.length || 0;
+
+            // Check every 2 seconds for changes
+            setInterval(() => {
+                const isNowSignedIn = window.PeakAuth?.isSignedIn() || false;
+                const currentFavCount = window.PeakLit?.favorites()?.length || 0;
+
+                // Refresh if sign-in state changed or favorites count changed
+                if ((isNowSignedIn && !wasSignedIn) || (currentFavCount !== lastFavCount)) {
+                    console.log('Favorites changed, refreshing...');
+                    loadFavorites();
+                    updateFooterText(isNowSignedIn);
+                }
+
+                wasSignedIn = isNowSignedIn;
+                lastFavCount = currentFavCount;
+            }, 2000);
+
+            // Initial footer text update
+            setTimeout(() => {
+                updateFooterText(window.PeakAuth?.isSignedIn() || false);
+            }, 1000);
+        }
+
+        function updateFooterText(isSignedIn) {
+            const footerText = document.querySelector('.footer-text');
+            if (footerText) {
+                if (isSignedIn) {
+                    footerText.innerHTML = '✅ <strong>Signed in</strong> - Your favorites are synced across devices.';
+                } else {
+                    footerText.innerHTML = '💡 <strong>Sign in</strong> to sync your favorites across all devices.';
+                }
+            }
+        }
 
         function loadFavorites() {
             const favoriteBooks = window.PeakLit.getFavoriteBooks();

@@ -213,13 +213,19 @@ function updateStreak(stats) {
 // ========================================
 // LAST BOOK (Continue Reading)
 // ========================================
-function saveLastBook(bookId, type) {
+function saveLastBook(bookId, type, position = null) {
     const data = {
         bookId,
         type,
+        position, // For audiobooks: track number or time offset, for ebooks: scroll position
         timestamp: new Date().toISOString()
     };
     localStorage.setItem(STORAGE_KEYS.LAST_BOOK, JSON.stringify(data));
+
+    // Also save to individual progress storage
+    if (position !== null) {
+        saveBookProgress(bookId, type, position);
+    }
 }
 
 function getLastBook() {
@@ -229,6 +235,54 @@ function getLastBook() {
     } catch {
         return null;
     }
+}
+
+// ========================================
+// BOOK PROGRESS TRACKING
+// ========================================
+const PROGRESS_KEY_PREFIX = 'peakliterature_progress_';
+
+function saveBookProgress(bookId, type, position) {
+    if (!bookId) return;
+
+    const progressData = {
+        bookId,
+        type,
+        position,
+        updatedAt: new Date().toISOString()
+    };
+
+    localStorage.setItem(PROGRESS_KEY_PREFIX + bookId, JSON.stringify(progressData));
+
+    // Also save to Firebase if user is signed in
+    if (window.PeakAuth && window.PeakAuth.isSignedIn()) {
+        window.PeakAuth.saveProgress(bookId, progressData);
+    }
+}
+
+function getBookProgress(bookId) {
+    if (!bookId) return null;
+
+    try {
+        const saved = localStorage.getItem(PROGRESS_KEY_PREFIX + bookId);
+        return saved ? JSON.parse(saved) : null;
+    } catch {
+        return null;
+    }
+}
+
+function getAllProgress() {
+    const progress = {};
+    for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (key && key.startsWith(PROGRESS_KEY_PREFIX)) {
+            try {
+                const bookId = key.replace(PROGRESS_KEY_PREFIX, '');
+                progress[bookId] = JSON.parse(localStorage.getItem(key));
+            } catch { }
+        }
+    }
+    return progress;
 }
 
 // ========================================
@@ -402,6 +456,11 @@ window.PeakStats = {
     // Last Book
     saveLastBook,
     getLastBook,
+
+    // Progress Tracking
+    saveBookProgress,
+    getBookProgress,
+    getAllProgress,
 
     // Badges
     getAllBadges,

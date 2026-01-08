@@ -206,6 +206,10 @@
                 window.PeakStats.trackBookOpen(currentBook.id, 'ebook', currentBook.genre);
             }
 
+            // Check for saved progress
+            const savedProgress = window.PeakStats?.getBookProgress(bookId);
+            const hasProgress = savedProgress && savedProgress.position;
+
             // Set download link
             document.getElementById('downloadBtn').href = currentBook.ebook.epubUrl;
 
@@ -215,6 +219,21 @@
 
             // Update favorite button
             updateFavoriteBtn();
+
+            // Show resume indicator if there's saved progress
+            if (hasProgress) {
+                const loadingMsg = document.getElementById('loadingMessage');
+                const resumeNote = document.createElement('div');
+                resumeNote.style.cssText = 'background: linear-gradient(135deg, #1a472a, #0d2818); border: 1px solid #22c55e; border-radius: 10px; padding: 12px 16px; margin-bottom: 20px; display: flex; align-items: center; gap: 10px;';
+                resumeNote.innerHTML = `
+                    <span style="font-size: 1.5rem;">📖</span>
+                    <div>
+                        <strong style="color: #22c55e;">Welcome back!</strong>
+                        <p style="margin: 0; font-size: 0.9rem; color: #a3e635;">Your reading progress has been saved.</p>
+                    </div>
+                `;
+                loadingMsg.parentNode.insertBefore(resumeNote, loadingMsg);
+            }
 
             // Load Gutenberg reader in iframe
             const frame = document.getElementById('reader-frame');
@@ -226,6 +245,9 @@
             frame.onload = function () {
                 document.getElementById('loadingMessage').style.display = 'none';
                 frame.style.display = 'block';
+
+                // Save progress when user has been reading
+                startProgressTracking();
             };
 
             frame.onerror = function () {
@@ -247,7 +269,27 @@
                     `;
                 }
             }, 5000);
+
+            // Save progress on page unload
+            window.addEventListener('beforeunload', saveCurrentProgress);
         });
+
+        function startProgressTracking() {
+            // Save progress every 30 seconds
+            setInterval(saveCurrentProgress, 30000);
+        }
+
+        function saveCurrentProgress() {
+            if (!currentBook || !window.PeakStats) return;
+
+            const progress = {
+                lastReadAt: new Date().toISOString(),
+                active: true
+            };
+
+            window.PeakStats.saveBookProgress(currentBook.id, 'ebook', progress);
+            window.PeakStats.saveLastBook(currentBook.id, 'ebook', progress);
+        }
 
         function toggleFav() {
             if (currentBook) {
